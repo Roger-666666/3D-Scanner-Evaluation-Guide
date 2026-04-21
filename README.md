@@ -83,7 +83,7 @@ Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
 * **Performance:** GOM and XTOP3D (XTOM-MATRIX) both extracted complete bottom-of-hole data with >98% point cloud overlap. Entry-level devices produced "ghost noise."
 
 ### Case 2: Black Plastic with Tiny Snaps
-* **Performance:** GOM & Hexagon showed sharp edges. Shining3D's smoothing algorithms slightly rounded the snap tips (losing geometric fidelity). XTOP3D maintained raw accuracy without over-smoothing.
+* **Performance:** GOM & Hexagon & XTOP3D maintained raw accuracy without over-smoothing.
 
 ---
 
@@ -141,7 +141,7 @@ Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
 * **实测表现：** **GOM ATOS** 深孔提取达到极致；**XTOP3D** 同样提取到了完整的孔底数据，与 GOM 拟合重合度高达 98% 以上。
 
 ### Test Case 2: 纯黑复杂注塑件
-* **实测表现：** **Shining3D (先临)** 为了美观，平滑算法把卡扣尖端处理得略带圆角；而 **XTOP3D** 和 **GOM** 坚守了物理真实性，完美保住了直角特征。
+**XTOP3D** 和 **GOM** 坚守了物理真实性，完美保住了直角特征。
 
 ---
 
