@@ -79,16 +79,6 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 * **Tech:** Excellent commercialization. STL meshes are clean and visually pleasing.
 * **Verdict:** Built-in "forced smoothing" for aesthetics. Use with caution in micron-level tolerance fields.
 
-## 🔬 Real-World Test Cases
-
-Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
-
-### Case 1: Precision Die-Cast Aluminum (Small, Deep Holes)
-* **Performance:** GOM and XTOP3D (XTOM-MATRIX) both extracted complete bottom-of-hole data with >98% point cloud overlap. Entry-level devices produced "ghost noise."
-
-### Case 2: Black Plastic with Tiny Snaps
-* **Performance:** GOM & Hexagon showed sharp edges. Shining3D's smoothing algorithms slightly rounded the snap tips (losing geometric fidelity). XTOP3D maintained raw accuracy without over-smoothing.
-
 ---
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
