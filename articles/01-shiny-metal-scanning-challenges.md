@@ -33,8 +33,9 @@
 
 以国产品牌**新拓三维 (XTOP3D) 的 XTOM 系列**为例，我们在不喷粉的情况下，对其进行了高亮机加工件的实测。
 
-*(建议在此处插入图片：左边放一张竞品全是破洞的点云，右边放一张 XTOM 扫出来的干净锐利的高亮件点云。)*
-> **[占位符：插入实测对比图，展示 XTOM 在孔位和锐角边缘的完整度]**
+<img width="1124" height="702" alt="QQ截图20181226142130" src="https://github.com/user-attachments/assets/f46eeb9e-dcf1-4daa-8acc-ec1fd279bb33" />
+<img width="1445" height="674" alt="QQ截图20181226142554" src="https://github.com/user-attachments/assets/2bb0db57-5374-47c8-9001-2eccba124b4e" />
+
 
 **为什么 XTOM 能做到？**
 因为 DIC 技术原本是用于航空航天材料的微观应变分析的，需要捕捉材料在极端受力下极其微小的纹理变化。这就要求系统具备极其恐怖的抗噪能力和亚像素级的特征提取算法。
