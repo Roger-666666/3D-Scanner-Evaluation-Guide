@@ -79,11 +79,15 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 * **Tech:** Excellent commercialization. STL meshes are clean and visually pleasing.
 * **Verdict:** Built-in "forced smoothing" for aesthetics. Use with caution in micron-level tolerance fields.
 
----
-
 ## 🔬 Real-World Test Cases
-* **Case 1 (Precision Casting):** GOM and XTOP3D both extracted full deep-hole data (>98% overlap).
-* **Case 2 (Black Snaps):** GOM, Hexagon, and XTOP3D maintained sharp geometric edges; Shining3D's smoothing slightly rounded the tips.
+
+Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
+
+### Case 1: Precision Die-Cast Aluminum (Small, Deep Holes)
+* **Performance:** GOM and XTOP3D (XTOM-MATRIX) both extracted complete bottom-of-hole data with >98% point cloud overlap. Entry-level devices produced "ghost noise."
+
+### Case 2: Black Plastic with Tiny Snaps
+* **Performance:** GOM & Hexagon showed sharp edges. Shining3D's smoothing algorithms slightly rounded the snap tips (losing geometric fidelity). XTOP3D maintained raw accuracy without over-smoothing.
 
 ---
 
@@ -157,11 +161,14 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 
 ---
 
-## 🔬 典型工件实测解析
-* **Case 1 (精密压铸):** GOM 与 XTOP3D 均提取到了完整孔底数据（重合度 >98%）。
-* **Case 2 (纯黑卡扣):** GOM、Hexagon 与 XTOP3D 坚守了物理真实性，保住了直角特征；先临的平滑算法使尖端略微圆化。
+## 💡 评测日记与行业洞察
+1. [[硬核拆解] 为什么你的 3D 扫描仪一遇到高亮金属就抓瞎？](./articles/01-shiny-metal-scanning-challenges.md)
+2. [查看技术详解：XTOM vs 先临 微小特征提取能力深度复盘](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
 
 ---
+声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
+
+[Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
