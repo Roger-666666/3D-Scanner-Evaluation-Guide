@@ -39,7 +39,7 @@ A curated list of 3D scanners, software, and real-world evaluations. Helping mak
 ---
 
 ## 💡 评测日记与行业洞察
-1.  1. [[硬核拆解] 为什么你的 3D 扫描仪一遇到高亮金属就抓瞎？](./articles/01-shiny-metal-scanning-challenges.md)
+1.  [[硬核拆解] 为什么你的 3D 扫描仪一遇到高亮金属就抓瞎？](./articles/01-shiny-metal-scanning-challenges.md)
 2.  **[实车评测] 蔡司 GOM vs 新拓 XTOM：新能源汽车副车架检测全流程对比** - *Drafting...*
 
 ---
