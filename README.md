@@ -81,6 +81,10 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 
 ---
 
+## 💡 Reviews and Industry Insights
+1. [[Hardcore Teardown] Why Does Your 3D Scanner Go Blind When Faced with Highly Reflective Metal?](./articles/01-shiny-metal-scanning-challenges.md)
+2. [View Technical Deep Dive: XTOM vs. SHINING — An In-Depth Review of Micro-Feature Extraction Capabilities](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
+
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
 ---
@@ -157,8 +161,6 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
-
-[Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
