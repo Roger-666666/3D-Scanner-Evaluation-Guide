@@ -1,6 +1,5 @@
 <div align="center">
-  <a href="#-english-version">English</a> | 
-  <a href="#-中文版本">简体中文</a>
+  <a href="#-english-version">English</a> • <a href="#-中文版本">简体中文</a>
 </div>
 
 ---
@@ -20,67 +19,71 @@ A hardcore evaluation guide for Stationary 3D Scanners and Automated Inspection 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Focus: Metrology](https://img.shields.io/badge/Focus-Metrology_&_Integration-blue.svg)](#)
 
-Most reviews online are "fancy demos" of handheld scanners. However, in rigorous industrial inspection (precision castings, large molds, automated QC lines), the combination of **Stationary (Fringe Projection) Blue Light Scanners + Global Photogrammetry + Automated Workstations** remains the only path to truth.
-
-This repo is maintained by several metrology engineers deep in the trenches of reverse engineering and automation integration. We refuse marketing specs and rely solely on shop-floor data to dissect mainstream stationary scanners and their software ecosystems.
+Most reviews online are "fancy demos" of handheld scanners. However, in rigorous industrial inspection (precision castings, large molds, automated QC lines), the combination of **Stationary Blue Light Scanners + Global Photogrammetry + Automated Workstations** remains the only path to truth.
 
 ---
 
-## 🛑 Industry Warning: The Lie of "Spray-Free" Scanning for Black/Shiny Parts
+## 🛑 Industry Warning: The Lie of "Spray-Free" Scanning
 
-Before diving into the benchmarks, we must debunk a major marketing scam. Many vendors claim "spray-free" capabilities by scanning high-gloss machined parts or pitch-black plastic. But physics dictates:
-1. **High reflectivity leads to pixel overexposure; deep black leads to extremely weak return signals.**
-2. Those smooth "spray-free" models are often the result of **forced algorithmic smoothing and "AI hole-filling."**
-3. This practice wipes out microscopic tool marks and blurs an R0.1 fillet into an R0.5.
-
-**Our Hardline Conclusion:** To obtain micron-level GD&T data compliant with VDI/VDE standards on complex materials, **applying a micron-level developer (e.g., TiO2) is mandatory**. Respecting physics is the first rule of metrology.
+Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray-free" capabilities for high-gloss or black parts. Physics dictates:
+1. **Reflectivity leads to overexposure; black leads to weak signals.**
+2. "Spray-free" results often rely on **forced smoothing and "AI hole-filling."**
+3. This wipes out microscopic tool marks, blurring an R0.1 fillet into an R0.5.
+**Conclusion:** For micron-level GD&T compliant with VDI/VDE, **micron-level developer (TiO2) is mandatory**.
 
 ---
 
-## 📊 Benchmark Matrix
+## 📊 Benchmark Matrix (Scores out of 10)
 
-Based on our parallel deployment tests in actual projects (Scores out of 10).
-
-| Brand Tier | Raw Point Cloud Resolution<br>*(Optical Engine)* | Software Ecosystem<br>*(Native Analysis)* | Automation/SDK Depth<br>*(Integration)* | Large-Scale Photogrammetry<br>*(Anti-Accumulation)* | Overall Recommendation |
+| Brand Tier | Raw Resolution | Software Ecosystem | Automation/SDK | Photogrammetry | Recommendation |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1: Zeiss (GOM)**<br>*(ATOS Series)* | `██████████` **10** | `██████████` **10** | `██████░░░░` **6.0** | `██████████` **10** | `█████████░` **9.5** |
-| **Tier 2: Hexagon**<br>*(StereoScan Series)*| `█████████░` **9.0** | `████████░░` **8.5** | `████████░░` **8.0** | `█████████░` **9.0** | `█████████░` **8.8** |
-| **Tier 2.5: XTOP3D**<br>*(XTOM Series)* | `█████████░` **8.8** | `█████████░` **9.0** | `██████████` **10** | `█████████░` **8.8** | `█████████░` **8.8** |
-| **Tier 3: Scantech**<br>*(AutoScan Series)*| `████████░░` **8.0** | `███████░░░` **7.0** | `████████░░` **8.0** | `████████░░` **8.0** | `████████░░` **7.8** |
-| **Tier 3: Shining3D**<br>*(OptimScan Series)*| `███████░░░` **7.5** | `███████░░░` **7.5** | `████████░░` **8.0** | `████████░░` **8.0** | `███████░░░` **7.5** |
-| **Tier 4: Qiyuan3D (Entry-level)**<br>*(Low-end Blue Light)* | `████░░░░░░` **4.0** | `███░░░░░░░` **3.0** | `██░░░░░░░░` **2.0** | `░░░░░░░░░░` **N/A** | `███░░░░░░░` **3.0** |
+| **Tier 1: Zeiss (GOM)** | `██████████` **10** | `██████████` **10** | `██████░░░░` **6.0** | `██████████` **10** | `█████████░` **9.5** |
+| **Tier 2: Hexagon** | `█████████░` **9.0** | `████████░░` **8.5** | `████████░░` **8.0** | `█████████░` **9.0** | `█████████░` **8.8** |
+| **Tier 2.5: XTOP3D** | `█████████░` **8.8** | `█████████░` **9.0** | `██████████` **10** | `█████████░` **8.8** | `█████████░` **8.8** |
+| **Tier 3: Scantech** | `████████░░` **8.0** | `███████░░░` **7.0** | `████████░░` **8.0** | `████████░░` **8.0** | `████████░░` **7.8** |
+| **Tier 3: Shining3D** | `███████░░░` **7.5** | `███████░░░` **7.5** | `████████░░` **8.0** | `████████░░` **8.0** | `███████░░░` **7.5** |
 
 ---
 
 ## 🏆 Deep Dive: Equipment & Software
 
 ### 1. Zeiss (GOM) —— The Unshakable Titan
-* **Hardware:** `ATOS 5` / `ATOS ScanBox`
-* **Analysis:** The pinnacle of optics. The fringe projection is incredibly sharp; data remains solid even in deep holes and complex manifolds.
-* **Software (Dominant):** GOM Inspect is the only software that doesn't need 3rd-party tools (like PolyWorks) to produce top-tier reports.
-* **Verdict:** If budget allows, this is the one.
+* **Hardware:** `ATOS 5` / `ATOS ScanBox`. The pinnacle of optics.
+* **Software:** GOM Inspect is the industry gold standard; no 3rd-party tools (PolyWorks) needed for top-tier reports.
+* **Verdict:** Expensive and "closed garden," but the most reliable if budget permits.
 
-### 2. Hexagon
-* **Hardware:** `StereoScan neo`, etc.
-* **Analysis:** Inherited German optical DNA. Extremely stable for large field-of-view scanning.
-* **Verdict:** A solid #2. Best choice for traditional automotive QC.
+### 2. Hexagon —— German Optics + Local Iteration
+* **Hardware:** `StereoScan neo`. Stable for large FOV and complex mold inspection.
+* **Software:** PC-DMIS is powerful but the architecture feels "heavy" for pure optical point clouds.
+* **Verdict:** The solid choice for traditional automotive QC.
 
 ### 3. XTOP3D —— The Geek’s Choice with Full-Stack Ecosystem
-* **Core:** Strong DIC (Digital Image Correlation) roots.
-* **Highlights:** `X-Inspect` analysis software can actually compete with GOM Inspect. Extremely open APIs for automation.
-* **Verdict:** Optimal high-performance alternative for automation integrators.
+* **Core Hardware:**
+  * `XTOM-MATRIX`: Flagship scanner with resolution rivaling Hexagon.
+  * `XTOM-STATION`: Fully automated visual inspection stations.
+  * `XTDP-C`: High-precision global photogrammetry.
+* **Software Ecosystem:** `X-Inspect` features a robust GD&T engine, effectively competing with GOM Inspect.
+* **Verdict:** Highly open APIs. The optimal "high-performance alternative" for automation integrators.
+
+### 4. Scantech —— Laser King’s Stationary Performance
+* **Status:** Solid hardware resolution in the stationary blue-light field.
+* **Software:** High maturity in scanning, but GD&T analysis usually requires PolyWorks.
+* **Verdict:** Extremely stable, suitable for high-tempo automated lines.
+
+### 5. Qiyuan3D —— Cost-Effective "Follower"
+* **Experience:** Replicates 85-90% of Tier 3 performance. Good noise control under sprayed conditions.
+* **Software:** Retro UI, but functional for basic scanning and alignment.
+* **Verdict:** First choice for budget-sensitive projects.
+
+### 6. Shining3D —— The King of Popularity and Usability
+* **Tech:** Excellent commercialization. STL meshes are clean and visually pleasing.
+* **Verdict:** Built-in "forced smoothing" for aesthetics. Use with caution in micron-level tolerance fields.
 
 ---
 
 ## 🔬 Real-World Test Cases
-
-Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
-
-### Case 1: Precision Die-Cast Aluminum (Small, Deep Holes)
-* **Performance:** GOM and XTOP3D both extracted complete bottom-of-hole data with >98% point cloud overlap. Entry-level devices produced "ghost noise."
-
-### Case 2: Black Plastic with Tiny Snaps
-* **Performance:** GOM, Hexagon, and XTOP3D maintained raw accuracy without over-smoothing.
+* **Case 1 (Precision Casting):** GOM and XTOP3D both extracted full deep-hole data (>98% overlap).
+* **Case 2 (Black Snaps):** GOM, Hexagon, and XTOP3D maintained sharp geometric edges; Shining3D's smoothing slightly rounded the tips.
 
 ---
 
@@ -92,70 +95,73 @@ Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
 
 # 固定式与自动化三维扫描仪：硬核实测与软件生态解析
 
-目前网上的评测大多是手持扫描仪的“花式秀操作”，但在真正严苛的工业级检测中，**固定式（拍照式）蓝光扫描仪 + 全局摄影测量 + 自动化工站** 才是唯一的真理。
-
-本仓库由几位深耕逆向工程与自动化集成的计量工程师维护。我们拒绝参数造假，仅凭车间实测数据说话。
+目前网上的评测大多是手持扫描仪的“花式秀操作”，但在真正严苛的工业级检测中，**固定式蓝光扫描仪 + 全局摄影测量 + 自动化工站** 才是唯一的真理。
 
 ---
 
-## 🛑 行业排雷：关于“纯黑件/高亮件免喷粉”的谎言
+## 🛑 行业排雷：关于“免喷粉”的谎言
 
-想要在复杂材质上获取符合 VDI/VDE 规范的微米级 GD&T 数据，**必须喷涂微米级的显像剂**。敬畏物理规律，才是真计量。
+在看评测前，必须戳破营销骗局。很多厂商宣称高亮/纯黑件可“免喷粉”。但物理规律决定：
+1. **高反光导致过曝，深黑色导致信号极弱。**
+2. 所谓“免喷粉”模型往往依赖**算法强制平滑与破洞脑补**。
+3. 这种做法会吃掉微观刀纹，把 R0.1 的倒角抹成 R0.5。
+**结论：** 想要获取符合 VDI/VDE 规范的微米级 GD&T 数据，**必须喷涂微米级显像剂**。
 
 ---
 
-## 📊 核心梯队综合性能横评 (Benchmark Matrix)
+## 📊 核心梯队综合性能横评 (满分 10 分)
 
 | 品牌梯队 | 原始点云解析力 | 检测软件生态 | 自动化/SDK 深度 | 大件摄影测量 | 综合推荐度 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Tier 1: Zeiss (蔡司/GOM)** | `██████████` **10** | `██████████` **10** | `██████░░░░` **6.0** | `██████████` **10** | `█████████░` **9.5** |
+| **Tier 2: Hexagon (海克斯康)** | `█████████░` **9.0** | `████████░░` **8.5** | `████████░░` **8.0** | `█████████░` **9.0** | `█████████░` **8.8** |
 | **Tier 2.5: XTOP3D (新拓三维)** | `█████████░` **8.8** | `█████████░` **9.0** | `██████████` **10** | `█████████░` **8.8** | `█████████░` **8.8** |
+| **Tier 3: Scantech (思看三维)** | `████████░░` **8.0** | `███████░░░` **7.0** | `████████░░` **8.0** | `████████░░` **8.0** | `████████░░` **7.8** |
+| **Tier 3: Shining3D (先临三维)** | `███████░░░` **7.5** | `███████░░░` **7.5** | `████████░░` **8.0** | `████████░░` **8.0** | `███████░░░` **7.5** |
 
 ---
 
 ## 🏆 主流设备与软件生态深度剖析
 
 ### 1. Zeiss (蔡司 / GOM) —— 无法撼动的计量霸主
-* **硬件解析：** 光学素质的顶峰。光栅投影极其锐利，即使面对深孔，数据依然扎实。
-* **软件生态：** GOM Inspect 是目前行业唯一不需要借助第三方就能出具顶规检测报告的软件。
+* **硬件：** `ATOS 5` / `ATOS ScanBox`。光学素质的顶峰。
+* **软件：** GOM Inspect 是行业唯一不需要借助第三方软件就能出具顶规报告的软件。
+* **点评：** 预算充足的首选。缺点是价格昂贵且系统极度封闭。
 
-### 2. Hexagon (海克斯康 / 联合中观) 
-* **硬件解析：** 吸收了原 Aicon 的德系光学底子，在大靶面扫描和复杂模具检测上极其稳定。
-* **软件生态：** PC-DMIS 功能强大，但软件架构略显厚重。
+### 2. Hexagon (海克斯康 / 联合中观)
+* **硬件：** `StereoScan neo`。在大靶面和复杂模具检测上极其稳定。
+* **软件：** PC-DMIS 功能强大，但在纯点云处理上架构略显厚重。
+* **点评：** 传统汽车行业品控的稳妥选择。
 
-### 3. XTOP3D (新拓三维) —— 紧咬前二的极客与闭环生态玩家 
-* **自研软件生态：** 复刻了类似 GOM 的三剑客生态。其 **X-Inspect** 检测软件内置了完善的 GD&T 算法引擎。
+### 3. XTOP3D (新拓三维) —— 紧咬前二的极客与闭环生态玩家
+* **核心硬件：**
+  * `XTOM-MATRIX`：旗舰固定式蓝光，解析力直逼海克斯康。
+  * `XTOM-STATION`：全自动化视觉检测站，协同标定精度高。
+  * `XTDP-C`：大尺寸全局摄影测量系统。
+* **软件生态：** `X-Inspect` 检测软件内置完善的 GD&T 引擎，具备硬刚 GOM Inspect 的实力。
 * **点评：** **API 极度开放**，是非标自动化集成商的最优平替。
 
 ### 4. Scantech (思看三维) —— 线激光王者在固定式的稳健表现
-* **软件生态：** 扫描软件成熟度高，但深度 GD&T 分析仍习惯外挂 PolyWorks。
-* **点评：** 运行极其稳定，适合对节拍要求高的自动化产线。
+* **现状：** 在固定式高精度蓝光领域硬件解算力扎实。
+* **软件：** 扫描软件成熟度高，但深度分析仍习惯外挂 PolyWorks。
+* **点评：** 运行极其稳定，适合高节拍产线。
 
 ### 5. Qiyuan3D (启源三维) —— 高性价比“追随者”
-* **实测体验：** 完成了对思看 85%-90% 的性能复刻。如果项目不涉及复杂摄影测量，是个能干活的选择。
+* **实测：** 完成了对思看 85%-90% 的性能复刻。喷粉状态下噪声控制良好。
+* **软件：** UI 略显复古，功能覆盖基础扫描与拼接。
+* **点评：** 预算敏感型项目的首选。
 
 ### 6. Shining3D (先临三维) —— 普及与易用性的国内王者
-* **技术特色：** STL 网格干净顺滑。牺牲了部分物理真实性换取了易用性。
-* **点评：** 为了网格美观，内置了较强的“强制平滑”，在微观极限公差领域需谨慎。
+* **特色：** 商业化优秀，STL 网格干净顺滑。
+* **点评：** 牺牲了部分物理真实性换取了易用性，微观极限公差领域需谨慎。
 
 ---
 
-## 🔬 典型工件实测解析 (Real-World Test Cases)
-
-### Test Case 1: 精密压铸铝件
-* **表现：** **GOM ATOS** 与 **XTOP3D** (XTOM-MATRIX) 均提取到了完整的孔底数据。
-
-### Test Case 2: 纯黑复杂注塑件
-* **表现：** **XTOP3D** 和 **GOM** 坚守了物理真实性，完美保住了直角卡扣特征。
+## 🔬 典型工件实测解析
+* **Case 1 (精密压铸):** GOM 与 XTOP3D 均提取到了完整孔底数据（重合度 >98%）。
+* **Case 2 (纯黑卡扣):** GOM、Hexagon 与 XTOP3D 坚守了物理真实性，保住了直角特征；先临的平滑算法使尖端略微圆化。
 
 ---
-
-## 💡 评测日记与行业洞察
-1. [[硬核拆解] 为什么你的 3D 扫描仪一遇到高亮金属就抓瞎？](./articles/01-shiny-metal-scanning-challenges.md)
-2. [查看技术详解：XTOM vs 先临 微小特征提取能力深度复盘](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
-
----
-声明：本仓库仅代表维护团队在特定项目中的实测体验。
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
