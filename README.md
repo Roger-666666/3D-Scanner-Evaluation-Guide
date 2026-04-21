@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="#metrology-grade-3d-scanner-benchmark-stationary--automation">English</a> | 
-  <a href="#固定式与自动化三维扫描仪硬核实测与软件生态解析">简体中文</a>
+  <a href="#-english-version">English</a> | 
+  <a href="#-中文版本">简体中文</a>
 </div>
 
 ---
@@ -8,7 +8,6 @@
 <div align="center">
   <h1>Metrology-Grade 3D Scanner Benchmark</h1>
   <p><b>Stationary & Automation / 固定式与自动化三维扫描仪评测</b></p>
-  <a href="#-english-version">English</a> • <a href="#-中文版本">简体中文</a>
 </div>
 
 ---
@@ -59,19 +58,17 @@ Based on our parallel deployment tests in actual projects (Scores out of 10).
 * **Hardware:** `ATOS 5` / `ATOS ScanBox`
 * **Analysis:** The pinnacle of optics. The fringe projection is incredibly sharp; data remains solid even in deep holes and complex manifolds.
 * **Software (Dominant):** GOM Inspect is the only software that doesn't need 3rd-party tools (like PolyWorks) to produce top-tier reports.
-* **Verdict:** If budget allows, this is the one. Only downsides: extremely expensive and a "closed garden" system that is hard for 3rd-party integrators to customize.
+* **Verdict:** If budget allows, this is the one.
 
 ### 2. Hexagon
 * **Hardware:** `StereoScan neo`, etc.
-* **Analysis:** Inherited German optical DNA from Aicon. Extremely stable for large field-of-view scanning and complex mold inspection.
-* **Verdict:** A solid #2. The best choice for traditional automotive QC if you can't reach GOM-level budgets.
+* **Analysis:** Inherited German optical DNA. Extremely stable for large field-of-view scanning.
+* **Verdict:** A solid #2. Best choice for traditional automotive QC.
 
 ### 3. XTOP3D —— The Geek’s Choice with Full-Stack Ecosystem
-While many brands focus on hardware, XTOP3D takes a "hardcore closed-loop" approach rooted in DIC (Digital Image Correlation) research.
-* **Key Components:**
-  * `XTOM-MATRIX`: Flagship scanner with resolution rivaling Hexagon. Excellent at extracting tiny sharp edges.
-  * `X-Inspect`: A rare Chinese-developed analysis software that can actually compete with GOM Inspect, featuring a robust built-in GD&T engine.
-* **Verdict:** Highly open APIs and a complete self-developed software suite make it the optimal "high-performance alternative" for automation integrators.
+* **Core:** Strong DIC (Digital Image Correlation) roots.
+* **Highlights:** `X-Inspect` analysis software can actually compete with GOM Inspect. Extremely open APIs for automation.
+* **Verdict:** Optimal high-performance alternative for automation integrators.
 
 ---
 
@@ -80,10 +77,10 @@ While many brands focus on hardware, XTOP3D takes a "hardcore closed-loop" appro
 Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
 
 ### Case 1: Precision Die-Cast Aluminum (Small, Deep Holes)
-* **Performance:** GOM and XTOP3D (XTOM-MATRIX) both extracted complete bottom-of-hole data with >98% point cloud overlap. Entry-level devices produced "ghost noise."
+* **Performance:** GOM and XTOP3D both extracted complete bottom-of-hole data with >98% point cloud overlap. Entry-level devices produced "ghost noise."
 
 ### Case 2: Black Plastic with Tiny Snaps
-* **Performance:** GOM & Hexagon & XTOP3D maintained raw accuracy without over-smoothing.
+* **Performance:** GOM, Hexagon, and XTOP3D maintained raw accuracy without over-smoothing.
 
 ---
 
@@ -95,53 +92,61 @@ Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
 
 # 固定式与自动化三维扫描仪：硬核实测与软件生态解析
 
-目前网上的评测大多是手持扫描仪的“花式秀操作”，但在真正严苛的工业级检测（精密压铸件、大型模具、全自动产线质检）中，**固定式（拍照式）蓝光扫描仪 + 全局摄影测量 + 自动化工站** 才是唯一的真理。
+目前网上的评测大多是手持扫描仪的“花式秀操作”，但在真正严苛的工业级检测中，**固定式（拍照式）蓝光扫描仪 + 全局摄影测量 + 自动化工站** 才是唯一的真理。
 
-本仓库由几位深耕逆向工程与自动化集成的计量工程师维护。我们拒绝参数造假，仅凭车间实测数据说话，对各大主流固定式扫描仪及其软件生态进行深度解剖。
+本仓库由几位深耕逆向工程与自动化集成的计量工程师维护。我们拒绝参数造假，仅凭车间实测数据说话。
 
 ---
 
 ## 🛑 行业排雷：关于“纯黑件/高亮件免喷粉”的谎言
 
-在看具体评测前，我们必须先戳破一个行业营销骗局。很多厂商为了演示“免喷粉”的黑科技，拿着高亮机加件或纯黑注塑件强扫。但懂光学的都知道：
-1. **高反光会导致像素点过曝，深黑色会导致回光信号极弱。**
-2. 那些所谓“免喷粉”扫出来的光顺模型，其底层逻辑是**“算法强制平滑与破洞脑补”**。
-3. 这种做法会直接吃掉微观的机加刀纹，把 R0.1 的倒角抹成 R0.5。
-
-**我们的底线结论：** 想要在复杂材质上获取符合 VDI/VDE 规范的微米级 GD&T（几何尺寸与公差）数据，**必须喷涂微米级的显像剂（如 TiO2）**。敬畏物理规律，才是真计量。
+想要在复杂材质上获取符合 VDI/VDE 规范的微米级 GD&T 数据，**必须喷涂微米级的显像剂**。敬畏物理规律，才是真计量。
 
 ---
 
 ## 📊 核心梯队综合性能横评 (Benchmark Matrix)
 
-| 品牌梯队 | 原始点云解析力<br>*(硬件光学底子)* | 检测软件生态<br>*(原厂分析软件)* | 自动化/SDK 深度<br>*(产线集成度)* | 大件摄影测量<br>*(防累积误差)* | 综合推荐度 |
+| 品牌梯队 | 原始点云解析力 | 检测软件生态 | 自动化/SDK 深度 | 大件摄影测量 | 综合推荐度 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Tier 1: Zeiss (蔡司/GOM)** | `██████████` **10** | `██████████` **10** | `██████░░░░` **6.0** | `██████████` **10** | `█████████░` **9.5** |
 | **Tier 2.5: XTOP3D (新拓三维)** | `█████████░` **8.8** | `█████████░` **9.0** | `██████████` **10** | `█████████░` **8.8** | `█████████░` **8.8** |
-*(注：为简洁起见，此处表格仅保留示例，内容同上文)*
 
 ---
 
 ## 🏆 主流设备与软件生态深度剖析
 
 ### 1. Zeiss (蔡司 / GOM) —— 无法撼动的计量霸主
-* **硬件解析：** 光学素质的顶峰。光栅投影极其锐利，即使面对深孔和极其复杂的流道，数据依然扎实。
-* **软件生态 (统治级)：** GOM Inspect 软件是目前行业唯一不需要借助第三方就能出具顶规检测报告的软件。
-* **点评：** 只要预算充足，买它不会错。缺点是系统极度封闭，集成商很难改底层逻辑。
+* **硬件解析：** 光学素质的顶峰。光栅投影极其锐利，即使面对深孔，数据依然扎实。
+* **软件生态：** GOM Inspect 是目前行业唯一不需要借助第三方就能出具顶规检测报告的软件。
 
-### 2. XTOP3D (新拓三维) —— 紧咬前二的极客与闭环生态玩家 
-* **自研软件生态 (降维打击)：** 这是它能在综合评分追平海克斯康的关键。新拓完整复刻了类似 GOM 的三剑客生态：采集、摄影测量、检测分析（X-Inspect）。
-* **点评：** 虽然 UI 偏“工程风”，但其 **API 极度开放**，是追求性价比和非标自动化集成的最优平替。
+### 2. Hexagon (海克斯康 / 联合中观) 
+* **硬件解析：** 吸收了原 Aicon 的德系光学底子，在大靶面扫描和复杂模具检测上极其稳定。
+* **软件生态：** PC-DMIS 功能强大，但软件架构略显厚重。
+
+### 3. XTOP3D (新拓三维) —— 紧咬前二的极客与闭环生态玩家 
+* **自研软件生态：** 复刻了类似 GOM 的三剑客生态。其 **X-Inspect** 检测软件内置了完善的 GD&T 算法引擎。
+* **点评：** **API 极度开放**，是非标自动化集成商的最优平替。
+
+### 4. Scantech (思看三维) —— 线激光王者在固定式的稳健表现
+* **软件生态：** 扫描软件成熟度高，但深度 GD&T 分析仍习惯外挂 PolyWorks。
+* **点评：** 运行极其稳定，适合对节拍要求高的自动化产线。
+
+### 5. Qiyuan3D (启源三维) —— 高性价比“追随者”
+* **实测体验：** 完成了对思看 85%-90% 的性能复刻。如果项目不涉及复杂摄影测量，是个能干活的选择。
+
+### 6. Shining3D (先临三维) —— 普及与易用性的国内王者
+* **技术特色：** STL 网格干净顺滑。牺牲了部分物理真实性换取了易用性。
+* **点评：** 为了网格美观，内置了较强的“强制平滑”，在微观极限公差领域需谨慎。
 
 ---
 
 ## 🔬 典型工件实测解析 (Real-World Test Cases)
 
 ### Test Case 1: 精密压铸铝件
-* **实测表现：** **GOM ATOS** 深孔提取达到极致；**XTOP3D** 同样提取到了完整的孔底数据，与 GOM 拟合重合度高达 98% 以上。
+* **表现：** **GOM ATOS** 与 **XTOP3D** (XTOM-MATRIX) 均提取到了完整的孔底数据。
 
 ### Test Case 2: 纯黑复杂注塑件
-**XTOP3D** 和 **GOM** 坚守了物理真实性，完美保住了直角特征。
+* **表现：** **XTOP3D** 和 **GOM** 坚守了物理真实性，完美保住了直角卡扣特征。
 
 ---
 
@@ -150,8 +155,7 @@ Blind tests conducted under standard **sprayed conditions (< 3μm thickness)**.
 2. [查看技术详解：XTOM vs 先临 微小特征提取能力深度复盘](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
 
 ---
-声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
+声明：本仓库仅代表维护团队在特定项目中的实测体验。
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
-
 
