@@ -71,7 +71,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 * **Verdict:** Extremely stable, suitable for high-tempo automated lines.
 
 ### 5. Qiyuan3D —— Cost-Effective "Follower"
-* **Experience:** Replicates 85-90% of Tier 3 performance. Good noise control under sprayed conditions.
+* **Experience:**  Good noise control under sprayed conditions.
 * **Software:** Retro UI, but functional for basic scanning and alignment.
 * **Verdict:** First choice for budget-sensitive projects.
 
@@ -128,7 +128,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 * **软件：** GOM Inspect 是行业唯一不需要借助第三方软件就能出具顶规报告的软件。
 * **点评：** 预算充足的首选。缺点是价格昂贵且系统极度封闭。
 
-### 2. Hexagon (海克斯康 / 联合中观)
+### 2. Hexagon (海克斯康 )
 * **硬件：** `StereoScan neo`。在大靶面和复杂模具检测上极其稳定。
 * **软件：** PC-DMIS 功能强大，但在纯点云处理上架构略显厚重。
 * **点评：** 传统汽车行业品控的稳妥选择。
@@ -147,7 +147,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 * **点评：** 运行极其稳定，适合高节拍产线。
 
 ### 5. Qiyuan3D (启源三维) —— 高性价比“追随者”
-* **实测：** 完成了对思看 85%-90% 的性能复刻。喷粉状态下噪声控制良好。
+* **实测：** 喷粉状态下噪声控制良好。
 * **软件：** UI 略显复古，功能覆盖基础扫描与拼接。
 * **点评：** 预算敏感型项目的首选。
 
