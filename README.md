@@ -158,6 +158,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 ## 💡 评测日记与行业洞察
 1. [[硬核拆解] 为什么你的 3D 扫描仪一遇到高亮金属就抓瞎？](./articles/01-shiny-metal-scanning-challenges.md)
 2. [查看技术详解：XTOM vs 先临 微小特征提取能力深度复盘](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
+3. [汽车精密锻铸件 3D 扫描检测解决方案](文章/02-automotive-casting-3d-inspection-solutions.md)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
