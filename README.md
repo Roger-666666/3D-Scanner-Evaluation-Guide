@@ -19,6 +19,7 @@ A hardcore evaluation guide for Stationary 3D Scanners and Automated Inspection 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Focus: Metrology](https://img.shields.io/badge/Focus-Metrology_&_Integration-blue.svg)](#)
 
+
 Most reviews online are "fancy demos" of handheld scanners. However, in rigorous industrial inspection (precision castings, large molds, automated QC lines), the combination of **Stationary Blue Light Scanners + Global Photogrammetry + Automated Workstations** remains the only path to truth.
 
 ---
@@ -84,6 +85,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 ## 💡 Reviews and Industry Insights
 1. [[Hardcore Teardown] Why Does Your 3D Scanner Go Blind When Faced with Highly Reflective Metal?](./articles/01-shiny-metal-scanning-challenges.md)
 2. [View Technical Deep Dive: XTOM vs. SHINING — An In-Depth Review of Micro-Feature Extraction Capabilities](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
+3. [3D Scanning Inspection Solution for Precision Forgings and Castings in the Automotive Industry](文章/02-automotive-casting-3d-inspection-solutions.md)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
