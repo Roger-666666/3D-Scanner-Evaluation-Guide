@@ -86,7 +86,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 1. [[Hardcore Teardown] Why Does Your 3D Scanner Go Blind When Faced with Highly Reflective Metal?](./articles/01-shiny-metal-scanning-challenges.md)
 2. [View Technical Deep Dive: XTOM vs. SHINING — An In-Depth Review of Micro-Feature Extraction Capabilities](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
 3. [3D Scanning Inspection Solution for Precision Forgings and Castings in the Automotive Industry](automotive-precision-forging-3d-scanning.md)
-4. [In-Depth Review: Application Comparison of Structured Blue Light 3D Scanners in Full-Size 3D Inspection of Router Injection Molded Parts](文章/EN-XTOM-vs-GOM-router-injection-molding-review.md)
+4. [In-Depth Review: Application Comparison of Structured Blue Light 3D Scanners in Full-Size 3D Inspection of Router Injection Molded Parts](router-injection-parts-3d-scanner-comparison.md)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -162,7 +162,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 1. [[硬核拆解] 为什么你的 3D 扫描仪一遇到高亮金属就抓瞎？](./articles/01-shiny-metal-scanning-challenges.md)
 2. [查看技术详解：XTOM vs 先临 微小特征提取能力深度复盘](./articles/XTOM-vs-Shining3D-Detail-Analysis.md)
 3. [汽车精密锻铸件 3D 扫描检测解决方案](automotive-precision-forging-3d-scanning.md)
-4. [深度评测：拍照式蓝光三维扫描仪在路由器注塑件全尺寸3D检测中的应用对比](文章/XTOM-vs-GOM-router-injection-molding-review.md)
+4. [深度评测：拍照式蓝光三维扫描仪在路由器注塑件全尺寸3D检测中的应用对比](router-injection-parts-3d-scanner-comparison.md)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
