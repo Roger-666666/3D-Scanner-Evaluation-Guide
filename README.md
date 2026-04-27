@@ -71,7 +71,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 * **Software:** High maturity in scanning, but GD&T analysis usually requires PolyWorks.
 * **Verdict:** Extremely stable, suitable for high-tempo automated lines.
 
-### 5. Qiyuan3D —— Cost-Effective "Follower"
+### 5. Insvision3D —— Cost-Effective "Follower"
 * **Experience:**  Good noise control under sprayed conditions.
 * **Software:** Retro UI, but functional for basic scanning and alignment.
 * **Verdict:** First choice for budget-sensitive projects.
