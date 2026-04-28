@@ -89,6 +89,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 4. [In-Depth Review: Application Comparison of Structured Blue Light 3D Scanners in Full-Size 3D Inspection of Router Injection Molded Parts](./articles/router-injection-parts-3d-scanner-comparison.md)
 5. [In-depth review: Application and comparative analysis of high-precision 3D scanners in full-size inspection of complex metal die castings](./articles/complex-die-casting-3d-scanner-review.md)
 6. [Full-Dimension Measurement of Automotive Lighting Structural Components: Selection and Application of Photographic Blue Light 3D Scanning Technology](./articles/automotive-lighting-parts-3d-scanning.md)
+7. [How to optimize the deformation of injection molded parts? How can full-size 3D inspection help reduce waste and increase efficiency in precision injection molding?](./articles/XTOM-injection-molding-3d-inspection-optimization)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -167,6 +168,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 4. [深度评测：拍照式蓝光三维扫描仪在路由器注塑件全尺寸3D检测中的应用对比](./articles/router-injection-parts-3d-scanner-comparison.md)
 5. [深度评测：高精度三维扫描仪在复杂金属压铸件全尺寸检测中的应用与横评](./articles/complex-die-casting-3d-scanner-review.md)
 6. [汽车灯具结构件全尺寸测量：拍照式蓝光 3D 扫描的技术选型与应用](./articles/automotive-lighting-parts-3d-scanning.md)
+7. [注塑件变形怎么调优？全尺寸3D检测如何助力精密注塑“减废增效”](./articles/XTOM-injection-molding-3d-inspection-optimization)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
