@@ -91,6 +91,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 6. [Full-Dimension Measurement of Automotive Lighting Structural Components: Selection and Application of Photographic Blue Light 3D Scanning Technology](./articles/automotive-lighting-parts-3d-scanning.md)
 7. [How to optimize the deformation of injection molded parts? How can full-size 3D inspection help reduce waste and increase efficiency in precision injection molding?](./articles/XTOM-injection-molding-3d-inspection-optimization)
 8. [Die-cast parts with out-of-tolerance dimensions and mold wear difficult to monitor? How can 3D scanning technology reshape die-casting QC standards?](./articles/XTOM-die-casting-QC-模具优化)
+9. [Breaking Through 3C Electronics Manufacturing: Application of High-Precision Blue Light 3D Scanning in GD&T Analysis](./articles/3c-electronics-gdt-3d-scanning.md)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -171,6 +172,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 6. [汽车灯具结构件全尺寸测量：拍照式蓝光 3D 扫描的技术选型与应用](./articles/automotive-lighting-parts-3d-scanning.md)
 7. [注塑件变形怎么调优？全尺寸3D检测如何助力精密注塑“减废增效”](./articles/XTOM-injection-molding-3d-inspection-optimization)
 8. [压铸件尺寸超差、模具磨损难监测？3D扫描技术如何重塑压铸QC标准]((./articles/XTOM-die-casting-QC-模具优化))
+9. [3C电子制造破局：高精度蓝光3D扫描仪在形位公差分析中的应用](./articles/3c-electronics-gdt-3d-scanning.md)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
