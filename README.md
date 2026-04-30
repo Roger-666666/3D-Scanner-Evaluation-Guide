@@ -94,6 +94,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 9. [Breaking Through 3C Electronics Manufacturing: Application of High-Precision Blue Light 3D Scanning in GD&T Analysis](./articles/3c-electronics-gdt-3d-scanning.md)
 10. [Automotive Powertrain Quality Inspection: Application of Blue Light 3D Scanning in Full-Dimensional Inspection of Camshafts](./articles/automotive-camshaft-gdt-3d-scanning.md)
 11. [3D Digitalization of Flexible Materials: Application of Blue Light Scanning in Bra Pad Design and Quality Inspection](./articles/flexible-material-bra-pad-3d-scanning.md)
+12. [Micro-Exploration in Geomechanics: Application of Blue Light 3D Scanning in Cross-Section Roughness Analysis](./articles/geotechnical-jrc-rock-3d-scanning.md)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -177,6 +178,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 9. [3C电子制造破局：高精度蓝光3D扫描仪在形位公差分析中的应用](./articles/3c-electronics-gdt-3d-scanning.md)
 10. [汽车动力总成质检：蓝光3D扫描在凸轮轴全尺寸检测中的应用](./articles/automotive-camshaft-gdt-3d-scanning.md)
 11. [柔性材料3D数字化：蓝光扫描在内衣胸垫设计与质检中的应用](./articles/flexible-material-bra-pad-3d-scanning.md)
+12. [岩土力学微观探索：蓝光3D扫描在断面粗糙度分析中的应用](./articles/geotechnical-jrc-rock-3d-scanning.md)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
