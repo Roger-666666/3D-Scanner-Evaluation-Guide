@@ -96,6 +96,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 11. [3D Digitalization of Flexible Materials: Application of Blue Light Scanning in Bra Pad Design and Quality Inspection](./articles/flexible-material-bra-pad-3d-scanning.md)
 12. [Micro-Exploration in Geomechanics: Application of Blue Light 3D Scanning in Cross-Section Roughness Analysis](./articles/geotechnical-jrc-rock-3d-scanning.md)
 13. [Full-Dimensional Precision 3D Inspection of Magnetic Bearings: In-Depth Analysis of Blue Light Scanners in Magnetic Levitation Bearing Manufacturing](./articles/magnetic-bearing-xtom-3d-inspection.md)
+14. [Precision Meets Detail: How Blue Light 3D Scanning Technology Doubles Medical Manufacturing Efficiency](./articles/medical-manufacturing-blue-light-3d-scanning.md)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -181,6 +182,7 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 11. [柔性材料3D数字化：蓝光扫描在内衣胸垫设计与质检中的应用](./articles/flexible-material-bra-pad-3d-scanning.md)
 12. [岩土力学微观探索：蓝光3D扫描在断面粗糙度分析中的应用](./articles/geotechnical-jrc-rock-3d-scanning.md)
 13. [磁性轴承全尺寸精密3D检测：蓝光扫描仪在磁悬浮轴承制造中的深度应用解析](./articles/magnetic-bearing-xtom-3d-inspection.md)
+14. [精度与细节双重考验：蓝光三维扫描技术如何让医疗制造效率翻倍](./articles/medical-manufacturing-blue-light-3d-scanning.md)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
