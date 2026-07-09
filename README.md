@@ -102,6 +102,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 17. [From T0 Trial Mold to Production Patrol: Building an Injection Mold Quality Loop with Blue-Light 3D Scanning](./articles/injection-mold-quality-loop-blue-light-3d-scanning.md#english-version)
 18. [From Physical Objects to 3D Digital Models: Blue-Light 3D Scanning for Education and Research Innovation](./articles/education-research-blue-light-3d-scanning-digital-model.md#english-version)
 19. [Blue-Light 3D Scanning in University Labs: From Teaching Practice to Research Innovation](./articles/university-lab-blue-light-3d-scanning-innovation-practice.md#english-version)
+20. [Blue-Light 3D Scanning for Full-Process Digital Mold Design Verification](./articles/mold-full-process-digital-design-verification-blue-light-3d-scanning.md#english-version)
+21. [From Mold Design Verification to Correction Loop: Blue-Light 3D Scanning for Full-Process Mold Digitization](./articles/mold-design-verification-correction-loop-blue-light-3d-scanning.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -193,6 +195,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 17. [从 T0 试模到量产巡检：蓝光3D扫描如何建立注塑模具质量闭环](./articles/injection-mold-quality-loop-blue-light-3d-scanning.md#chinese-version)
 18. [从实物到3D数字模型：蓝光3D扫描技术如何点亮教育科研创新实践](./articles/education-research-blue-light-3d-scanning-digital-model.md#chinese-version)
 19. [蓝光3D扫描进高校实验室：从教学实训到科研创新的3D数字化实践](./articles/university-lab-blue-light-3d-scanning-innovation-practice.md#chinese-version)
+20. [蓝光3D扫描赋能模具全流程数字化设计验证：从逆向建模到修模闭环](./articles/mold-full-process-digital-design-verification-blue-light-3d-scanning.md#chinese-version)
+21. [从模具设计验证到修模闭环：蓝光3D扫描如何打通模具全流程数字化](./articles/mold-design-verification-correction-loop-blue-light-3d-scanning.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
