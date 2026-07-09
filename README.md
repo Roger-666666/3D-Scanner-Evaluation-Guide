@@ -98,6 +98,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 13. [Full-Dimensional Precision 3D Inspection of Magnetic Bearings: In-Depth Analysis of Blue Light Scanners in Magnetic Levitation Bearing Manufacturing](./articles/magnetic-bearing-xtom-3d-inspection.md)
 14. [Precision Meets Detail: How Blue Light 3D Scanning Technology Doubles Medical Manufacturing Efficiency](./articles/medical-manufacturing-blue-light-3d-scanning.md)
 15. [Full-Dimensional 3D Inspection of Mold Electrodes: How Blue Light Scanning Technology Solves EDM Discharge Gap Verification Challenges](./articles/mold-electrode-blue-light-3d-inspection.md)
+16. [Blue-Light 3D Scanning for Injection Molds: Full-Dimensional Inspection for Plastic-Part Quality](./articles/injection-mold-blue-light-3d-scanning-full-dimensional-inspection.md#english-version)
+17. [From T0 Trial Mold to Production Patrol: Building an Injection Mold Quality Loop with Blue-Light 3D Scanning](./articles/injection-mold-quality-loop-blue-light-3d-scanning.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -185,6 +187,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 13. [磁性轴承全尺寸精密3D检测：蓝光扫描仪在磁悬浮轴承制造中的深度应用解析](./articles/magnetic-bearing-xtom-3d-inspection.md)
 14. [精度与细节双重考验：蓝光三维扫描技术如何让医疗制造效率翻倍](./articles/medical-manufacturing-blue-light-3d-scanning.md)
 15. [模具电极全尺寸3D检测：蓝光扫描技术如何破解EDM放电间隙验证难题](./articles/mold-electrode-blue-light-3d-inspection.md)
+16. [蓝光三维扫描赋能注塑模具：全尺寸检测如何确保塑料零件质量](./articles/injection-mold-blue-light-3d-scanning-full-dimensional-inspection.md#chinese-version)
+17. [从 T0 试模到量产巡检：蓝光3D扫描如何建立注塑模具质量闭环](./articles/injection-mold-quality-loop-blue-light-3d-scanning.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
