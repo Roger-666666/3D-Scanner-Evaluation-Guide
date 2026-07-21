@@ -106,6 +106,10 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 21. [From Mold Design Verification to Correction Loop: Blue-Light 3D Scanning for Full-Process Mold Digitization](./articles/mold-design-verification-correction-loop-blue-light-3d-scanning.md#english-version)
 22. [Full-Dimensional 3D Inspection for 3C Consumer Electronics Plastic Parts](./articles/3c-consumer-electronics-plastic-parts-full-dimensional-3d-inspection.md#english-version)
 23. [From Pilot Run to Mass Production: Blue-Light 3D Scanning for 3C Plastic Part Inspection Loops](./articles/3c-plastic-parts-pilot-production-blue-light-3d-inspection-loop.md#english-version)
+24. [Blue-Light 3D Scanning for Digital Replication of Cultural-Creative Products, Collectible Figures, and Industrial IP](./articles/cultural-creative-collectible-industrial-ip-blue-light-3d-scanning.md#english-version)
+25. [From Prototype Scanning to Derivative Development: A Blue-Light 3D Replication Loop for Cultural, Collectible, and Industrial IP](./articles/cultural-ip-digitization-replication-derivative-development-loop.md#english-version)
+26. [Assembly Inspection: Blue-Light 3D Scanning for Precision-Part Inspection and Virtual Assembly](./articles/precision-parts-blue-light-3d-inspection-virtual-assembly.md#english-version)
+27. [From Incoming Inspection to Pre-Assembly Verification: A Blue-Light 3D Quality Loop for Precision Parts](./articles/precision-parts-inspection-to-virtual-assembly-quality-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -201,6 +205,10 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 21. [从模具设计验证到修模闭环：蓝光3D扫描如何打通模具全流程数字化](./articles/mold-design-verification-correction-loop-blue-light-3d-scanning.md#chinese-version)
 22. [面向3C消费电子塑料件的全尺寸3D检测方案](./articles/3c-consumer-electronics-plastic-parts-full-dimensional-3d-inspection.md#chinese-version)
 23. [从试产到量产：3C消费电子塑料件如何用蓝光3D扫描建立全尺寸检测闭环](./articles/3c-plastic-parts-pilot-production-blue-light-3d-inspection-loop.md#chinese-version)
+24. [蓝光三维扫描技术在文创、手办与工业IP数字化复刻中的应用方案](./articles/cultural-creative-collectible-industrial-ip-blue-light-3d-scanning.md#chinese-version)
+25. [从原型扫描到衍生开发：蓝光3D扫描如何建立文创、手办与工业IP数字化复刻闭环](./articles/cultural-ip-digitization-replication-derivative-development-loop.md#chinese-version)
+26. [装配检测：蓝光三维扫描如何用于精密零部件3D检测与虚拟装配](./articles/precision-parts-blue-light-3d-inspection-virtual-assembly.md#chinese-version)
+27. [从来料检测到预装配验证：蓝光3D扫描如何建立精密零部件质量闭环](./articles/precision-parts-inspection-to-virtual-assembly-quality-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
