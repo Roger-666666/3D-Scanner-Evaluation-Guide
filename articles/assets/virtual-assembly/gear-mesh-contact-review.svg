@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Gear mesh contact and virtual assembly review</title>
+  <desc id="desc">Two conceptual gears with highlighted contact and clearance zones plus a non-numeric profile plot.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f9fafb"/><stop offset="1" stop-color="#e7edf2"/></linearGradient>
+    <linearGradient id="gearA" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24b56a"/><stop offset="1" stop-color="#08744a"/></linearGradient>
+    <linearGradient id="gearB" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38c77d"/><stop offset="1" stop-color="#0f8156"/></linearGradient>
+    <pattern id="grid3" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#ccd5de" opacity=".5"/></pattern>
+    <filter id="shadow3" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#475569" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg3)"/>
+  <rect x="34" y="34" width="1132" height="607" rx="4" fill="url(#grid3)" stroke="#cbd5e1"/>
+  <text x="70" y="86" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#152331">GEAR MESH CONTACT REVIEW</text>
+  <text x="70" y="116" font-family="Arial, sans-serif" font-size="15" fill="#52606d">Virtual fit assessment - qualitative zones only</text>
+
+  <g transform="translate(0 8)" filter="url(#shadow3)">
+    <g transform="translate(330 330)">
+      <g fill="#0f8156" stroke="#075d3e" stroke-width="2">
+        <rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(0)"/><rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(30)"/>
+        <rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(60)"/><rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(90)"/>
+        <rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(120)"/><rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(150)"/>
+        <rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(180)"/><rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(210)"/>
+        <rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(240)"/><rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(270)"/>
+        <rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(300)"/><rect x="-19" y="-170" width="38" height="62" rx="5" transform="rotate(330)"/>
+      </g>
+      <circle r="123" fill="url(#gearA)" stroke="#075d3e" stroke-width="7"/>
+      <circle r="48" fill="#e8eef3" stroke="#075d3e" stroke-width="8"/>
+      <circle r="92" fill="none" stroke="#78e3ad" stroke-width="3" stroke-dasharray="8 7"/>
+    </g>
+    <g transform="translate(625 330) rotate(15)">
+      <g fill="#16965e" stroke="#075d3e" stroke-width="2">
+        <rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(0)"/><rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(36)"/>
+        <rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(72)"/><rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(108)"/>
+        <rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(144)"/><rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(180)"/>
+        <rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(216)"/><rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(252)"/>
+        <rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(288)"/><rect x="-18" y="-152" width="36" height="58" rx="5" transform="rotate(324)"/>
+      </g>
+      <circle r="108" fill="url(#gearB)" stroke="#075d3e" stroke-width="7"/>
+      <circle r="42" fill="#e8eef3" stroke="#075d3e" stroke-width="8"/>
+      <circle r="80" fill="none" stroke="#78e3ad" stroke-width="3" stroke-dasharray="8 7"/>
+    </g>
+  </g>
+
+  <path d="M465 284C484 291 501 307 514 330C500 351 481 368 459 377" fill="none" stroke="#ef4444" stroke-width="15" stroke-linecap="round" opacity=".9"/>
+  <path d="M471 269C495 276 520 298 533 322" fill="none" stroke="#facc15" stroke-width="8" stroke-linecap="round"/>
+  <g fill="none" stroke="#334155" stroke-width="2"><path d="M492 302L770 188H905"/><path d="M482 376L760 460H905"/></g>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#334155"><text x="920" y="193">CONTACT ZONE</text><text x="920" y="465">CLEARANCE TREND</text></g>
+
+  <g transform="translate(770 228)">
+    <rect width="330" height="182" rx="4" fill="#ffffff" stroke="#b8c5d0"/>
+    <text x="22" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#334155">PROFILE COMPARISON</text>
+    <path d="M35 145H304M35 145V48" stroke="#64748b" stroke-width="2"/>
+    <path d="M42 120C90 110 113 68 160 76C205 84 238 132 296 91" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <path d="M42 128C87 119 119 79 160 88C211 99 243 143 296 102" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8 6"/>
+    <circle cx="160" cy="82" r="7" fill="#facc15" stroke="#334155"/>
+    <g font-family="Arial, sans-serif" font-size="12" fill="#64748b"><text x="38" y="166">ENTRY</text><text x="254" y="166">EXIT</text></g>
+  </g>
+  <g transform="translate(82 575)" font-family="Arial, sans-serif" font-size="14" fill="#52606d">
+    <circle cx="8" cy="-5" r="7" fill="#22c55e"/><text x="24" y="0">Nominal geometry</text>
+    <circle cx="178" cy="-5" r="7" fill="#facc15"/><text x="194" y="0">Transition</text>
+    <circle cx="300" cy="-5" r="7" fill="#ef4444"/><text x="316" y="0">Review zone</text>
+  </g>
+</svg>
