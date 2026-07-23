@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive glass full-field surface deviation map</title>
+  <desc id="desc">A conceptual engineering visualization showing a curved windshield, reference points, surface deviation zones, edge contour checks, and a qualitative legend without measurement values.</desc>
+  <defs>
+    <clipPath id="glassClip">
+      <path d="M206 205 Q600 122 994 205 L1080 501 Q600 586 120 501 Z"/>
+    </clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#D9E3EE" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">FULL-FIELD SURFACE DEVIATION REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Conceptual inspection view · qualitative display · no measured values</text>
+
+    <rect x="72" y="145" width="838" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+
+    <g transform="translate(90 75) scale(0.76)">
+    <g clip-path="url(#glassClip)">
+      <rect x="104" y="116" width="1000" height="500" fill="#4DBB78"/>
+      <path d="M89 188 C292 118 462 151 514 319 C545 417 432 540 101 558 Z" fill="#2D8FD5"/>
+      <path d="M1019 162 C829 128 723 226 743 366 C760 478 879 544 1112 518 L1105 153 Z" fill="#52A9DD"/>
+      <path d="M326 136 C470 116 652 133 710 259 C751 347 708 452 590 526 C469 513 378 445 361 344 C347 259 390 201 326 136 Z" fill="#78C96B"/>
+      <path d="M492 164 C606 124 741 159 790 250 C836 334 798 419 704 458 C612 496 500 457 462 374 C423 288 440 205 492 164 Z" fill="#F1CF4A"/>
+      <path d="M602 198 C677 179 745 217 759 281 C773 344 724 394 658 401 C590 409 532 366 528 305 C524 251 550 211 602 198 Z" fill="#E97749"/>
+      <path d="M659 237 C698 233 730 258 731 293 C733 329 702 351 668 346 C633 341 612 314 620 282 C626 256 641 241 659 237 Z" fill="#D34B49"/>
+      <path d="M152 427 C282 407 378 444 450 545 L114 561 Z" fill="#2786C6"/>
+      <path d="M825 432 C923 395 1015 417 1089 495 L1098 548 L812 563 Z" fill="#2F94D0"/>
+      <g opacity="0.25" fill="none" stroke="#FFFFFF" stroke-width="2">
+        <path d="M180 246 Q600 164 1025 246"/>
+        <path d="M156 314 Q600 232 1042 314"/>
+        <path d="M139 383 Q600 301 1058 383"/>
+        <path d="M125 451 Q600 371 1074 451"/>
+      </g>
+    </g>
+
+    <path d="M206 205 Q600 122 994 205 L1080 501 Q600 586 120 501 Z" fill="none" stroke="#193B5B" stroke-width="5"/>
+    <path d="M220 221 Q600 145 980 221 L1058 486 Q600 560 142 486 Z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="8 7" opacity="0.88"/>
+
+    <g fill="#FFFFFF" stroke="#17324D" stroke-width="2">
+      <circle cx="253" cy="247" r="5"/><circle cx="397" cy="211" r="5"/><circle cx="552" cy="190" r="5"/>
+      <circle cx="706" cy="190" r="5"/><circle cx="855" cy="213" r="5"/><circle cx="974" cy="250" r="5"/>
+      <circle cx="214" cy="350" r="5"/><circle cx="385" cy="327" r="5"/><circle cx="600" cy="309" r="5"/>
+      <circle cx="816" cy="329" r="5"/><circle cx="997" cy="354" r="5"/>
+      <circle cx="184" cy="458" r="5"/><circle cx="350" cy="477" r="5"/><circle cx="520" cy="495" r="5"/>
+      <circle cx="688" cy="495" r="5"/><circle cx="856" cy="478" r="5"/><circle cx="1027" cy="459" r="5"/>
+    </g>
+    </g>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M302 174 L390 228"/>
+      <path d="M826 174 L844 229"/>
+      <path d="M785 526 L690 460"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="178" y="166">REFERENCE NETWORK</text>
+      <text x="710" y="166">EDGE CONTOUR</text>
+      <text x="682" y="548">LOCAL SURFACE TREND</text>
+    </g>
+
+    <rect x="935" y="145" width="191" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="959" y="184" font-size="16" font-weight="700" fill="#17324D">QUALITATIVE LEGEND</text>
+    <text x="959" y="209" font-size="13" fill="#65798C">Project limits are defined</text>
+    <text x="959" y="228" font-size="13" fill="#65798C">in the inspection plan.</text>
+
+    <g font-size="14" fill="#334E68">
+      <rect x="960" y="263" width="26" height="18" rx="2" fill="#D34B49"/><text x="998" y="277">High positive</text>
+      <rect x="960" y="298" width="26" height="18" rx="2" fill="#E97749"/><text x="998" y="312">Positive trend</text>
+      <rect x="960" y="333" width="26" height="18" rx="2" fill="#F1CF4A"/><text x="998" y="347">Transition</text>
+      <rect x="960" y="368" width="26" height="18" rx="2" fill="#4DBB78"/><text x="998" y="382">Near nominal</text>
+      <rect x="960" y="403" width="26" height="18" rx="2" fill="#52A9DD"/><text x="998" y="417">Negative trend</text>
+      <rect x="960" y="438" width="26" height="18" rx="2" fill="#2786C6"/><text x="998" y="452">Low negative</text>
+    </g>
+
+    <line x1="960" y1="486" x2="1102" y2="486" stroke="#CCD7E1"/>
+    <circle cx="973" cy="516" r="5" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/>
+    <text x="994" y="521" font-size="13" fill="#334E68">Reference target</text>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">Review focus: freeform surface · edge profile · mounting features · regional distortion</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
