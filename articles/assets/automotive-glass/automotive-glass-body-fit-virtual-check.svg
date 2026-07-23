@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive glass and body opening virtual fit check</title>
+  <desc id="desc">A conceptual virtual assembly view comparing measured automotive glass against a vehicle body opening, with qualitative gap, flushness, datum, and interference indicators.</desc>
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#DDE6EE" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">GLASS-TO-BODY VIRTUAL FIT CHECK</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Measured glass model aligned to functional body-opening datums</text>
+
+    <rect x="72" y="145" width="810" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+
+    <path d="M191 223 Q470 141 769 223 L835 490 Q486 574 126 490 Z"
+      fill="#E5EBF1" stroke="#4A6076" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M223 243 Q475 174 739 243 L797 465 Q487 535 164 465 Z"
+      fill="#FFFFFF" stroke="#97A9BA" stroke-width="3"/>
+
+    <path d="M238 252 Q477 186 724 252 L780 451 Q488 518 181 451 Z"
+      fill="#5DA9D6" fill-opacity="0.30" stroke="#1D6EA4" stroke-width="5"/>
+    <path d="M245 258 Q475 198 714 259 L769 442 Q488 505 192 444 Z"
+      fill="none" stroke="#2AAA70" stroke-width="4" stroke-dasharray="11 8"/>
+
+    <path d="M225 252 Q477 182 729 252" fill="none" stroke="#E3B341" stroke-width="9" opacity="0.75"/>
+    <path d="M182 447 Q487 519 780 451" fill="none" stroke="#2AAA70" stroke-width="9" opacity="0.75"/>
+    <path d="M181 451 L238 252" fill="none" stroke="#D9574D" stroke-width="10" opacity="0.8"/>
+    <path d="M724 252 L780 451" fill="none" stroke="#5C92C9" stroke-width="10" opacity="0.8"/>
+
+    <g fill="#FFFFFF" stroke="#17324D" stroke-width="2">
+      <circle cx="208" cy="385" r="6"/>
+      <circle cx="481" cy="513" r="6"/>
+      <circle cx="757" cy="382" r="6"/>
+    </g>
+    <g font-size="13" font-weight="700" fill="#17324D">
+      <text x="188" y="380">A</text>
+      <text x="476" y="541">B</text>
+      <text x="773" y="380">C</text>
+    </g>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M158 185 L245 245"/>
+      <path d="M675 177 L690 237"/>
+      <path d="M826 353 L768 356"/>
+      <path d="M688 535 L632 488"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="102" y="178">BODY OPENING</text>
+      <text x="612" y="171">MEASURED GLASS</text>
+      <text x="783" y="344">SIDE FIT</text>
+      <text x="691" y="554">LOWER SEAL PATH</text>
+    </g>
+
+    <rect x="910" y="145" width="216" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="936" y="184" font-size="17" font-weight="700" fill="#17324D">FIT STATUS</text>
+    <text x="936" y="211" font-size="13" fill="#65798C">Qualitative trend display</text>
+
+    <g font-size="14" fill="#334E68">
+      <rect x="936" y="251" width="24" height="18" rx="2" fill="#2AAA70"/><text x="973" y="265">Nominal trend</text>
+      <rect x="936" y="289" width="24" height="18" rx="2" fill="#E3B341"/><text x="973" y="303">Review zone</text>
+      <rect x="936" y="327" width="24" height="18" rx="2" fill="#D9574D"/><text x="973" y="341">Interference risk</text>
+      <rect x="936" y="365" width="24" height="18" rx="2" fill="#5C92C9"/><text x="973" y="379">Excess clearance</text>
+    </g>
+
+    <line x1="936" y1="414" x2="1098" y2="414" stroke="#CCD7E1"/>
+    <text x="936" y="444" font-size="13" font-weight="700" fill="#29445E">FUNCTIONAL OUTPUTS</text>
+    <g font-size="13" fill="#40566F">
+      <text x="936" y="472">Gap distribution</text>
+      <text x="936" y="495">Flushness tendency</text>
+      <text x="936" y="518">Datum relationship</text>
+      <text x="936" y="541">Local contact risk</text>
+    </g>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">Virtual fit supports geometric decisions; final sealing, stress, optical, and safety tests remain separate.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
