@@ -110,6 +110,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 25. [From Prototype Scanning to Derivative Development: A Blue-Light 3D Replication Loop for Cultural, Collectible, and Industrial IP](./articles/cultural-ip-digitization-replication-derivative-development-loop.md#english-version)
 26. [Assembly Inspection: Blue-Light 3D Scanning for Precision-Part Inspection and Virtual Assembly](./articles/precision-parts-blue-light-3d-inspection-virtual-assembly.md#english-version)
 27. [From Incoming Inspection to Pre-Assembly Verification: A Blue-Light 3D Quality Loop for Precision Parts](./articles/precision-parts-inspection-to-virtual-assembly-quality-loop.md#english-version)
+28. [Blue-Light 3D Scanning for Full-Dimensional Inspection of Curved Automotive Glass](./articles/automotive-glass-curved-surface-full-dimensional-3d-inspection.md#english-version)
+29. [From Forming Validation to Vehicle Fit: A Blue-Light 3D Quality Loop for Automotive Glass](./articles/automotive-glass-inspection-to-body-fit-quality-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -209,6 +211,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 25. [从原型扫描到衍生开发：蓝光3D扫描如何建立文创、手办与工业IP数字化复刻闭环](./articles/cultural-ip-digitization-replication-derivative-development-loop.md#chinese-version)
 26. [装配检测：蓝光三维扫描如何用于精密零部件3D检测与虚拟装配](./articles/precision-parts-blue-light-3d-inspection-virtual-assembly.md#chinese-version)
 27. [从来料检测到预装配验证：蓝光3D扫描如何建立精密零部件质量闭环](./articles/precision-parts-inspection-to-virtual-assembly-quality-loop.md#chinese-version)
+28. [蓝光三维扫描技术用于汽车玻璃曲面3D全尺寸检测](./articles/automotive-glass-curved-surface-full-dimensional-3d-inspection.md#chinese-version)
+29. [从成型验证到装车匹配：蓝光3D扫描如何建立汽车玻璃质量闭环](./articles/automotive-glass-inspection-to-body-fit-quality-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
