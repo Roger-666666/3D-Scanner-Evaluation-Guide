@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Camshaft full-field surface deviation map</title>
+  <desc id="desc">A qualitative engineering visualization of a camshaft with color-coded lobe, journal, flange, and shaft surface regions, a reference axis, feature labels, and no measured values.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DEE7EF" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">CAMSHAFT FULL-FIELD DEVIATION REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Conceptual surface map · qualitative direction only · no measured values</text>
+
+    <rect x="72" y="145" width="810" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+    <line x1="112" y1="355" x2="842" y2="355" stroke="#17324D" stroke-width="2" stroke-dasharray="10 7"/>
+    <text x="116" y="343" font-size="12" font-weight="700" fill="#40566F">REFERENCE AXIS</text>
+
+    <g stroke="#17324D" stroke-width="3">
+      <rect x="124" y="333" width="720" height="44" rx="20" fill="#4DBB78"/>
+      <rect x="106" y="326" width="56" height="58" rx="10" fill="#4D9FD2"/>
+      <rect x="818" y="318" width="58" height="74" rx="7" fill="#E8BB3E"/>
+      <rect x="836" y="305" width="30" height="100" rx="5" fill="#E97749"/>
+
+      <g>
+        <path d="M214 354 C190 320 195 278 230 260 C266 272 284 310 265 344 C286 374 276 414 239 432 C201 417 188 381 214 354Z" fill="#2F91CE"/>
+        <path d="M316 354 C291 320 297 277 333 258 C370 271 387 309 367 344 C388 374 378 414 341 434 C302 418 290 380 316 354Z" fill="#72C96A"/>
+        <path d="M420 354 C396 319 401 278 437 260 C474 272 490 309 471 344 C492 374 482 414 445 432 C407 418 394 380 420 354Z" fill="#F1D34A"/>
+        <path d="M524 354 C500 318 505 276 541 257 C579 270 596 309 575 344 C596 375 586 416 549 435 C510 418 498 380 524 354Z" fill="#E97848"/>
+        <path d="M628 354 C604 320 609 278 645 259 C682 272 699 310 679 344 C700 374 690 414 653 433 C615 418 603 380 628 354Z" fill="#D54B4C"/>
+        <path d="M732 354 C708 320 713 279 748 261 C784 273 801 310 782 344 C803 374 793 413 756 431 C718 417 706 380 732 354Z" fill="#4CA9D7"/>
+      </g>
+
+      <g>
+        <rect x="166" y="315" width="37" height="80" rx="8" fill="#58B9A0"/>
+        <rect x="276" y="314" width="35" height="82" rx="8" fill="#5EB8AA"/>
+        <rect x="382" y="314" width="34" height="82" rx="8" fill="#73C66A"/>
+        <rect x="486" y="314" width="34" height="82" rx="8" fill="#F0D04A"/>
+        <rect x="590" y="314" width="34" height="82" rx="8" fill="#66B9A2"/>
+        <rect x="694" y="314" width="34" height="82" rx="8" fill="#4BA8D4"/>
+        <rect x="800" y="314" width="31" height="82" rx="8" fill="#4E9DD0"/>
+      </g>
+    </g>
+
+    <g fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.65">
+      <path d="M222 291 C248 310 252 385 232 410"/>
+      <path d="M326 288 C353 308 357 386 337 411"/>
+      <path d="M430 290 C458 309 461 385 442 410"/>
+      <path d="M534 287 C562 307 565 388 545 413"/>
+      <path d="M638 289 C666 309 669 386 649 411"/>
+      <path d="M742 291 C770 310 773 384 753 409"/>
+    </g>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M216 192 L231 258"/>
+      <path d="M446 188 L445 260"/>
+      <path d="M675 194 L647 258"/>
+      <path d="M807 458 L841 398"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="152" y="184">LOBE SURFACE</text>
+      <text x="381" y="180">PROFILE TRANSITION</text>
+      <text x="615" y="186">LOCAL DEVIATION ZONE</text>
+      <text x="720" y="479">FLANGE / KEY FEATURE</text>
+    </g>
+
+    <text x="108" y="530" font-size="13" fill="#60758A">Visible-surface coverage: lobes · journals · shaft · flange · key and hole entrances</text>
+
+    <rect x="910" y="145" width="216" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="936" y="184" font-size="17" font-weight="700" fill="#17324D">QUALITATIVE LEGEND</text>
+    <text x="936" y="210" font-size="13" fill="#65798C">Project limits are defined</text>
+    <text x="936" y="229" font-size="13" fill="#65798C">by drawing and inspection plan.</text>
+
+    <g font-size="14" fill="#334E68">
+      <rect x="936" y="264" width="24" height="18" rx="2" fill="#D54B4C"/><text x="973" y="278">High positive</text>
+      <rect x="936" y="299" width="24" height="18" rx="2" fill="#E97848"/><text x="973" y="313">Positive trend</text>
+      <rect x="936" y="334" width="24" height="18" rx="2" fill="#F1D34A"/><text x="973" y="348">Transition</text>
+      <rect x="936" y="369" width="24" height="18" rx="2" fill="#4DBB78"/><text x="973" y="383">Near nominal</text>
+      <rect x="936" y="404" width="24" height="18" rx="2" fill="#4CA9D7"/><text x="973" y="418">Negative trend</text>
+      <rect x="936" y="439" width="24" height="18" rx="2" fill="#2F91CE"/><text x="973" y="453">Low negative</text>
+    </g>
+
+    <line x1="936" y1="484" x2="1098" y2="484" stroke="#CCD7E1"/>
+    <line x1="940" y1="516" x2="975" y2="516" stroke="#17324D" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="990" y="521" font-size="13" fill="#334E68">Datum axis</text>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">A deviation map localizes geometric trends; it does not identify root cause by itself.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
