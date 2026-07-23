@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Precision casting full-field deviation map</title>
+  <desc id="desc">A conceptual color deviation map of a complex precision cast housing with flange, ribs, bosses, and mounting features, using a qualitative legend without measured values.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#DEE7EF" stroke-width="1"/>
+    </pattern>
+    <clipPath id="bodyClip">
+      <path d="M171 453L142 379L174 260L272 207L421 216L505 180L669 206L790 291L807 421L736 501L561 516L429 491L305 515Z"/>
+    </clipPath>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">PRECISION CASTING FULL-FIELD DEVIATION REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Conceptual CAD comparison · visible-surface geometry · no measured values</text>
+    <rect x="72" y="145" width="810" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+
+    <g clip-path="url(#bodyClip)">
+      <rect x="120" y="160" width="720" height="380" fill="#4DBB78"/>
+      <path d="M102 188H350L431 348L320 544H100Z" fill="#46A4D5"/>
+      <path d="M346 166H614L679 327L579 540H318L431 348Z" fill="#78C96B"/>
+      <path d="M601 160H849V540H574L679 327Z" fill="#F1D34A"/>
+      <ellipse cx="681" cy="325" rx="108" ry="93" fill="#E97749"/>
+      <ellipse cx="694" cy="327" rx="54" ry="48" fill="#D54B4C"/>
+      <path d="M115 430C286 386 405 433 526 544H107Z" fill="#2F8CC8"/>
+    </g>
+
+    <path d="M171 453L142 379L174 260L272 207L421 216L505 180L669 206L790 291L807 421L736 501L561 516L429 491L305 515Z"
+      fill="none" stroke="#17324D" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M259 428L235 365L265 286L363 258L467 272L523 237L638 257L720 315L728 403L673 452L554 464L454 442L355 465Z"
+      fill="#FFFFFF" fill-opacity="0.22" stroke="#17324D" stroke-width="4" stroke-linejoin="round"/>
+
+    <circle cx="552" cy="352" r="78" fill="#F8FAFC" fill-opacity="0.72" stroke="#17324D" stroke-width="4"/>
+    <circle cx="552" cy="352" r="43" fill="#FFFFFF" fill-opacity="0.62" stroke="#17324D" stroke-width="3"/>
+    <circle cx="307" cy="342" r="39" fill="#FFFFFF" fill-opacity="0.55" stroke="#17324D" stroke-width="3"/>
+    <circle cx="685" cy="369" r="28" fill="#FFFFFF" fill-opacity="0.55" stroke="#17324D" stroke-width="3"/>
+
+    <g stroke="#17324D" stroke-width="4" fill="none">
+      <path d="M351 283L447 432"/>
+      <path d="M420 246L486 447"/>
+      <path d="M627 258L606 449"/>
+      <path d="M272 403L695 410"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#17324D" stroke-width="2">
+      <circle cx="216" cy="294" r="8"/><circle cx="250" cy="459" r="8"/><circle cx="718" cy="256" r="8"/><circle cx="759" cy="443" r="8"/>
+    </g>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M207 177L273 211"/>
+      <path d="M449 171L522 239"/>
+      <path d="M704 175L682 271"/>
+      <path d="M802 522L758 448"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="125" y="169">FLANGE &amp; EDGE</text>
+      <text x="377" y="163">RIB TRANSITION</text>
+      <text x="642" y="167">LOCAL DEVIATION</text>
+      <text x="713" y="543">MOUNTING FEATURE</text>
+    </g>
+
+    <rect x="910" y="145" width="216" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="936" y="184" font-size="17" font-weight="700" fill="#17324D">QUALITATIVE LEGEND</text>
+    <text x="936" y="210" font-size="13" fill="#65798C">Project limits are defined</text>
+    <text x="936" y="229" font-size="13" fill="#65798C">by drawing and process stage.</text>
+    <g font-size="14" fill="#334E68">
+      <rect x="936" y="264" width="24" height="18" rx="2" fill="#D54B4C"/><text x="973" y="278">High positive</text>
+      <rect x="936" y="299" width="24" height="18" rx="2" fill="#E97749"/><text x="973" y="313">Positive trend</text>
+      <rect x="936" y="334" width="24" height="18" rx="2" fill="#F1D34A"/><text x="973" y="348">Transition</text>
+      <rect x="936" y="369" width="24" height="18" rx="2" fill="#4DBB78"/><text x="973" y="383">Near nominal</text>
+      <rect x="936" y="404" width="24" height="18" rx="2" fill="#46A4D5"/><text x="973" y="418">Negative trend</text>
+      <rect x="936" y="439" width="24" height="18" rx="2" fill="#2F8CC8"/><text x="973" y="453">Low negative</text>
+    </g>
+    <line x1="936" y1="486" x2="1098" y2="486" stroke="#CCD7E1"/>
+    <circle cx="946" cy="518" r="7" fill="#FFFFFF" stroke="#17324D" stroke-width="2"/>
+    <text x="965" y="523" font-size="13" fill="#334E68">Feature / datum</text>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">Review focus: freeform surfaces · ribs · bosses · flanges · hole patterns · global distortion</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
