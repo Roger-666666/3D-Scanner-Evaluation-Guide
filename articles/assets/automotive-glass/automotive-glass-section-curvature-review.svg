@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive glass section and curvature review</title>
+  <desc id="desc">A conceptual inspection diagram comparing nominal CAD sections with measured glass sections and identifying edge, sealing, curvature, and transition zones without numeric values.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#DCE5ED" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#3D556D"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">SECTION &amp; CURVATURE CONSISTENCY REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Nominal-to-measured comparison for functional glass regions</text>
+
+    <rect x="72" y="148" width="742" height="406" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+    <line x1="112" y1="505" x2="770" y2="505" stroke="#90A4B7" stroke-width="2"/>
+    <line x1="112" y1="505" x2="112" y2="184" stroke="#90A4B7" stroke-width="2"/>
+
+    <path d="M134 456 C230 444 263 341 366 308 C459 278 522 343 592 294 C650 254 693 196 758 204"
+      fill="none" stroke="#1D5EA8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M134 463 C232 450 272 354 369 317 C455 284 526 353 598 301 C654 261 700 213 758 214"
+      fill="none" stroke="#D7564B" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 8"/>
+
+    <g stroke="#2F86C7" stroke-width="2" opacity="0.8">
+      <line x1="160" y1="430" x2="155" y2="467"/>
+      <line x1="254" y1="366" x2="268" y2="397"/>
+      <line x1="363" y1="297" x2="373" y2="330"/>
+      <line x1="480" y1="301" x2="479" y2="337"/>
+      <line x1="596" y1="281" x2="604" y2="316"/>
+      <line x1="690" y1="211" x2="707" y2="238"/>
+    </g>
+
+    <rect x="138" y="181" width="15" height="46" rx="2" fill="#48B978"/>
+    <rect x="153" y="181" width="96" height="46" rx="2" fill="#6EBBCB"/>
+    <rect x="249" y="181" width="404" height="46" rx="2" fill="#F1CF4A"/>
+    <rect x="653" y="181" width="105" height="46" rx="2" fill="#6EBBCB"/>
+    <text x="448" y="210" text-anchor="middle" font-size="13" font-weight="700" fill="#17324D">SECTION A-A</text>
+
+    <g fill="none" stroke="#3D556D" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M245 270 L292 346"/>
+      <path d="M502 249 L505 321"/>
+      <path d="M724 305 L696 232"/>
+      <path d="M232 493 L151 458"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="162" y="260">CURVATURE TRANSITION</text>
+      <text x="427" y="241">FREEFORM SURFACE</text>
+      <text x="665" y="324">SEALING ZONE</text>
+      <text x="128" y="526">EDGE PROFILE</text>
+    </g>
+
+    <rect x="844" y="148" width="282" height="406" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="872" y="188" font-size="17" font-weight="700" fill="#17324D">REVIEW LOGIC</text>
+
+    <g font-size="14" fill="#334E68">
+      <line x1="873" y1="230" x2="929" y2="230" stroke="#1D5EA8" stroke-width="7" stroke-linecap="round"/>
+      <text x="946" y="235">Nominal CAD</text>
+      <line x1="873" y1="271" x2="929" y2="271" stroke="#D7564B" stroke-width="4" stroke-dasharray="12 8"/>
+      <text x="946" y="276">Measured section</text>
+    </g>
+
+    <line x1="872" y1="306" x2="1099" y2="306" stroke="#CCD7E1"/>
+    <g font-size="14" fill="#334E68">
+      <circle cx="882" cy="343" r="5" fill="#48B978"/><text x="900" y="348">Datum and edge behavior</text>
+      <circle cx="882" cy="383" r="5" fill="#6EBBCB"/><text x="900" y="388">Functional transition zones</text>
+      <circle cx="882" cy="423" r="5" fill="#F1CF4A"/><text x="900" y="428">Primary optical surface</text>
+    </g>
+
+    <rect x="872" y="461" width="226" height="61" rx="4" fill="#EAF2F8" stroke="#C1D3E2"/>
+    <text x="888" y="485" font-size="13" font-weight="700" fill="#29445E">INTERPRET WITH:</text>
+    <text x="888" y="507" font-size="13" fill="#40566F">fixture state · gravity · datum · process</text>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">Section analysis complements the full-field map by revealing local profile and curvature trends.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
