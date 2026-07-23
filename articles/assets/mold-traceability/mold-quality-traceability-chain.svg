@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Precision mold quality traceability chain</title>
+  <desc id="desc">A conceptual quality traceability chain linking design revision, machining, scan data, inspection template, report, decision, and rescan records without numerical claims.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#60758A"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">PRECISION MOLD QUALITY TRACEABILITY CHAIN</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Every result remains linked to revision, method, decision, and verification evidence</text>
+
+    <line x1="128" y1="233" x2="1067" y2="233" stroke="#60758A" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <g>
+      <rect x="86" y="170" width="150" height="126" rx="6" fill="#E9F1F7" stroke="#7C94A9" stroke-width="2"/>
+      <rect x="261" y="170" width="150" height="126" rx="6" fill="#EAF6F0" stroke="#53A97B" stroke-width="2"/>
+      <rect x="436" y="170" width="150" height="126" rx="6" fill="#EAF2F8" stroke="#4D91C5" stroke-width="2"/>
+      <rect x="611" y="170" width="150" height="126" rx="6" fill="#FFF7DF" stroke="#D5A82F" stroke-width="2"/>
+      <rect x="786" y="170" width="150" height="126" rx="6" fill="#FBECE8" stroke="#D56A50" stroke-width="2"/>
+      <rect x="961" y="170" width="150" height="126" rx="6" fill="#EAF6F0" stroke="#53A97B" stroke-width="2"/>
+    </g>
+
+    <g text-anchor="middle">
+      <g fill="#17324D" font-size="15" font-weight="700">
+        <text x="161" y="202">DESIGN RELEASE</text>
+        <text x="336" y="202">MACHINING STATE</text>
+        <text x="511" y="202">RAW 3D DATA</text>
+        <text x="686" y="202">INSPECTION</text>
+        <text x="861" y="202">QUALITY DECISION</text>
+        <text x="1036" y="202">RESCAN &amp; CLOSE</text>
+      </g>
+      <g fill="#40566F" font-size="13">
+        <text x="161" y="232">CAD revision</text><text x="161" y="253">datum plan</text><text x="161" y="274">critical features</text>
+        <text x="336" y="232">process stage</text><text x="336" y="253">fixture ID</text><text x="336" y="274">operator / time</text>
+        <text x="511" y="232">point cloud</text><text x="511" y="253">mesh and photos</text><text x="511" y="274">acquisition log</text>
+        <text x="686" y="232">template revision</text><text x="686" y="253">alignment rules</text><text x="686" y="274">report output</text>
+        <text x="861" y="232">accept / correct</text><text x="861" y="253">owner and action</text><text x="861" y="274">change record</text>
+        <text x="1036" y="232">same method</text><text x="1036" y="253">before / after</text><text x="1036" y="274">closure evidence</text>
+      </g>
+    </g>
+
+    <text x="70" y="352" font-size="17" font-weight="700" fill="#17324D">LINKED EVIDENCE RECORD</text>
+    <rect x="70" y="375" width="1056" height="172" rx="5" fill="#F8FAFC" stroke="#B8C8D8"/>
+
+    <g font-size="13" fill="#334E68">
+      <text x="96" y="411" font-weight="700">RECORD TYPE</text>
+      <text x="294" y="411" font-weight="700">IDENTITY</text>
+      <text x="505" y="411" font-weight="700">METHOD CONTEXT</text>
+      <text x="754" y="411" font-weight="700">DECISION USE</text>
+      <text x="1000" y="411" font-weight="700">STATUS</text>
+    </g>
+    <line x1="94" y1="425" x2="1102" y2="425" stroke="#CCD7E1"/>
+
+    <g font-size="13" fill="#40566F">
+      <text x="96" y="455">CAD + drawing</text><text x="294" y="455">mold / insert / revision</text><text x="505" y="455">datum and tolerance plan</text><text x="754" y="455">inspection definition</text>
+      <text x="96" y="487">Scan dataset</text><text x="294" y="487">part / stage / dataset</text><text x="505" y="487">fixture, surface, alignment</text><text x="754" y="487">deviation evidence</text>
+      <text x="96" y="519">Report + action</text><text x="294" y="519">template / report / owner</text><text x="505" y="519">result and approval context</text><text x="754" y="519">correct, release, or monitor</text>
+    </g>
+
+    <g font-size="12" font-weight="700">
+      <rect x="991" y="440" width="91" height="21" rx="3" fill="#4CB77A"/><text x="1037" y="455" text-anchor="middle" fill="#FFFFFF">LINKED</text>
+      <rect x="991" y="472" width="91" height="21" rx="3" fill="#4D91C5"/><text x="1037" y="487" text-anchor="middle" fill="#FFFFFF">ARCHIVED</text>
+      <rect x="991" y="504" width="91" height="21" rx="3" fill="#D5A82F"/><text x="1037" y="519" text-anchor="middle" fill="#17324D">REVIEWED</text>
+    </g>
+
+    <text x="70" y="604" font-size="14" fill="#40566F">Traceability is a relationship among records, not merely a folder containing inspection images.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
