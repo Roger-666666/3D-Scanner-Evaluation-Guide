@@ -116,6 +116,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 31. [From First-Article Validation to SPC Trends: A Blue-Light 3D Quality Loop for Automotive Camshafts](./articles/automotive-camshaft-first-article-to-spc-quality-loop.md#english-version)
 32. [Industrial Blue-Light 3D Scanning: A Traceable Quality-Control Model for Precision Mold Manufacturers](./articles/precision-mold-blue-light-3d-traceable-quality-control.md#english-version)
 33. [From Design and Machining to Service: A Blue-Light 3D Quality Loop for Precision Molds](./articles/precision-mold-design-machining-service-quality-loop.md#english-version)
+34. [XTOM Industrial Blue-Light 3D Scanning for Precision Casting Inspection](./articles/xtom-blue-light-3d-scanning-precision-casting-inspection.md#english-version)
+35. [From First-Article Validation to Batch Traceability: A Blue-Light 3D Quality Loop for Precision Castings](./articles/precision-casting-first-article-to-batch-quality-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -221,6 +223,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 31. [从首件验证到SPC趋势：蓝光3D扫描如何建立汽车凸轮轴制造质量闭环](./articles/automotive-camshaft-first-article-to-spc-quality-loop.md#chinese-version)
 32. [工业级蓝光三维扫描，助力精密模具制造商构建可溯源质量控制新模式](./articles/precision-mold-blue-light-3d-traceable-quality-control.md#chinese-version)
 33. [从设计、加工到服役：蓝光3D扫描如何建立精密模具全生命周期质量闭环](./articles/precision-mold-design-machining-service-quality-loop.md#chinese-version)
+34. [XTOM工业级蓝光三维扫描仪在精密铸造行业中的应用](./articles/xtom-blue-light-3d-scanning-precision-casting-inspection.md#chinese-version)
+35. [从首件验证到批次追溯：蓝光3D扫描如何建立精密铸件质量闭环](./articles/precision-casting-first-article-to-batch-quality-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
