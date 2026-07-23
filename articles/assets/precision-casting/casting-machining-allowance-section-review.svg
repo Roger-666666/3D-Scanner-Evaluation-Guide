@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Precision casting machining allowance section review</title>
+  <desc id="desc">A conceptual section comparison of an as-cast surface and finished CAD profile, showing qualitative insufficient, nominal, and excess machining allowance zones without measured values.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#DEE7EF" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">CASTING MACHINING-ALLOWANCE SECTION REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">As-cast surface compared with finished CAD · qualitative interpretation</text>
+
+    <rect x="72" y="145" width="742" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+    <line x1="111" y1="505" x2="775" y2="505" stroke="#8CA1B5" stroke-width="2"/>
+    <line x1="111" y1="505" x2="111" y2="184" stroke="#8CA1B5" stroke-width="2"/>
+
+    <path d="M133 442C216 425 244 351 319 325C404 295 464 343 529 305C592 268 642 215 755 224"
+      fill="none" stroke="#1E66A8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M133 458C217 440 250 368 323 339C404 307 466 359 535 318C598 281 653 235 755 239"
+      fill="none" stroke="#D9574D" stroke-width="4" stroke-dasharray="12 8" stroke-linecap="round"/>
+    <path d="M133 442C216 425 244 351 319 325C404 295 464 343 529 305C592 268 642 215 755 224L755 239C653 235 598 281 535 318C466 359 404 307 323 339C250 368 217 440 133 458Z"
+      fill="#E9C440" fill-opacity="0.32"/>
+
+    <path d="M133 442C180 433 208 404 235 374L241 389C214 420 180 450 133 458Z" fill="#D9574D" fill-opacity="0.35"/>
+    <path d="M574 279C632 235 673 217 755 224L755 239C686 237 642 251 582 291Z" fill="#4CB77A" fill-opacity="0.42"/>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M230 224L238 367"/>
+      <path d="M472 205L481 335"/>
+      <path d="M691 183L669 228"/>
+      <path d="M185 490L142 453"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="143" y="216">INSUFFICIENT ZONE</text>
+      <text x="404" y="197">ALLOWANCE TREND</text>
+      <text x="635" y="175">STABLE REGION</text>
+      <text x="122" y="524">EDGE PROFILE</text>
+    </g>
+
+    <rect x="844" y="145" width="282" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="872" y="184" font-size="17" font-weight="700" fill="#17324D">SECTION LOGIC</text>
+    <g font-size="14" fill="#334E68">
+      <line x1="872" y1="230" x2="928" y2="230" stroke="#1E66A8" stroke-width="7" stroke-linecap="round"/>
+      <text x="946" y="235">Finished CAD</text>
+      <line x1="872" y1="271" x2="928" y2="271" stroke="#D9574D" stroke-width="4" stroke-dasharray="12 8"/>
+      <text x="946" y="276">As-cast surface</text>
+    </g>
+    <line x1="872" y1="306" x2="1099" y2="306" stroke="#CCD7E1"/>
+    <g font-size="14" fill="#334E68">
+      <rect x="872" y="336" width="22" height="17" rx="2" fill="#D9574D"/><text x="908" y="350">Insufficient trend</text>
+      <rect x="872" y="375" width="22" height="17" rx="2" fill="#E9C440"/><text x="908" y="389">Review allowance</text>
+      <rect x="872" y="414" width="22" height="17" rx="2" fill="#4CB77A"/><text x="908" y="428">Stable region</text>
+    </g>
+    <rect x="872" y="469" width="226" height="62" rx="4" fill="#EAF2F8" stroke="#C1D3E2"/>
+    <text x="888" y="493" font-size="13" font-weight="700" fill="#29445E">INTERPRET WITH:</text>
+    <text x="888" y="515" font-size="13" fill="#40566F">datum · process stage · shrinkage · fixture</text>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">Allowance analysis supports machining planning; final stock decisions require a controlled datum and process plan.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
