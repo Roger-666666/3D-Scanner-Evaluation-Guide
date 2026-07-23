@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Cam lobe profile and phase review</title>
+  <desc id="desc">A qualitative comparison of nominal and measured cam lobe profiles with base circle, phase reference, opening flank, nose, closing flank, and a profile residual trend chart without numeric values.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#DEE7EF" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">CAM LOBE PROFILE &amp; PHASE REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Nominal-to-measured section comparison · qualitative profile residual</text>
+
+    <rect x="72" y="145" width="500" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+    <line x1="322" y1="175" x2="322" y2="528" stroke="#8CA1B5" stroke-width="2" stroke-dasharray="8 6"/>
+    <line x1="118" y1="414" x2="526" y2="414" stroke="#8CA1B5" stroke-width="2" stroke-dasharray="8 6"/>
+
+    <circle cx="322" cy="414" r="105" fill="#DCE9F3" fill-opacity="0.55" stroke="#6E8AA4" stroke-width="2" stroke-dasharray="7 6"/>
+    <path d="M322 510 C247 510 202 462 210 388 C216 331 260 298 322 208 C385 298 429 331 435 388 C443 462 397 510 322 510Z"
+      fill="#5DA9D6" fill-opacity="0.24" stroke="#1E66A8" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M322 504 C252 504 210 459 217 391 C222 338 264 303 329 219 C389 303 421 339 428 391 C435 459 393 504 322 504Z"
+      fill="none" stroke="#D9574D" stroke-width="4" stroke-dasharray="12 8" stroke-linejoin="round"/>
+
+    <line x1="322" y1="414" x2="322" y2="226" stroke="#E4B437" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M322 270 A144 144 0 0 1 356 274" fill="none" stroke="#2EAD73" stroke-width="5"/>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M151 260 L246 333"/>
+      <path d="M407 177 L340 222"/>
+      <path d="M500 290 L407 335"/>
+      <path d="M170 500 L243 474"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="108" y="250">OPENING FLANK</text>
+      <text x="392" y="168">NOSE REGION</text>
+      <text x="442" y="281">CLOSING FLANK</text>
+      <text x="112" y="521">BASE CIRCLE</text>
+      <text x="338" y="301" fill="#8A6A0A">LIFT DIRECTION</text>
+      <text x="355" y="268" fill="#21855B">PHASE REFERENCE</text>
+    </g>
+
+    <rect x="604" y="145" width="522" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="634" y="184" font-size="17" font-weight="700" fill="#17324D">PROFILE RESIDUAL TREND</text>
+    <text x="634" y="208" font-size="13" fill="#65798C">Section sampled around the lobe surface</text>
+
+    <rect x="636" y="238" width="456" height="230" rx="3" fill="#FFFFFF" stroke="#C5D3DF"/>
+    <line x1="665" y1="353" x2="1065" y2="353" stroke="#8399AD" stroke-width="2"/>
+    <line x1="665" y1="267" x2="665" y2="440" stroke="#8399AD" stroke-width="2"/>
+    <path d="M665 350 C710 347 735 317 772 326 C812 336 829 381 869 373 C910 365 931 298 972 314 C1012 330 1023 365 1065 356"
+      fill="none" stroke="#D9574D" stroke-width="5" stroke-linecap="round"/>
+    <path d="M665 353 C720 353 760 353 810 353 C860 353 920 353 970 353 C1010 353 1040 353 1065 353"
+      fill="none" stroke="#1E66A8" stroke-width="3" stroke-dasharray="10 7"/>
+
+    <g stroke="#D5E0E8" stroke-width="1">
+      <line x1="760" y1="267" x2="760" y2="440"/>
+      <line x1="865" y1="267" x2="865" y2="440"/>
+      <line x1="970" y1="267" x2="970" y2="440"/>
+    </g>
+    <g font-size="12" font-weight="700" fill="#60758A">
+      <text x="693" y="461">OPENING</text>
+      <text x="842" y="461">NOSE</text>
+      <text x="987" y="461">CLOSING</text>
+    </g>
+
+    <g font-size="13" fill="#334E68">
+      <line x1="650" y1="508" x2="695" y2="508" stroke="#1E66A8" stroke-width="5"/>
+      <text x="708" y="513">Nominal profile</text>
+      <line x1="829" y1="508" x2="874" y2="508" stroke="#D9574D" stroke-width="4" stroke-dasharray="10 7"/>
+      <text x="888" y="513">Measured profile</text>
+    </g>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">Profile and phase results depend on complete coverage, datum construction, and validated fitting rules.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
