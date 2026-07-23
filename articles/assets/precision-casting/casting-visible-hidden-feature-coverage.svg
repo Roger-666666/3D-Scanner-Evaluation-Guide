@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Precision casting visible and hidden feature coverage</title>
+  <desc id="desc">A conceptual section of a precision casting that distinguishes optically visible surfaces, occluded deep-cavity regions, probe-access points, and internal material zones requiring separate inspection.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#DEE7EF" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="675" fill="#F5F8FB"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C9D6E3" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="82" font-size="26" font-weight="700" fill="#17324D">VISIBLE &amp; HIDDEN FEATURE COVERAGE REVIEW</text>
+    <text x="70" y="112" font-size="15" fill="#60758A">Define what optical scanning measures and where supplemental methods are required</text>
+
+    <rect x="72" y="145" width="760" height="420" rx="4" fill="url(#grid)" stroke="#B8C8D8"/>
+    <path d="M144 460V236H261V291H351V219H494V291H583V236H759V460H639V350H560V443H437V350H314V443H234V460Z"
+      fill="#DCE5EC" stroke="#4D6275" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M147 236H258V294H352V222H491V294H586V239H756" fill="none" stroke="#2CAD73" stroke-width="9" stroke-linecap="round"/>
+    <path d="M239 460V353H310V446" fill="none" stroke="#2CAD73" stroke-width="9"/>
+    <path d="M642 460V353H564V446" fill="none" stroke="#2CAD73" stroke-width="9"/>
+
+    <path d="M352 294V222H491V294" fill="none" stroke="#E6B63D" stroke-width="9"/>
+    <path d="M437 350V443H560V350" fill="none" stroke="#91A3B3" stroke-width="10" stroke-dasharray="12 8"/>
+
+    <ellipse cx="498" cy="393" rx="35" ry="22" fill="#F1D6D2" stroke="#D9574D" stroke-width="3" stroke-dasharray="7 5"/>
+    <text x="498" y="398" text-anchor="middle" font-size="12" font-weight="700" fill="#A23C36">INTERNAL</text>
+
+    <g fill="#FFFFFF" stroke="#1E66A8" stroke-width="3">
+      <circle cx="352" cy="294" r="7"/><circle cx="491" cy="294" r="7"/><circle cx="437" cy="350" r="7"/><circle cx="560" cy="350" r="7"/>
+    </g>
+
+    <g fill="none" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M196 184L238 233"/>
+      <path d="M426 174L427 228"/>
+      <path d="M681 184L570 350"/>
+      <path d="M730 499L535 407"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#29445E">
+      <text x="119" y="176">OPTICALLY VISIBLE</text>
+      <text x="365" y="166">DEEP-CAVITY REVIEW</text>
+      <text x="628" y="176">PROBE ACCESS POINT</text>
+      <text x="626" y="520">INTERNAL MATERIAL ZONE</text>
+    </g>
+
+    <rect x="862" y="145" width="264" height="420" rx="4" fill="#F8FAFC" stroke="#B8C8D8"/>
+    <text x="889" y="184" font-size="17" font-weight="700" fill="#17324D">COVERAGE LEGEND</text>
+    <g font-size="14" fill="#334E68">
+      <line x1="889" y1="231" x2="934" y2="231" stroke="#2CAD73" stroke-width="9"/><text x="950" y="236">Optical surface</text>
+      <line x1="889" y1="274" x2="934" y2="274" stroke="#E6B63D" stroke-width="9"/><text x="950" y="279">Review / occlusion</text>
+      <line x1="889" y1="317" x2="934" y2="317" stroke="#91A3B3" stroke-width="9" stroke-dasharray="11 7"/><text x="950" y="322">Hidden surface</text>
+      <circle cx="911" cy="361" r="7" fill="#FFFFFF" stroke="#1E66A8" stroke-width="3"/><text x="950" y="366">Probe point</text>
+      <ellipse cx="911" cy="405" rx="16" ry="10" fill="#F1D6D2" stroke="#D9574D" stroke-width="2"/><text x="950" y="410">Separate NDT</text>
+    </g>
+    <line x1="889" y1="447" x2="1098" y2="447" stroke="#CCD7E1"/>
+    <text x="889" y="477" font-size="13" font-weight="700" fill="#29445E">METHOD BOUNDARY</text>
+    <text x="889" y="500" font-size="13" fill="#40566F">Surface geometry is not</text>
+    <text x="889" y="520" font-size="13" fill="#40566F">internal porosity or crack data.</text>
+
+    <text x="72" y="604" font-size="14" fill="#40566F">A complete inspection plan combines optical coverage with probes or other methods where function requires.</text>
+    <text x="1128" y="604" text-anchor="end" font-size="13" fill="#72869A">ENGINEERING ILLUSTRATION</text>
+  </g>
+</svg>
