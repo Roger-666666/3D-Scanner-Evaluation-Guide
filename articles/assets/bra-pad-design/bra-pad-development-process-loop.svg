@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bra pad development and process verification loop</title>
+  <desc id="desc">A process diagram from design intent and master sample through tooling, forming, 3D geometry review, wear validation, and controlled iteration.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#385876"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F4F7FA"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C8D7E6" stroke-width="2"/>
+
+  <text x="70" y="82" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#102F52">BRA PAD DEVELOPMENT &amp; PROCESS VERIFICATION LOOP</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="15" fill="#49657F">Geometry evidence connects design, tooling, forming, fit validation, and controlled iteration</text>
+
+  <g stroke="#385876" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M245 242H331"/>
+    <path d="M509 242H595"/>
+    <path d="M773 242H859"/>
+    <path d="M949 320V401"/>
+    <path d="M859 488H773"/>
+    <path d="M595 488H509"/>
+    <path d="M331 488H245"/>
+    <path d="M155 401V320"/>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="65" y="167" width="180" height="153" rx="6" fill="#E8F1F7" stroke="#8FB0C9" stroke-width="2"/>
+    <text x="90" y="202" font-size="15" font-weight="700" fill="#14375B">DESIGN INTENT</text>
+    <path d="M96 262C114 226 146 218 179 228C207 237 222 259 225 284C197 294 168 299 135 299C117 299 102 293 90 283C89 276 91 269 96 262Z" fill="#52A7CD" stroke="#173C61" stroke-width="2"/>
+    <text x="90" y="306" font-size="12" fill="#49657F">landmarks · size logic · use case</text>
+
+    <rect x="331" y="167" width="178" height="153" rx="6" fill="#EEF8F3" stroke="#7FB7A7" stroke-width="2"/>
+    <text x="353" y="202" font-size="15" font-weight="700" fill="#14375B">MASTER BASELINE</text>
+    <path d="M362 273C386 230 429 218 470 238C487 247 496 261 498 281C457 294 410 297 369 288Z" fill="#76C7BA" stroke="#173C61" stroke-width="2"/>
+    <circle cx="413" cy="256" r="4" fill="#FFFFFF" stroke="#173C61"/>
+    <circle cx="456" cy="274" r="4" fill="#FFFFFF" stroke="#173C61"/>
+    <text x="353" y="306" font-size="12" fill="#49657F">sample state · scan · CAD revision</text>
+
+    <rect x="595" y="167" width="178" height="153" rx="6" fill="#FFF8DE" stroke="#D6B84B" stroke-width="2"/>
+    <text x="622" y="202" font-size="15" font-weight="700" fill="#14375B">TOOLING LOGIC</text>
+    <path d="M622 274C649 235 694 225 735 243C752 251 760 264 762 281" fill="none" stroke="#D9A72E" stroke-width="7"/>
+    <path d="M622 287C657 302 709 301 762 281" fill="none" stroke="#173C61" stroke-width="3"/>
+    <text x="622" y="306" font-size="12" fill="#49657F">upper/lower tool · compensation</text>
+
+    <rect x="859" y="167" width="180" height="153" rx="6" fill="#FDEFEA" stroke="#D99A7B" stroke-width="2"/>
+    <text x="884" y="202" font-size="15" font-weight="700" fill="#14375B">FORMED SAMPLE</text>
+    <path d="M888 273C912 230 955 219 997 238C1017 247 1028 264 1028 284C989 296 938 299 895 288Z" fill="#EF7E55" stroke="#173C61" stroke-width="2"/>
+    <path d="M906 279C942 268 979 268 1014 280" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="884" y="306" font-size="12" fill="#49657F">support state · process identity</text>
+
+    <rect x="859" y="401" width="180" height="153" rx="6" fill="#EDF4FA" stroke="#8FB0C9" stroke-width="2"/>
+    <text x="879" y="436" font-size="15" font-weight="700" fill="#14375B">3D GEOMETRY REVIEW</text>
+    <path d="M884 510C908 461 952 451 998 470C1017 478 1028 491 1031 510C992 528 934 532 889 520Z" fill="#57BC76" stroke="#173C61" stroke-width="2"/>
+    <ellipse cx="961" cy="486" rx="31" ry="21" fill="#F1D34F"/>
+    <text x="879" y="540" font-size="12" fill="#49657F">sections · curvature · deviation</text>
+
+    <rect x="595" y="401" width="178" height="153" rx="6" fill="#F5F0FA" stroke="#AB93C1" stroke-width="2"/>
+    <text x="621" y="436" font-size="15" font-weight="700" fill="#14375B">WEAR VALIDATION</text>
+    <circle cx="650" cy="488" r="26" fill="#B49ACB" stroke="#173C61" stroke-width="2"/>
+    <path d="M682 511C698 470 728 457 756 470" fill="none" stroke="#173C61" stroke-width="5"/>
+    <text x="621" y="540" font-size="12" fill="#49657F">fit panel · pressure · user feedback</text>
+
+    <rect x="331" y="401" width="178" height="153" rx="6" fill="#FFF3F3" stroke="#D49A9E" stroke-width="2"/>
+    <text x="355" y="436" font-size="15" font-weight="700" fill="#14375B">CAUSE REVIEW</text>
+    <line x1="367" y1="475" x2="474" y2="475" stroke="#D95059" stroke-width="4"/>
+    <line x1="367" y1="494" x2="448" y2="494" stroke="#F1D34F" stroke-width="4"/>
+    <line x1="367" y1="513" x2="487" y2="513" stroke="#57BC76" stroke-width="4"/>
+    <text x="355" y="540" font-size="12" fill="#49657F">geometry · material · process · fit</text>
+
+    <rect x="65" y="401" width="180" height="153" rx="6" fill="#EAF7F6" stroke="#75B8B0" stroke-width="2"/>
+    <text x="90" y="436" font-size="15" font-weight="700" fill="#14375B">CONTROLLED UPDATE</text>
+    <path d="M104 492A42 42 0 1 1 174 521" fill="none" stroke="#2F9D92" stroke-width="7"/>
+    <path d="M172 503L181 525L158 522Z" fill="#2F9D92"/>
+    <text x="90" y="540" font-size="12" fill="#49657F">revision · trial · re-scan · release</text>
+  </g>
+
+  <rect x="261" y="348" width="678" height="31" rx="4" fill="#E9F1F7"/>
+  <text x="286" y="369" font-family="Arial, sans-serif" font-size="13" fill="#264866">Traceability: part state · support · side · CAD · material lot · process · report · decision</text>
+
+  <text x="70" y="605" font-family="Arial, sans-serif" font-size="14" fill="#264866">3D scanning controls geometric evidence; comfort and personalization require body-fit, material, and wear validation.</text>
+  <text x="941" y="605" font-family="Arial, sans-serif" font-size="13" fill="#6A8097">ENGINEERING ILLUSTRATION</text>
+</svg>
