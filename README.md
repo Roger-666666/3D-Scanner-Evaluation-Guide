@@ -118,6 +118,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 33. [From Design and Machining to Service: A Blue-Light 3D Quality Loop for Precision Molds](./articles/precision-mold-design-machining-service-quality-loop.md#english-version)
 34. [XTOM Industrial Blue-Light 3D Scanning for Precision Casting Inspection](./articles/xtom-blue-light-3d-scanning-precision-casting-inspection.md#english-version)
 35. [From First-Article Validation to Batch Traceability: A Blue-Light 3D Quality Loop for Precision Castings](./articles/precision-casting-first-article-to-batch-quality-loop.md#english-version)
+36. [Blue-Light 3D Scanning for Bra Pad Design and Process Optimization: Toward Precise, Comfortable, and Personalized Fit](./articles/bra-pad-blue-light-3d-scanning-design-process-optimization.md#english-version)
+37. [From Master Digitization to Production Review: A Blue-Light 3D Development and Process Loop for Bra Pads](./articles/bra-pad-master-to-production-development-quality-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -225,6 +227,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 33. [从设计、加工到服役：蓝光3D扫描如何建立精密模具全生命周期质量闭环](./articles/precision-mold-design-machining-service-quality-loop.md#chinese-version)
 34. [XTOM工业级蓝光三维扫描仪在精密铸造行业中的应用](./articles/xtom-blue-light-3d-scanning-precision-casting-inspection.md#chinese-version)
 35. [从首件验证到批次追溯：蓝光3D扫描如何建立精密铸件质量闭环](./articles/precision-casting-first-article-to-batch-quality-loop.md#chinese-version)
+36. [蓝光三维扫描技术赋能内衣胸垫设计与工艺优化：打造精准、舒适、个性化穿戴体验](./articles/bra-pad-blue-light-3d-scanning-design-process-optimization.md#chinese-version)
+37. [从母版数字化到量产复核：蓝光3D扫描如何建立内衣胸垫研发与工艺闭环](./articles/bra-pad-master-to-production-development-quality-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
