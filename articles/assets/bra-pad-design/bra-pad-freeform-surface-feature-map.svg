@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bra pad freeform surface feature map</title>
+  <desc id="desc">An engineering illustration of a bra pad surface with apex, rim, neckline, underbust curve, support zone, and qualitative section curves.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#DFE8F0" stroke-width="1"/>
+    </pattern>
+    <clipPath id="cupClip">
+      <path d="M182 439C149 379 160 304 209 246C265 180 359 158 474 174C578 189 672 245 728 337C754 380 759 419 741 461C682 490 604 509 516 520C398 535 279 510 182 439Z"/>
+    </clipPath>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F4F7FA"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C8D7E6" stroke-width="2"/>
+
+  <text x="70" y="82" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#102F52">BRA PAD FREEFORM SURFACE FEATURE MAP</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="15" fill="#49657F">Geometry captured in a defined support state · qualitative engineering view</text>
+
+  <rect x="72" y="145" width="735" height="420" rx="5" fill="url(#grid)" stroke="#C8D7E6"/>
+
+  <g clip-path="url(#cupClip)">
+    <rect x="140" y="150" width="650" height="390" fill="#D8EDF2"/>
+    <path d="M145 448C265 408 417 377 760 357V510H145Z" fill="#76C7BA"/>
+    <path d="M164 382C286 325 430 276 743 272L760 365C503 351 312 388 171 449Z" fill="#F2CD52"/>
+    <path d="M214 255C320 172 483 155 623 215C553 224 490 254 437 304C364 363 276 386 166 389C152 340 170 291 214 255Z" fill="#52A7CD"/>
+    <ellipse cx="503" cy="286" rx="132" ry="104" fill="#EF7E55" opacity="0.88"/>
+    <ellipse cx="503" cy="286" rx="70" ry="54" fill="#D95059" opacity="0.74"/>
+
+    <path d="M189 430C291 395 407 378 526 376C622 374 695 388 746 411" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+    <path d="M188 379C290 342 403 326 520 329C615 330 690 348 739 374" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+    <path d="M203 323C306 286 411 275 516 286C602 295 665 315 715 348" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+    <path d="M240 254C325 229 410 228 497 249C571 267 623 292 665 326" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.85"/>
+
+    <path d="M274 183C302 281 322 388 326 510" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+    <path d="M375 169C390 273 397 386 395 528" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+    <path d="M474 174C477 281 474 399 470 526" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+    <path d="M573 196C565 291 553 400 544 518" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+    <path d="M660 245C642 322 623 411 613 503" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.75"/>
+  </g>
+
+  <path d="M182 439C149 379 160 304 209 246C265 180 359 158 474 174C578 189 672 245 728 337C754 380 759 419 741 461C682 490 604 509 516 520C398 535 279 510 182 439Z" fill="none" stroke="#173C61" stroke-width="5"/>
+
+  <circle cx="503" cy="286" r="7" fill="#FFFFFF" stroke="#173C61" stroke-width="3"/>
+  <circle cx="182" cy="439" r="6" fill="#FFFFFF" stroke="#173C61" stroke-width="3"/>
+  <circle cx="741" cy="461" r="6" fill="#FFFFFF" stroke="#173C61" stroke-width="3"/>
+
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#14375B" stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="484" y1="160" x2="500" y2="276"/>
+    <line x1="269" y1="135" x2="328" y2="181"/>
+    <line x1="154" y1="513" x2="189" y2="449"/>
+    <line x1="687" y1="533" x2="734" y2="467"/>
+    <line x1="698" y1="181" x2="623" y2="322"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#14375B">
+    <text x="444" y="151">APEX REGION</text>
+    <text x="205" y="129">NECKLINE CURVE</text>
+    <text x="88" y="535">INNER RIM</text>
+    <text x="646" y="554">OUTER RIM</text>
+    <text x="657" y="172">SUPPORT ZONE</text>
+  </g>
+
+  <rect x="837" y="145" width="289" height="420" rx="5" fill="#F7FAFC" stroke="#C8D7E6"/>
+  <text x="869" y="186" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102F52">GEOMETRY LAYERS</text>
+
+  <rect x="869" y="220" width="26" height="18" rx="2" fill="#D95059"/>
+  <text x="914" y="235" font-family="Arial, sans-serif" font-size="14" fill="#264866">Apex curvature</text>
+  <rect x="869" y="259" width="26" height="18" rx="2" fill="#EF7E55"/>
+  <text x="914" y="274" font-family="Arial, sans-serif" font-size="14" fill="#264866">Transition surface</text>
+  <rect x="869" y="298" width="26" height="18" rx="2" fill="#F2CD52"/>
+  <text x="914" y="313" font-family="Arial, sans-serif" font-size="14" fill="#264866">Upper contour zone</text>
+  <rect x="869" y="337" width="26" height="18" rx="2" fill="#76C7BA"/>
+  <text x="914" y="352" font-family="Arial, sans-serif" font-size="14" fill="#264866">Underbust support</text>
+  <rect x="869" y="376" width="26" height="18" rx="2" fill="#52A7CD"/>
+  <text x="914" y="391" font-family="Arial, sans-serif" font-size="14" fill="#264866">Neckline transition</text>
+
+  <line x1="869" y1="424" x2="1095" y2="424" stroke="#D5E1EB" stroke-width="2"/>
+  <text x="869" y="456" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#14375B">REVIEW WITH</text>
+  <text x="869" y="486" font-family="Arial, sans-serif" font-size="14" fill="#264866">sections · curvature · rim profile</text>
+  <text x="869" y="510" font-family="Arial, sans-serif" font-size="14" fill="#264866">symmetry · design landmarks</text>
+  <text x="869" y="534" font-family="Arial, sans-serif" font-size="14" fill="#264866">support and gravity recorded</text>
+
+  <text x="72" y="605" font-family="Arial, sans-serif" font-size="14" fill="#264866">A scan records surface geometry in the measured state; comfort and support require separate wear and material validation.</text>
+  <text x="941" y="605" font-family="Arial, sans-serif" font-size="13" fill="#6A8097">ENGINEERING ILLUSTRATION</text>
+</svg>
