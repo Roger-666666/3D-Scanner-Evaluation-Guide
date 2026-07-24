@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bra pad qualitative CAD deviation map</title>
+  <desc id="desc">A conceptual bra pad deviation map comparing a measured surface with a design reference, using qualitative colors and no measured values.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#DFE8F0" stroke-width="1"/>
+    </pattern>
+    <clipPath id="cupClip">
+      <path d="M169 439C146 362 175 281 244 222C320 157 438 153 550 190C646 222 721 286 760 372C776 407 777 440 760 470C686 504 595 522 493 528C366 535 250 505 169 439Z"/>
+    </clipPath>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F4F7FA"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C8D7E6" stroke-width="2"/>
+
+  <text x="70" y="82" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#102F52">BRA PAD CAD DEVIATION REVIEW</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="15" fill="#49657F">Conceptual comparison · controlled support and alignment · no measured values</text>
+
+  <rect x="72" y="145" width="760" height="420" rx="5" fill="url(#grid)" stroke="#C8D7E6"/>
+
+  <g clip-path="url(#cupClip)">
+    <rect x="140" y="145" width="650" height="400" fill="#4AA6CC"/>
+    <path d="M130 465C246 394 360 382 475 419C573 450 666 456 805 408V545H130Z" fill="#2B83BC"/>
+    <path d="M127 400C258 336 389 326 512 360C611 388 698 391 792 358L807 456C686 498 577 490 477 456C358 414 250 431 154 486Z" fill="#57BC76"/>
+    <path d="M164 320C292 263 411 261 521 296C620 328 694 327 766 299L791 381C688 416 596 408 504 378C391 341 277 352 148 417Z" fill="#F1D34F"/>
+    <path d="M221 230C314 165 453 152 568 199C640 229 694 269 737 321C658 336 588 324 515 300C412 265 309 269 173 329C180 289 195 258 221 230Z" fill="#EE7B4F"/>
+    <ellipse cx="493" cy="263" rx="128" ry="88" fill="#D84F58" opacity="0.86"/>
+    <ellipse cx="493" cy="263" rx="61" ry="43" fill="#B83D55" opacity="0.82"/>
+
+    <path d="M186 443C285 397 395 382 511 399C610 414 682 436 756 461" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.78"/>
+    <path d="M173 385C278 337 395 325 513 347C606 365 683 383 768 402" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.78"/>
+    <path d="M191 319C299 279 406 274 514 300C601 321 668 333 741 335" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.78"/>
+    <path d="M248 229C337 204 432 207 522 239C588 262 641 283 692 296" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.78"/>
+  </g>
+
+  <path d="M169 439C146 362 175 281 244 222C320 157 438 153 550 190C646 222 721 286 760 372C776 407 777 440 760 470C686 504 595 522 493 528C366 535 250 505 169 439Z" fill="none" stroke="#173C61" stroke-width="5"/>
+
+  <g fill="#FFFFFF" stroke="#173C61" stroke-width="3">
+    <circle cx="493" cy="263" r="7"/>
+    <circle cx="169" cy="439" r="6"/>
+    <circle cx="760" cy="470" r="6"/>
+    <circle cx="258" cy="234" r="6"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#14375B">
+    <text x="433" y="145">APEX SHIFT</text>
+    <text x="104" y="525">RIM PROFILE</text>
+    <text x="665" y="535">EDGE RETURN</text>
+    <text x="213" y="188">NECKLINE</text>
+  </g>
+  <g stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="480" y1="153" x2="491" y2="252"/>
+    <line x1="148" y1="508" x2="170" y2="449"/>
+    <line x1="705" y1="517" x2="754" y2="478"/>
+    <line x1="255" y1="196" x2="259" y2="225"/>
+  </g>
+
+  <rect x="862" y="145" width="264" height="420" rx="5" fill="#F7FAFC" stroke="#C8D7E6"/>
+  <text x="891" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102F52">QUALITATIVE LEGEND</text>
+  <text x="891" y="215" font-family="Arial, sans-serif" font-size="13" fill="#49657F">Project limits come from the</text>
+  <text x="891" y="235" font-family="Arial, sans-serif" font-size="13" fill="#49657F">approved design and method.</text>
+
+  <rect x="891" y="268" width="25" height="18" rx="2" fill="#B83D55"/>
+  <text x="935" y="282" font-family="Arial, sans-serif" font-size="14" fill="#264866">High positive</text>
+  <rect x="891" y="306" width="25" height="18" rx="2" fill="#EE7B4F"/>
+  <text x="935" y="320" font-family="Arial, sans-serif" font-size="14" fill="#264866">Positive trend</text>
+  <rect x="891" y="344" width="25" height="18" rx="2" fill="#F1D34F"/>
+  <text x="935" y="358" font-family="Arial, sans-serif" font-size="14" fill="#264866">Transition</text>
+  <rect x="891" y="382" width="25" height="18" rx="2" fill="#57BC76"/>
+  <text x="935" y="396" font-family="Arial, sans-serif" font-size="14" fill="#264866">Near reference</text>
+  <rect x="891" y="420" width="25" height="18" rx="2" fill="#4AA6CC"/>
+  <text x="935" y="434" font-family="Arial, sans-serif" font-size="14" fill="#264866">Negative trend</text>
+  <rect x="891" y="458" width="25" height="18" rx="2" fill="#2B83BC"/>
+  <text x="935" y="472" font-family="Arial, sans-serif" font-size="14" fill="#264866">Low negative</text>
+
+  <line x1="891" y1="501" x2="1097" y2="501" stroke="#D5E1EB" stroke-width="2"/>
+  <text x="891" y="531" font-family="Arial, sans-serif" font-size="13" fill="#264866">Confirm datum · support · side</text>
+  <text x="72" y="605" font-family="Arial, sans-serif" font-size="14" fill="#264866">A deviation map supports localization; it does not by itself prove material behavior, fit, comfort, or process root cause.</text>
+  <text x="941" y="605" font-family="Arial, sans-serif" font-size="13" fill="#6A8097">ENGINEERING ILLUSTRATION</text>
+</svg>
