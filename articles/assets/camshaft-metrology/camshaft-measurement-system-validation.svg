@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Camshaft 3D measurement-system validation</title>
+  <desc id="desc">A workflow for system check, repeated scan, repeated placement, reprocessing, reference correlation, and controlled release.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07141d"/>
+      <stop offset="1" stop-color="#14313c"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#75d9dc"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="66" y="70" fill="#f3fbfc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Camshaft 3D Measurement-System Validation</text>
+  <text x="66" y="106" fill="#99bdc5" font-family="Arial, sans-serif" font-size="18">Validate the method at feature level before using scan data for production decisions</text>
+
+  <g stroke="#75d9dc" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M292 238H404"/>
+    <path d="M612 238H724"/>
+    <path d="M932 238C1046 238 1068 318 1068 360"/>
+    <path d="M1038 486H926"/>
+    <path d="M718 486H606"/>
+    <path d="M398 486H286"/>
+    <path d="M172 442C128 412 130 320 174 280"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g><rect x="84" y="178" width="208" height="124" rx="8" fill="#0d2933" stroke="#2cc7d7" stroke-width="2"/><text x="112" y="218" fill="#ecfbfd" font-size="21" font-weight="700">System Check</text><text x="112" y="252" fill="#acd0d6" font-size="16">approved reference</text><text x="112" y="278" fill="#70dfe8" font-size="14" font-weight="700">STATUS</text></g>
+    <g><rect x="404" y="178" width="208" height="124" rx="8" fill="#0d2933" stroke="#63d4ad" stroke-width="2"/><text x="432" y="218" fill="#ecfbfd" font-size="21" font-weight="700">Repeated Scan</text><text x="432" y="252" fill="#acd0d6" font-size="16">same part, same setup</text><text x="432" y="278" fill="#84e7bb" font-size="14" font-weight="700">SHORT-TERM STABILITY</text></g>
+    <g><rect x="724" y="178" width="208" height="124" rx="8" fill="#0d2933" stroke="#f1c75d" stroke-width="2"/><text x="752" y="218" fill="#ecfbfd" font-size="21" font-weight="700">Repeated Placement</text><text x="752" y="252" fill="#acd0d6" font-size="16">reload fixture and part</text><text x="752" y="278" fill="#f5d57b" font-size="14" font-weight="700">REPRODUCIBILITY</text></g>
+    <g><rect x="830" y="424" width="208" height="124" rx="8" fill="#0d2933" stroke="#e6916a" stroke-width="2"/><text x="858" y="464" fill="#ecfbfd" font-size="21" font-weight="700">Reprocessing</text><text x="858" y="498" fill="#acd0d6" font-size="16">alignment and feature rules</text><text x="858" y="524" fill="#f0a786" font-size="14" font-weight="700">SOFTWARE SENSITIVITY</text></g>
+    <g><rect x="510" y="424" width="208" height="124" rx="8" fill="#0d2933" stroke="#b79ae4" stroke-width="2"/><text x="538" y="464" fill="#ecfbfd" font-size="21" font-weight="700">Reference Correlation</text><text x="538" y="498" fill="#acd0d6" font-size="16">dedicated or contact method</text><text x="538" y="524" fill="#cdb6ee" font-size="14" font-weight="700">AGREEMENT</text></g>
+    <g><rect x="190" y="424" width="208" height="124" rx="8" fill="#0d2933" stroke="#68bddb" stroke-width="2"/><text x="218" y="464" fill="#ecfbfd" font-size="21" font-weight="700">Controlled Release</text><text x="218" y="498" fill="#acd0d6" font-size="16">recipe, scope, exceptions</text><text x="218" y="524" fill="#82cde5" font-size="14" font-weight="700">QUALIFIED METHOD</text></g>
+  </g>
+
+  <rect x="66" y="620" width="1148" height="62" rx="8" fill="#0d2731" stroke="#355d67"/>
+  <text x="96" y="646" fill="#f0f8f9" font-family="Arial, sans-serif" font-size="17" font-weight="700">Feature-level review:</text>
+  <text x="96" y="670" fill="#abcbd1" font-family="Arial, sans-serif" font-size="16">journal axis, lobe profile, relative phase, flange, keyway, coverage quality, and uncertainty statement</text>
+</svg>
