@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Complex injection molded part 3D inspection operation workflow</title>
+  <desc id="desc">A six-stage engineering workflow covering part state, fixture, coverage planning, multi-side acquisition, mesh integrity, CAD alignment, and reporting.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#3B5873"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F4F7FA"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C8D7E6" stroke-width="2"/>
+  <text x="70" y="82" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#102F52">COMPLEX INJECTION PART 3D INSPECTION WORKFLOW</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="15" fill="#49657F">A repeatable operation depends on part state, coverage evidence, alignment logic, and report control</text>
+
+  <g stroke="#3B5873" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M239 244H285"/>
+    <path d="M459 244H505"/>
+    <path d="M679 244H725"/>
+    <path d="M899 244H945"/>
+    <path d="M1035 316V389"/>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="65" y="158" width="174" height="158" rx="6" fill="#EAF3F9" stroke="#8EB0C8" stroke-width="2"/>
+    <rect x="82" y="174" width="35" height="25" rx="3" fill="#247FC1"/>
+    <text x="91" y="192" font-size="13" font-weight="700" fill="#FFFFFF">A</text>
+    <text x="82" y="224" font-size="15" font-weight="700" fill="#14375B">STATE &amp; CLEAN</text>
+    <path d="M87 274H214L202 288H99Z" fill="#52A7CD" stroke="#173C61" stroke-width="2"/>
+    <circle cx="115" cy="266" r="6" fill="#FFFFFF" stroke="#173C61" stroke-width="2"/>
+    <circle cx="183" cy="266" r="6" fill="#FFFFFF" stroke="#173C61" stroke-width="2"/>
+    <text x="82" y="302" font-size="12" fill="#49657F">part ID · conditioning · surface</text>
+
+    <rect x="285" y="158" width="174" height="158" rx="6" fill="#EFF8F4" stroke="#82B7A8" stroke-width="2"/>
+    <rect x="302" y="174" width="35" height="25" rx="3" fill="#2F9D92"/>
+    <text x="311" y="192" font-size="13" font-weight="700" fill="#FFFFFF">B</text>
+    <text x="302" y="224" font-size="15" font-weight="700" fill="#14375B">LOW-STRESS FIXTURE</text>
+    <path d="M310 275H434L423 288H321Z" fill="#76C7BA" stroke="#173C61" stroke-width="2"/>
+    <path d="M335 287V299M408 287V299" stroke="#173C61" stroke-width="4"/>
+    <text x="302" y="302" font-size="12" fill="#49657F">stable support · functional access</text>
+
+    <rect x="505" y="158" width="174" height="158" rx="6" fill="#FFF8E3" stroke="#D4B649" stroke-width="2"/>
+    <rect x="522" y="174" width="35" height="25" rx="3" fill="#D9A72E"/>
+    <text x="531" y="192" font-size="13" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="522" y="224" font-size="15" font-weight="700" fill="#14375B">COVERAGE PLAN</text>
+    <path d="M535 277H652L642 289H545Z" fill="#F2CD52" stroke="#173C61" stroke-width="2"/>
+    <path d="M545 252L562 266M636 252L619 266M594 243V264" stroke="#D95059" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="522" y="302" font-size="12" fill="#49657F">views · occlusion · target regions</text>
+
+    <rect x="725" y="158" width="174" height="158" rx="6" fill="#FDEFEA" stroke="#D69C80" stroke-width="2"/>
+    <rect x="742" y="174" width="35" height="25" rx="3" fill="#E16F4B"/>
+    <text x="751" y="192" font-size="13" font-weight="700" fill="#FFFFFF">D</text>
+    <text x="742" y="224" font-size="15" font-weight="700" fill="#14375B">MULTI-SIDE CAPTURE</text>
+    <path d="M752 271H871L860 284H763Z" fill="#EF7E55" stroke="#173C61" stroke-width="2"/>
+    <path d="M770 251C789 235 825 235 846 251" fill="none" stroke="#173C61" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="742" y="302" font-size="12" fill="#49657F">multi-angle · flip · common frame</text>
+
+    <rect x="945" y="158" width="174" height="158" rx="6" fill="#F3EFF9" stroke="#AC97C1" stroke-width="2"/>
+    <rect x="962" y="174" width="35" height="25" rx="3" fill="#8E6DAA"/>
+    <text x="971" y="192" font-size="13" font-weight="700" fill="#FFFFFF">E</text>
+    <text x="962" y="224" font-size="15" font-weight="700" fill="#14375B">MESH INTEGRITY</text>
+    <path d="M978 281L998 245L1029 267L1060 242L1091 279Z" fill="#B49ACB" stroke="#173C61" stroke-width="2"/>
+    <circle cx="1029" cy="267" r="6" fill="#D95059" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="962" y="302" font-size="12" fill="#49657F">holes · edges · overlap · repair</text>
+
+    <rect x="808" y="389" width="311" height="150" rx="6" fill="#EDF5F8" stroke="#8EB0C8" stroke-width="2"/>
+    <rect x="826" y="405" width="35" height="25" rx="3" fill="#247FC1"/>
+    <text x="835" y="423" font-size="13" font-weight="700" fill="#FFFFFF">F</text>
+    <text x="878" y="423" font-size="16" font-weight="700" fill="#14375B">CAD ALIGNMENT &amp; REPORT</text>
+    <path d="M839 490H944L936 501H847Z" fill="#57BC76" stroke="#173C61" stroke-width="2"/>
+    <path d="M851 478H956L948 489H859Z" fill="none" stroke="#D95059" stroke-width="3" stroke-dasharray="8 5"/>
+    <rect x="979" y="455" width="111" height="55" rx="3" fill="#FFFFFF" stroke="#8EB0C8"/>
+    <line x1="993" y1="470" x2="1074" y2="470" stroke="#52A7CD" stroke-width="4"/>
+    <line x1="993" y1="483" x2="1059" y2="483" stroke="#F2CD52" stroke-width="4"/>
+    <line x1="993" y1="496" x2="1082" y2="496" stroke="#57BC76" stroke-width="4"/>
+    <text x="826" y="525" font-size="12" fill="#49657F">datum · best fit · features · decision · archive</text>
+  </g>
+
+  <rect x="65" y="374" width="697" height="165" rx="6" fill="#F7FAFC" stroke="#C8D7E6"/>
+  <text x="89" y="409" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#102F52">QUALITY GATES BEFORE ANALYSIS</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#264866">
+    <circle cx="99" cy="443" r="7" fill="#57BC76"/><text x="117" y="448">Part is stable without hidden constraint or heat</text>
+    <circle cx="99" cy="477" r="7" fill="#F2CD52"/><text x="117" y="482">Critical edges, holes, clips, and ribs have real measured coverage</text>
+    <circle cx="99" cy="511" r="7" fill="#EF7E55"/><text x="117" y="516">Interpolation and repaired regions are excluded from acceptance</text>
+  </g>
+
+  <text x="70" y="604" font-family="Arial, sans-serif" font-size="14" fill="#264866">Operational simplicity comes from a validated template; the first part family still requires a documented method study.</text>
+  <text x="941" y="604" font-family="Arial, sans-serif" font-size="13" fill="#6A8097">ENGINEERING ILLUSTRATION</text>
+</svg>
