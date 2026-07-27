@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Complex injection molded part qualitative deviation and feature zone map</title>
+  <desc id="desc">A conceptual color deviation map of a long thin-wall injection molded bracket with snap fits, mounting holes, ribs, and a deep cavity, using qualitative colors.</desc>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#DFE8F0" stroke-width="1"/>
+    </pattern>
+    <clipPath id="partClip">
+      <path d="M125 298L171 250H278L304 218H664L695 247H795L836 292L821 411L765 451H691L662 475H306L278 447H190L139 409Z"/>
+    </clipPath>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#40566F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="#F4F7FA"/>
+  <rect x="34" y="34" width="1132" height="607" rx="6" fill="#FFFFFF" stroke="#C8D7E6" stroke-width="2"/>
+  <text x="70" y="82" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#102F52">COMPLEX INJECTION PART DEVIATION &amp; FEATURE MAP</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="15" fill="#49657F">Qualitative CAD comparison · thin wall · clips · holes · ribs · mounting surfaces</text>
+
+  <rect x="72" y="145" width="794" height="420" rx="5" fill="url(#grid)" stroke="#C8D7E6"/>
+
+  <g clip-path="url(#partClip)">
+    <rect x="105" y="200" width="750" height="290" fill="#57BC76"/>
+    <ellipse cx="210" cy="337" rx="125" ry="115" fill="#4AA6CC"/>
+    <ellipse cx="777" cy="345" rx="112" ry="118" fill="#2B83BC"/>
+    <path d="M276 207H522V478H276Z" fill="#76C878" opacity="0.85"/>
+    <ellipse cx="493" cy="343" rx="146" ry="94" fill="#F2D34F" opacity="0.84"/>
+    <ellipse cx="493" cy="343" rx="77" ry="55" fill="#EF7E55" opacity="0.86"/>
+    <path d="M654 235H763L827 298L812 387L730 400L678 358Z" fill="#F2CD52" opacity="0.78"/>
+    <path d="M126 310L179 251H284L309 319L253 382L141 402Z" fill="#52A7CD" opacity="0.75"/>
+  </g>
+
+  <path d="M125 298L171 250H278L304 218H664L695 247H795L836 292L821 411L765 451H691L662 475H306L278 447H190L139 409Z" fill="none" stroke="#173C61" stroke-width="5"/>
+
+  <g fill="#FFFFFF" stroke="#173C61" stroke-width="3">
+    <circle cx="207" cy="333" r="24"/>
+    <circle cx="758" cy="338" r="24"/>
+    <circle cx="346" cy="278" r="15"/>
+    <circle cx="625" cy="278" r="15"/>
+  </g>
+
+  <g fill="none" stroke="#173C61" stroke-width="4">
+    <path d="M342 417V334H394V417"/>
+    <path d="M590 417V334H642V417"/>
+    <path d="M428 405V288M462 421V275M530 421V275M564 405V288"/>
+    <path d="M169 386H246L270 410M720 407L748 382H814"/>
+  </g>
+  <g fill="#173C61">
+    <path d="M275 447L293 476H320L307 447Z"/>
+    <path d="M660 449L647 478H674L690 449Z"/>
+  </g>
+
+  <g stroke="#40566F" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="211" y1="175" x2="208" y2="302"/>
+    <line x1="415" y1="159" x2="441" y2="294"/>
+    <line x1="624" y1="162" x2="617" y2="328"/>
+    <line x1="761" y1="178" x2="758" y2="307"/>
+    <line x1="319" y1="534" x2="307" y2="459"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#14375B">
+    <text x="159" y="168">DATUM HOLE</text>
+    <text x="373" y="152">DEEP-CAVITY ZONE</text>
+    <text x="577" y="155">RIB ZONE</text>
+    <text x="716" y="170">MOUNTING HOLE</text>
+    <text x="264" y="553">SNAP-FIT</text>
+  </g>
+
+  <rect x="896" y="145" width="230" height="420" rx="5" fill="#F7FAFC" stroke="#C8D7E6"/>
+  <text x="921" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#102F52">QUALITATIVE LEGEND</text>
+  <text x="921" y="215" font-family="Arial, sans-serif" font-size="13" fill="#49657F">Limits are project-specific.</text>
+
+  <rect x="921" y="248" width="25" height="18" rx="2" fill="#D95059"/>
+  <text x="963" y="262" font-family="Arial, sans-serif" font-size="14" fill="#264866">High positive</text>
+  <rect x="921" y="286" width="25" height="18" rx="2" fill="#EF7E55"/>
+  <text x="963" y="300" font-family="Arial, sans-serif" font-size="14" fill="#264866">Positive trend</text>
+  <rect x="921" y="324" width="25" height="18" rx="2" fill="#F2CD52"/>
+  <text x="963" y="338" font-family="Arial, sans-serif" font-size="14" fill="#264866">Transition</text>
+  <rect x="921" y="362" width="25" height="18" rx="2" fill="#57BC76"/>
+  <text x="963" y="376" font-family="Arial, sans-serif" font-size="14" fill="#264866">Near reference</text>
+  <rect x="921" y="400" width="25" height="18" rx="2" fill="#4AA6CC"/>
+  <text x="963" y="414" font-family="Arial, sans-serif" font-size="14" fill="#264866">Negative trend</text>
+  <rect x="921" y="438" width="25" height="18" rx="2" fill="#2B83BC"/>
+  <text x="963" y="452" font-family="Arial, sans-serif" font-size="14" fill="#264866">Low negative</text>
+
+  <line x1="921" y1="484" x2="1099" y2="484" stroke="#D5E1EB" stroke-width="2"/>
+  <text x="921" y="514" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#14375B">REPORT WITH</text>
+  <text x="921" y="538" font-family="Arial, sans-serif" font-size="13" fill="#264866">datum · coverage · feature rule</text>
+
+  <text x="72" y="605" font-family="Arial, sans-serif" font-size="14" fill="#264866">The color map localizes geometric difference; local sections and process evidence are required before assigning root cause.</text>
+  <text x="941" y="605" font-family="Arial, sans-serif" font-size="13" fill="#6A8097">ENGINEERING ILLUSTRATION</text>
+</svg>
