@@ -120,6 +120,14 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 35. [From First-Article Validation to Batch Traceability: A Blue-Light 3D Quality Loop for Precision Castings](./articles/precision-casting-first-article-to-batch-quality-loop.md#english-version)
 36. [Blue-Light 3D Scanning for Bra Pad Design and Process Optimization: Toward Precise, Comfortable, and Personalized Fit](./articles/bra-pad-blue-light-3d-scanning-design-process-optimization.md#english-version)
 37. [From Master Digitization to Production Review: A Blue-Light 3D Development and Process Loop for Bra Pads](./articles/bra-pad-master-to-production-development-quality-loop.md#english-version)
+38. [Practical Blue-Light 3D Scanning: Solving Inspection Challenges for Complex Precision Injection-Molded Parts](./articles/complex-injection-part-blue-light-3d-scanning-practical-workflow.md#english-version)
+39. [From One-Part Scanning to a Reusable Inspection Template: A 3D Quality-Diagnosis Loop for Complex Precision Injection-Molded Parts](./articles/complex-injection-part-scan-to-process-diagnosis-loop.md#english-version)
+40. [XTOM Blue-Light 3D Scanning for Full-Dimensional Quality Control of Precision 3C Electronics Components](./articles/xtom-blue-light-3d-scanning-3c-precision-components-quality-control.md#english-version)
+41. [From First-Article Validation to Assembly and Production: A Blue-Light 3D Quality Loop for Precision 3C Components](./articles/3c-precision-components-first-article-to-production-quality-loop.md#english-version)
+42. [XTOM Blue-Light 3D Scanning for Smartphone Mid-Frame Waterproof-Groove Inspection](./articles/xtom-blue-light-3d-scanning-smartphone-waterproof-groove-inspection.md#english-version)
+43. [From Groove Geometry to Device Sealing Validation: A Blue-Light 3D Quality Loop for Smartphone Mid-Frames](./articles/smartphone-mid-frame-groove-to-sealing-validation-quality-loop.md#english-version)
+44. [Industrial Camshaft Metrology in Practice: Validating a Blue-Light 3D Measurement System](./articles/automotive-camshaft-blue-light-3d-measurement-system-validation.md#english-version)
+45. [From Part Geometry to Built-Up Shaft Assembly: A Blue-Light 3D Interface and Traceability Loop for Camshafts](./articles/automotive-camshaft-assembly-interface-traceability-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -229,6 +237,14 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 35. [从首件验证到批次追溯：蓝光3D扫描如何建立精密铸件质量闭环](./articles/precision-casting-first-article-to-batch-quality-loop.md#chinese-version)
 36. [蓝光三维扫描技术赋能内衣胸垫设计与工艺优化：打造精准、舒适、个性化穿戴体验](./articles/bra-pad-blue-light-3d-scanning-design-process-optimization.md#chinese-version)
 37. [从母版数字化到量产复核：蓝光3D扫描如何建立内衣胸垫研发与工艺闭环](./articles/bra-pad-master-to-production-development-quality-loop.md#chinese-version)
+38. [蓝光三维扫描操作实战案例：破局复杂精密注塑件3D检测难题](./articles/complex-injection-part-blue-light-3d-scanning-practical-workflow.md#chinese-version)
+39. [从单件扫描到可复用检测模板：复杂精密注塑件3D质量诊断闭环](./articles/complex-injection-part-scan-to-process-diagnosis-loop.md#chinese-version)
+40. [XTOM蓝光3D扫描测量仪在3C电子精密零部件全尺寸质量控制中的应用](./articles/xtom-blue-light-3d-scanning-3c-precision-components-quality-control.md#chinese-version)
+41. [从首件验证到装配与量产：蓝光3D扫描如何建立3C精密零部件质量闭环](./articles/3c-precision-components-first-article-to-production-quality-loop.md#chinese-version)
+42. [XTOM蓝光三维扫描仪在手机中框防水槽3D检测中的应用](./articles/xtom-blue-light-3d-scanning-smartphone-waterproof-groove-inspection.md#chinese-version)
+43. [从槽体几何到整机密封验证：蓝光3D扫描如何建立手机中框防水质量闭环](./articles/smartphone-mid-frame-groove-to-sealing-validation-quality-loop.md#chinese-version)
+44. [工业级标杆应用进阶：蓝光3D扫描如何验证汽车凸轮轴测量系统](./articles/automotive-camshaft-blue-light-3d-measurement-system-validation.md#chinese-version)
+45. [从单件几何到组合轴系装配：蓝光3D扫描如何建立凸轮轴接口与追溯闭环](./articles/automotive-camshaft-assembly-interface-traceability-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
