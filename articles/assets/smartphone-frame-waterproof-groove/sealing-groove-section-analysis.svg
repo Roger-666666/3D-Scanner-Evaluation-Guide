@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sealing-groove section analysis</title>
+  <desc id="desc">A cross-sectional engineering diagram for groove width, depth, bottom form, wall orientation, fillet continuity, and mating-plane relationship.</desc>
+  <defs>
+    <linearGradient id="material" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3ab99f"/>
+      <stop offset="1" stop-color="#17616e"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#e6f3f5"/>
+    </marker>
+    <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="1" refY="5" orient="auto">
+      <path d="M10 0L0 5L10 10Z" fill="#e6f3f5"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="#081922"/>
+  <text x="66" y="70" fill="#f3fbfc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Sealing-Groove Section Analysis</text>
+  <text x="66" y="106" fill="#9abfc6" font-family="Arial, sans-serif" font-size="18">A continuous section makes local width, depth, wall, fillet, and plane relationships explicit</text>
+
+  <rect x="94" y="154" width="1092" height="462" rx="10" fill="#0c2731" stroke="#315965" stroke-width="2"/>
+  <path d="M170 250H468Q500 250 500 282V440Q500 472 532 472H748Q780 472 780 440V282Q780 250 812 250H1110V550H170Z" fill="url(#material)" stroke="#a8eee1" stroke-width="4"/>
+  <path d="M176 246H466Q506 246 506 286V438Q506 466 534 466H746Q774 466 774 438V286Q774 246 814 246H1104" fill="none" stroke="#f2cc61" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M214 218H1064" stroke="#71cfd7" stroke-width="3"/>
+
+  <g fill="none" stroke="#e6f3f5" stroke-width="2">
+    <path d="M514 206V238M766 206V238"/>
+    <path d="M514 220H766" marker-start="url(#arrowStart)" marker-end="url(#arrow)"/>
+    <path d="M824 256H878M824 468H878"/>
+    <path d="M858 256V468" marker-start="url(#arrowStart)" marker-end="url(#arrow)"/>
+    <path d="M410 332H484" marker-end="url(#arrow)"/>
+    <path d="M454 530L520 462" marker-end="url(#arrow)"/>
+    <path d="M930 176L996 216" marker-end="url(#arrow)"/>
+    <path d="M1016 520L784 452" marker-end="url(#arrow)"/>
+  </g>
+
+  <g font-family="Arial, sans-serif">
+    <g fill="#f4fbfc" font-size="20" font-weight="700">
+      <text x="584" y="194">Groove width</text>
+      <text x="892" y="370">Groove depth</text>
+      <text x="210" y="328">Wall orientation</text>
+      <text x="238" y="556">Bottom fillet continuity</text>
+      <text x="928" y="154">Mating-plane reference</text>
+      <text x="1022" y="548">Bottom profile</text>
+    </g>
+    <g fill="#a9cbd1" font-size="15">
+      <text x="552" y="516">Measured profile</text>
+      <text x="552" y="542" fill="#f2d676">CAD / nominal profile</text>
+    </g>
+  </g>
+
+  <rect x="94" y="640" width="1092" height="44" rx="6" fill="#102e38"/>
+  <text x="120" y="668" fill="#b8d5da" font-family="Arial, sans-serif" font-size="16">Interpretation rule: groove geometry supports sealing assessment, while actual leak resistance requires assembly and functional testing.</text>
+</svg>
