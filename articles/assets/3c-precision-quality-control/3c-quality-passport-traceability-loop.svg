@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">3C component quality passport and traceability loop</title>
+  <desc id="desc">A closed-loop diagram connecting CAD and PMI, inspection recipe, measured geometry, engineering decision, batch trend, and controlled improvement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131c"/>
+      <stop offset="1" stop-color="#15303c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#78d9dc"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="68" y="72" fill="#f3fbfc" font-family="Arial, sans-serif" font-size="34" font-weight="700">3C Component Quality Passport</text>
+  <text x="68" y="108" fill="#97bbc3" font-family="Arial, sans-serif" font-size="18">A traceable loop from design intent to comparable production evidence</text>
+
+  <g stroke="#78d9dc" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M306 236H430"/>
+    <path d="M638 236H762"/>
+    <path d="M970 236C1080 236 1100 320 1100 360"/>
+    <path d="M1070 484H946"/>
+    <path d="M738 484H614"/>
+    <path d="M406 484H282"/>
+    <path d="M178 444C132 420 130 326 178 276"/>
+  </g>
+
+  <g filter="url(#shadow)" font-family="Arial, sans-serif">
+    <g>
+      <rect x="98" y="174" width="208" height="124" rx="8" fill="#0e2934" stroke="#2ec7d7" stroke-width="2"/>
+      <text x="126" y="216" fill="#ebfbfd" font-size="22" font-weight="700">CAD + PMI</text>
+      <text x="126" y="249" fill="#acd0d6" font-size="16">revision, datums, features</text>
+      <text x="126" y="276" fill="#72dfe7" font-size="14" font-weight="700">DESIGN INTENT</text>
+    </g>
+    <g>
+      <rect x="430" y="174" width="208" height="124" rx="8" fill="#0e2934" stroke="#61d3ac" stroke-width="2"/>
+      <text x="458" y="216" fill="#ebfbfd" font-size="22" font-weight="700">Inspection Recipe</text>
+      <text x="458" y="249" fill="#acd0d6" font-size="16">state, fixture, views, rules</text>
+      <text x="458" y="276" fill="#83e6be" font-size="14" font-weight="700">CONTROLLED METHOD</text>
+    </g>
+    <g>
+      <rect x="762" y="174" width="208" height="124" rx="8" fill="#0e2934" stroke="#f2c85e" stroke-width="2"/>
+      <text x="790" y="216" fill="#ebfbfd" font-size="22" font-weight="700">Measured Geometry</text>
+      <text x="790" y="249" fill="#acd0d6" font-size="16">mesh, deviation, features</text>
+      <text x="790" y="276" fill="#f5d57c" font-size="14" font-weight="700">GEOMETRIC EVIDENCE</text>
+    </g>
+    <g>
+      <rect x="862" y="422" width="208" height="124" rx="8" fill="#0e2934" stroke="#e6916c" stroke-width="2"/>
+      <text x="890" y="464" fill="#ebfbfd" font-size="22" font-weight="700">Engineering Decision</text>
+      <text x="890" y="497" fill="#acd0d6" font-size="16">accept, review, investigate</text>
+      <text x="890" y="524" fill="#f0a888" font-size="14" font-weight="700">DISPOSITION</text>
+    </g>
+    <g>
+      <rect x="530" y="422" width="208" height="124" rx="8" fill="#0e2934" stroke="#b89ae5" stroke-width="2"/>
+      <text x="558" y="464" fill="#ebfbfd" font-size="22" font-weight="700">Batch Trend</text>
+      <text x="558" y="497" fill="#acd0d6" font-size="16">cavity, lot, supplier, time</text>
+      <text x="558" y="524" fill="#ccb4ef" font-size="14" font-weight="700">QUALITY MEMORY</text>
+    </g>
+    <g>
+      <rect x="198" y="422" width="208" height="124" rx="8" fill="#0e2934" stroke="#68bddb" stroke-width="2"/>
+      <text x="226" y="464" fill="#ebfbfd" font-size="22" font-weight="700">Controlled Change</text>
+      <text x="226" y="497" fill="#acd0d6" font-size="16">tool, process, design, method</text>
+      <text x="226" y="524" fill="#81cbe4" font-size="14" font-weight="700">IMPROVEMENT</text>
+    </g>
+  </g>
+
+  <rect x="68" y="612" width="1144" height="58" rx="8" fill="#0c242e" stroke="#355d68"/>
+  <g font-family="Arial, sans-serif">
+    <text x="94" y="648" fill="#f0f8f9" font-size="18" font-weight="700">Passport keys:</text>
+    <text x="232" y="648" fill="#a9cbd1" font-size="17">part ID</text>
+    <text x="342" y="648" fill="#a9cbd1" font-size="17">CAD revision</text>
+    <text x="500" y="648" fill="#a9cbd1" font-size="17">recipe revision</text>
+    <text x="670" y="648" fill="#a9cbd1" font-size="17">fixture state</text>
+    <text x="812" y="648" fill="#a9cbd1" font-size="17">operator / cell</text>
+    <text x="974" y="648" fill="#a9cbd1" font-size="17">decision record</text>
+  </g>
+</svg>
