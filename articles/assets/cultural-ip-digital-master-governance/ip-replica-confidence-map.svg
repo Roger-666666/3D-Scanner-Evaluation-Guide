@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">文创手办数字复刻的采集可信度分区</title>
+  <desc id="desc">使用中性原创造型示意可靠采集、遮挡待复核、数字修复和授权设计改造四类区域，强调分区颜色不是尺寸偏差。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">复刻可信度地图：区分看见、推断与设计</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Confidence zoning for a cultural or collectible digital replica</text>
+
+  <g transform="translate(315 155)">
+    <ellipse cx="170" cy="455" rx="155" ry="42" fill="#d7dfe3" stroke="#314653" stroke-width="3"/>
+    <path d="M78 415 C88 350,108 318,119 267 C128 226,113 193,132 158 C144 135,159 125,170 124 C181 125,196 135,208 158 C227 193,212 226,221 267 C232 318,252 350,262 415 Z" fill="#7fbf9a" stroke="#314653" stroke-width="3"/>
+    <circle cx="170" cy="87" r="58" fill="#7fbf9a" stroke="#314653" stroke-width="3"/>
+    <path d="M123 75 C98 44,112 21,145 34 C153 8,184 8,193 34 C225 22,241 46,216 75" fill="#d7a94c" stroke="#314653" stroke-width="3"/>
+    <path d="M118 212 C70 222,42 261,24 316 C52 324,80 310,106 280" fill="#7fbf9a" stroke="#314653" stroke-width="3"/>
+    <path d="M222 212 C270 222,298 261,316 316 C288 324,260 310,234 280" fill="#7fbf9a" stroke="#314653" stroke-width="3"/>
+    <path d="M132 350 C142 336,158 328,170 328 C182 328,198 336,208 350 L218 415 L122 415 Z" fill="#d98664" stroke="#314653" stroke-width="3"/>
+    <rect x="140" y="172" width="60" height="48" rx="12" fill="#78a9ce" stroke="#314653" stroke-width="3"/>
+    <g fill="#ffffff" opacity="0.82">
+      <circle cx="149" cy="80" r="8"/><circle cx="191" cy="80" r="8"/>
+      <path d="M148 108 Q170 122 192 108" fill="none" stroke="#ffffff" stroke-width="6"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="2" stroke-dasharray="7 6" opacity="0.9">
+      <path d="M77 415 C104 388,125 371,148 361" fill="none"/>
+      <path d="M263 415 C236 388,215 371,192 361" fill="none"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#263a47">
+    <path d="M390 290 L245 218 L120 218" fill="none" stroke="#314653" stroke-width="2"/>
+    <text x="82" y="208" font-weight="700">可靠采集区</text>
+    <text x="82" y="234" fill="#5c6b75">可见几何与细节</text>
+
+    <path d="M455 183 L775 183 L845 205" fill="none" stroke="#314653" stroke-width="2"/>
+    <text x="860" y="199" font-weight="700">遮挡待复核区</text>
+    <text x="860" y="225" fill="#5c6b75">发梢、深槽、底切</text>
+
+    <path d="M475 530 L785 490 L845 490" fill="none" stroke="#314653" stroke-width="2"/>
+    <text x="860" y="482" font-weight="700">数字修复区</text>
+    <text x="860" y="508" fill="#5c6b75">补洞、破损复原</text>
+
+    <path d="M485 355 L785 335 L845 335" fill="none" stroke="#314653" stroke-width="2"/>
+    <text x="860" y="327" font-weight="700">授权设计区</text>
+    <text x="860" y="353" fill="#5c6b75">接口、拆件、结构适配</text>
+  </g>
+
+  <g transform="translate(760 565)" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#44545f">
+    <rect width="335" height="68" rx="5" fill="#f3f6f7" stroke="#c9d2d8"/>
+    <rect x="18" y="16" width="18" height="18" fill="#7fbf9a"/><text x="45" y="30">实测</text>
+    <rect x="96" y="16" width="18" height="18" fill="#d7a94c"/><text x="123" y="30">待复核</text>
+    <rect x="205" y="16" width="18" height="18" fill="#d98664"/><text x="232" y="30">修复</text>
+    <rect x="18" y="42" width="18" height="18" fill="#78a9ce"/><text x="45" y="56">设计改造</text>
+    <text x="152" y="56" fill="#7a4140">颜色不是尺寸偏差</text>
+  </g>
+  <text x="80" y="662" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">中性原创造型，仅用于数据分类说明 / Neutral original form used only to explain data classes</text>
+</svg>
