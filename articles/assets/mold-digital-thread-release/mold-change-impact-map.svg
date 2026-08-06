@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">模具工程变更影响区与试模结果映射</title>
+  <desc id="desc">展示模具型面中的批准变更区、沿用区和待复核边界，并映射到试模件上的预期变化、非预期变化和不可评价区域。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">工程变更验证：先定义“应该改变什么”</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Map approved mold changes to expected and unexpected trial-part outcomes</text>
+
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+    <clipPath id="moldClip"><rect x="95" y="200" width="390" height="300" rx="22"/></clipPath>
+    <clipPath id="partClip"><path d="M725 225 Q920 170 1080 235 L1045 490 Q875 540 700 475 Z"/></clipPath>
+  </defs>
+
+  <text x="290" y="178" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">模具 / 镶件影响区</text>
+  <rect x="95" y="200" width="390" height="300" rx="22" fill="#dbe7eb" stroke="#314653" stroke-width="3"/>
+  <g clip-path="url(#moldClip)">
+    <path d="M95 200 H485 V310 C420 292 375 325 330 305 C275 280 215 312 95 286 Z" fill="#83b98f"/>
+    <path d="M290 250 C360 225 440 260 485 320 V500 H350 C365 430 325 400 290 360 Z" fill="#78a9ce"/>
+    <path d="M95 390 C165 350 235 370 290 420 L350 500 H95 Z" fill="#d8a94d"/>
+    <path d="M250 305 C305 278 365 304 392 350 C350 390 290 398 238 364 Z" fill="#d98664" opacity="0.9"/>
+    <g fill="none" stroke="#ffffff" stroke-width="3">
+      <rect x="140" y="245" width="90" height="70" rx="10"/>
+      <circle cx="375" cy="400" r="46"/>
+      <path d="M135 430 H250 M160 455 H280"/>
+    </g>
+  </g>
+  <text x="290" y="530" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#63717b">批准变更与边界规则绑定到明确CAD版本</text>
+
+  <path d="M525 350 H650" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow2)"/>
+  <text x="588" y="330" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#3f505b">功能映射</text>
+
+  <text x="885" y="178" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">试模件结果分区</text>
+  <path d="M725 225 Q920 170 1080 235 L1045 490 Q875 540 700 475 Z" fill="#dbe7eb" stroke="#314653" stroke-width="3"/>
+  <g clip-path="url(#partClip)">
+    <path d="M700 210 H1090 V320 C1010 290 935 330 870 310 C805 290 770 320 700 300 Z" fill="#83b98f"/>
+    <path d="M925 250 C1000 235 1065 270 1090 320 V520 H940 C965 445 940 395 900 350 Z" fill="#78a9ce"/>
+    <path d="M690 395 C770 355 835 380 900 420 L950 520 H680 Z" fill="#d8a94d"/>
+    <ellipse cx="850" cy="345" rx="72" ry="48" fill="#d98664"/>
+    <g fill="none" stroke="#ffffff" stroke-width="3">
+      <rect x="760" y="248" width="92" height="64" rx="10"/>
+      <circle cx="980" cy="405" r="44"/>
+      <path d="M748 430 H860 M770 455 H890"/>
+    </g>
+  </g>
+  <text x="885" y="530" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#63717b">预期变化、非预期变化与不可评价区分开报告</text>
+
+  <g transform="translate(160 575)" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#44545f">
+    <rect width="880" height="52" rx="6" fill="#f3f6f7" stroke="#c9d2d8"/>
+    <rect x="18" y="17" width="18" height="18" fill="#83b98f"/><text x="46" y="31">沿用区 / 一致区</text>
+    <rect x="205" y="17" width="18" height="18" fill="#78a9ce"/><text x="233" y="31">批准变更 / 预期响应</text>
+    <rect x="462" y="17" width="18" height="18" fill="#d98664"/><text x="490" y="31">非预期变化</text>
+    <rect x="635" y="17" width="18" height="18" fill="#d8a94d"/><text x="663" y="31">边界或待复核区</text>
+  </g>
+  <text x="80" y="660" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">分类示意，颜色不是实测偏差或公差结果 / Classification only; colors are not measured deviation or tolerance results</text>
+</svg>
