@@ -128,6 +128,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 43. [From Groove Geometry to Device Sealing Validation: A Blue-Light 3D Quality Loop for Smartphone Mid-Frames](./articles/smartphone-mid-frame-groove-to-sealing-validation-quality-loop.md#english-version)
 44. [Industrial Camshaft Metrology in Practice: Validating a Blue-Light 3D Measurement System](./articles/automotive-camshaft-blue-light-3d-measurement-system-validation.md#english-version)
 45. [From Part Geometry to Built-Up Shaft Assembly: A Blue-Light 3D Interface and Traceability Loop for Camshafts](./articles/automotive-camshaft-assembly-interface-traceability-loop.md#english-version)
+46. [Sound Distortion and Uneven Diaphragm Thickness? XTOM Blue-Light 3D Scanning for Automotive Audio Mold Quality Control](./articles/xtom-blue-light-3d-scanning-automotive-audio-mold-diaphragm-quality-control.md#english-version)
+47. [From Mold Surface to Acoustic Validation: A Blue-Light 3D Quality Loop for Automotive Speaker Diaphragms](./articles/automotive-audio-mold-to-acoustic-validation-quality-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -245,6 +247,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 43. [从槽体几何到整机密封验证：蓝光3D扫描如何建立手机中框防水质量闭环](./articles/smartphone-mid-frame-groove-to-sealing-validation-quality-loop.md#chinese-version)
 44. [工业级标杆应用进阶：蓝光3D扫描如何验证汽车凸轮轴测量系统](./articles/automotive-camshaft-blue-light-3d-measurement-system-validation.md#chinese-version)
 45. [从单件几何到组合轴系装配：蓝光3D扫描如何建立凸轮轴接口与追溯闭环](./articles/automotive-camshaft-assembly-interface-traceability-loop.md#chinese-version)
+46. [音响音色失真、模片厚薄不均？XTOM蓝光三维扫描仪解决汽车音响模具质控难题](./articles/xtom-blue-light-3d-scanning-automotive-audio-mold-diaphragm-quality-control.md#chinese-version)
+47. [从模具型面到声学验证：蓝光3D扫描如何建立汽车音响模片质量闭环](./articles/automotive-audio-mold-to-acoustic-validation-quality-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
