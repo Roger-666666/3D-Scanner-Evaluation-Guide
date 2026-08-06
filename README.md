@@ -130,6 +130,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 45. [From Part Geometry to Built-Up Shaft Assembly: A Blue-Light 3D Interface and Traceability Loop for Camshafts](./articles/automotive-camshaft-assembly-interface-traceability-loop.md#english-version)
 46. [Sound Distortion and Uneven Diaphragm Thickness? XTOM Blue-Light 3D Scanning for Automotive Audio Mold Quality Control](./articles/xtom-blue-light-3d-scanning-automotive-audio-mold-diaphragm-quality-control.md#english-version)
 47. [From Mold Surface to Acoustic Validation: A Blue-Light 3D Quality Loop for Automotive Speaker Diaphragms](./articles/automotive-audio-mold-to-acoustic-validation-quality-loop.md#english-version)
+48. [From Scan Model to Trusted Digital Master: Governing Cultural, Collectible and Industrial IP Assets with Blue-Light 3D Scanning](./articles/cultural-ip-blue-light-3d-scanning-trusted-digital-master-governance.md#english-version)
+49. [From Authorized Master to Multi-Material Derivatives: A Blue-Light 3D Supply-Chain Acceptance Loop for Cultural, Collectible and Industrial IP](./articles/cultural-ip-licensed-derivative-supply-chain-acceptance-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -249,6 +251,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 45. [从单件几何到组合轴系装配：蓝光3D扫描如何建立凸轮轴接口与追溯闭环](./articles/automotive-camshaft-assembly-interface-traceability-loop.md#chinese-version)
 46. [音响音色失真、模片厚薄不均？XTOM蓝光三维扫描仪解决汽车音响模具质控难题](./articles/xtom-blue-light-3d-scanning-automotive-audio-mold-diaphragm-quality-control.md#chinese-version)
 47. [从模具型面到声学验证：蓝光3D扫描如何建立汽车音响模片质量闭环](./articles/automotive-audio-mold-to-acoustic-validation-quality-loop.md#chinese-version)
+48. [从扫描模型到可信数字母版：蓝光三维扫描如何治理文创、手办与工业IP资产](./articles/cultural-ip-blue-light-3d-scanning-trusted-digital-master-governance.md#chinese-version)
+49. [从授权母版到跨材质衍生品：蓝光3D扫描如何建立文创手办工业IP供应链验收闭环](./articles/cultural-ip-licensed-derivative-supply-chain-acceptance-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
