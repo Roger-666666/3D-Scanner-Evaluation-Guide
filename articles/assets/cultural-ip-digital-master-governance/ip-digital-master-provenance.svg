@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">文创手办工业IP可审计数字母版谱系</title>
+  <desc id="desc">展示授权实物、原始观测包、保真母版、修型母版、授权衍生版和制造交付版之间的版本关系，并区分实测、修复与设计数据。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">可审计的 IP 数字母版，不是一个孤立文件</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Digital-master provenance for cultural, collectible and industrial IP</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+
+  <g fill="none" stroke="#566773" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M245 244 L315 244"/>
+    <path d="M495 244 L565 244"/>
+    <path d="M745 244 L815 244"/>
+    <path d="M905 299 L905 395"/>
+    <path d="M815 450 L650 450"/>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <g transform="translate(65 190)">
+      <rect width="180" height="108" rx="6" fill="#edf1f3" stroke="#7c8a94" stroke-width="2"/>
+      <text x="90" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#24343f">授权实物</text>
+      <text x="90" y="69" text-anchor="middle" font-size="15" fill="#53616c">对象身份 / 状态</text>
+      <text x="90" y="91" text-anchor="middle" font-size="13" fill="#6b7881">Authorized object</text>
+    </g>
+    <g transform="translate(315 190)">
+      <rect width="180" height="108" rx="6" fill="#d9edf3" stroke="#277b9b" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#183c4b">原始观测包</text>
+      <text x="90" y="67" text-anchor="middle" font-size="15" fill="#355866">原始帧 / 覆盖 / 标定</text>
+      <text x="90" y="91" text-anchor="middle" font-size="13" fill="#355866">MEASURED</text>
+    </g>
+    <g transform="translate(565 190)">
+      <rect width="180" height="108" rx="6" fill="#d9edf3" stroke="#277b9b" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#183c4b">保真母版</text>
+      <text x="90" y="67" text-anchor="middle" font-size="15" fill="#355866">可见几何 / 例外标记</text>
+      <text x="90" y="91" text-anchor="middle" font-size="13" fill="#355866">MEASURED</text>
+    </g>
+    <g transform="translate(815 190)">
+      <rect width="180" height="108" rx="6" fill="#f1e5bf" stroke="#a77c21" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#5c4616">修型母版</text>
+      <text x="90" y="67" text-anchor="middle" font-size="15" fill="#715b29">补洞 / 对称 / 修复</text>
+      <text x="90" y="91" text-anchor="middle" font-size="13" fill="#715b29">RESTORED</text>
+    </g>
+    <g transform="translate(815 395)">
+      <rect width="180" height="108" rx="6" fill="#e2eacb" stroke="#6e8a38" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#35451d">授权衍生版</text>
+      <text x="90" y="67" text-anchor="middle" font-size="15" fill="#53672d">比例 / 姿态 / 拆件</text>
+      <text x="90" y="91" text-anchor="middle" font-size="13" fill="#53672d">DESIGNED</text>
+    </g>
+    <g transform="translate(470 395)">
+      <rect width="180" height="108" rx="6" fill="#e2eacb" stroke="#6e8a38" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#35451d">制造交付版</text>
+      <text x="90" y="67" text-anchor="middle" font-size="15" fill="#53672d">接口 / 工艺适配</text>
+      <text x="90" y="91" text-anchor="middle" font-size="13" fill="#53672d">DESIGNED</text>
+    </g>
+  </g>
+
+  <rect x="80" y="560" width="1040" height="75" rx="6" fill="#f2f5f6" stroke="#c6d0d6"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#41515c">
+    <text x="105" y="589" font-weight="700">每次派生都记录：</text>
+    <text x="250" y="589">来源版本</text><circle cx="345" cy="584" r="4" fill="#687984"/>
+    <text x="360" y="589">修改区域</text><circle cx="455" cy="584" r="4" fill="#687984"/>
+    <text x="470" y="589">修改目的</text><circle cx="565" cy="584" r="4" fill="#687984"/>
+    <text x="580" y="589">责任人与审批</text><circle cx="700" cy="584" r="4" fill="#687984"/>
+    <text x="715" y="589">适用产品与供应商</text><circle cx="875" cy="584" r="4" fill="#687984"/>
+    <text x="890" y="589">文件校验值</text>
+    <text x="105" y="616" fill="#66747d">原始观测保留不动；修复和设计修改通过新版本表达，避免“看起来完整”被误认为“全部实测”。</text>
+  </g>
+  <text x="80" y="662" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">流程示意，不代表特定项目文件结构 / Conceptual workflow, not a project-specific file structure</text>
+</svg>
