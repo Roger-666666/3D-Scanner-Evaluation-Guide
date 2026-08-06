@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">模具全流程数字线程与数据契约</title>
+  <desc id="desc">展示需求、CAD基线、加工状态、实物模具、试模件和量产放行之间的数据连接，以及贯穿全流程的对象身份、版本、功能基准、关键特征和检测模板。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">模具数字线程：让每次比较都指向同一工程含义</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">A data contract across mold requirements, design, machining, trial and release</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+
+  <g fill="none" stroke="#566773" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M240 235 L290 235"/>
+    <path d="M460 235 L510 235"/>
+    <path d="M680 235 L730 235"/>
+    <path d="M900 235 L950 235"/>
+    <path d="M1035 290 L1035 430"/>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <g transform="translate(70 180)">
+      <rect width="170" height="110" rx="6" fill="#e8e0ef" stroke="#7d6090" stroke-width="2"/>
+      <text x="85" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#493654">需求基线</text>
+      <text x="85" y="69" text-anchor="middle" font-size="15" fill="#65506e">功能 / 装配 / 风险</text>
+      <text x="85" y="92" text-anchor="middle" font-size="13" fill="#65506e">REQUIREMENT</text>
+    </g>
+    <g transform="translate(290 180)">
+      <rect width="170" height="110" rx="6" fill="#d9edf3" stroke="#277b9b" stroke-width="2"/>
+      <text x="85" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#183c4b">CAD基线</text>
+      <text x="85" y="69" text-anchor="middle" font-size="15" fill="#355866">型面 / 基准 / 公差</text>
+      <text x="85" y="92" text-anchor="middle" font-size="13" fill="#355866">DESIGN</text>
+    </g>
+    <g transform="translate(510 180)">
+      <rect width="170" height="110" rx="6" fill="#f0e6c8" stroke="#a77d27" stroke-width="2"/>
+      <text x="85" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#5d471a">加工状态</text>
+      <text x="85" y="69" text-anchor="middle" font-size="15" fill="#735d2d">电极 / 型芯 / 镶件</text>
+      <text x="85" y="92" text-anchor="middle" font-size="13" fill="#735d2d">PROCESS</text>
+    </g>
+    <g transform="translate(730 180)">
+      <rect width="170" height="110" rx="6" fill="#d9edf3" stroke="#277b9b" stroke-width="2"/>
+      <text x="85" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#183c4b">实物模具</text>
+      <text x="85" y="69" text-anchor="middle" font-size="15" fill="#355866">可见几何 / 装配关系</text>
+      <text x="85" y="92" text-anchor="middle" font-size="13" fill="#355866">AS-BUILT</text>
+    </g>
+    <g transform="translate(950 180)">
+      <rect width="170" height="110" rx="6" fill="#dceacb" stroke="#6c8a38" stroke-width="2"/>
+      <text x="85" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#35461d">试模件</text>
+      <text x="85" y="69" text-anchor="middle" font-size="15" fill="#53672e">成型结果 / 接口</text>
+      <text x="85" y="92" text-anchor="middle" font-size="13" fill="#53672e">OUTCOME</text>
+    </g>
+    <g transform="translate(950 430)">
+      <rect width="170" height="110" rx="6" fill="#e7e9ec" stroke="#6f7d87" stroke-width="2"/>
+      <text x="85" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#34434d">受控放行</text>
+      <text x="85" y="69" text-anchor="middle" font-size="15" fill="#53616b">结论 / 例外 / 适用范围</text>
+      <text x="85" y="92" text-anchor="middle" font-size="13" fill="#53616b">RELEASE</text>
+    </g>
+  </g>
+
+  <rect x="90" y="350" width="780" height="190" rx="7" fill="#f5f7f8" stroke="#c6d0d6" stroke-width="2"/>
+  <text x="120" y="390" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#273944">跨阶段数据契约</text>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#465761">
+    <rect x="120" y="420" width="210" height="42" rx="5" fill="#ffffff" stroke="#bfcbd2"/>
+    <text x="225" y="447" text-anchor="middle">对象身份与工序状态</text>
+    <rect x="350" y="420" width="210" height="42" rx="5" fill="#ffffff" stroke="#bfcbd2"/>
+    <text x="455" y="447" text-anchor="middle">CAD与工程变更版本</text>
+    <rect x="580" y="420" width="250" height="42" rx="5" fill="#ffffff" stroke="#bfcbd2"/>
+    <text x="705" y="447" text-anchor="middle">功能基准与关键特征定义</text>
+    <rect x="120" y="478" width="210" height="42" rx="5" fill="#ffffff" stroke="#bfcbd2"/>
+    <text x="225" y="505" text-anchor="middle">扫描覆盖与例外区域</text>
+    <rect x="350" y="478" width="210" height="42" rx="5" fill="#ffffff" stroke="#bfcbd2"/>
+    <text x="455" y="505" text-anchor="middle">对齐与检测模板版本</text>
+    <rect x="580" y="478" width="250" height="42" rx="5" fill="#ffffff" stroke="#bfcbd2"/>
+    <text x="705" y="505" text-anchor="middle">处置、批准与数据完整性</text>
+  </g>
+
+  <path d="M870 445 L940 470" fill="none" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="80" y="652" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">流程示意，不代表特定企业系统架构 / Conceptual workflow, not an enterprise system architecture</text>
+</svg>
