@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">汽车扬声器振膜与模具型面特征分区示意</title>
+  <desc id="desc">以俯视图展示外缘、悬边过渡区、有效辐射区、中心拱顶、加强纹和径向截面等可见几何特征。图中不含扫描设备，所有色彩均为分类示意而非实测偏差。</desc>
+  <rect width="1200" height="720" fill="#f5f7f8"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c7d0d9" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#16222c">汽车扬声器振膜 / 模具型面：可见几何特征分区</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#54626f">Feature map for mold-surface and formed-diaphragm inspection</text>
+
+  <g transform="translate(380 405)">
+    <circle r="238" fill="#dbe5ea" stroke="#253746" stroke-width="3"/>
+    <circle r="211" fill="#79b9c9" stroke="#ffffff" stroke-width="3"/>
+    <circle r="166" fill="#dcefb8" stroke="#ffffff" stroke-width="3"/>
+    <circle r="72" fill="#e4b66a" stroke="#ffffff" stroke-width="3"/>
+    <circle r="24" fill="#ffffff" stroke="#253746" stroke-width="2"/>
+    <g fill="none" stroke="#2b5969" stroke-width="7" opacity="0.7">
+      <path d="M-135,-55 C-95,-93,-54,-106,-12,-106"/>
+      <path d="M12,-106 C54,-106,95,-93,135,-55"/>
+      <path d="M135,55 C95,93,54,106,12,106"/>
+      <path d="M-12,106 C-54,106,-95,93,-135,55"/>
+    </g>
+    <g stroke="#1e70a8" stroke-width="2" stroke-dasharray="8 7">
+      <line x1="-238" y1="0" x2="238" y2="0"/>
+      <line x1="0" y1="-238" x2="0" y2="238"/>
+      <line x1="-168" y1="-168" x2="168" y2="168"/>
+      <line x1="-168" y1="168" x2="168" y2="-168"/>
+    </g>
+    <g fill="#c84630">
+      <circle cx="-211" cy="0" r="7"/><circle cx="211" cy="0" r="7"/>
+      <circle cx="0" cy="-211" r="7"/><circle cx="0" cy="211" r="7"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#1d2b36">
+    <path d="M570 252 L720 185 L820 185" fill="none" stroke="#253746" stroke-width="2"/>
+    <text x="835" y="191" font-weight="700">外缘与定位边界</text>
+    <text x="835" y="218" fill="#5b6873">Rim / locating boundary</text>
+
+    <path d="M535 317 L720 292 L820 292" fill="none" stroke="#253746" stroke-width="2"/>
+    <text x="835" y="298" font-weight="700">悬边与过渡圆角</text>
+    <text x="835" y="325" fill="#5b6873">Surround transition</text>
+
+    <path d="M505 405 L720 405 L820 405" fill="none" stroke="#253746" stroke-width="2"/>
+    <text x="835" y="411" font-weight="700">有效辐射曲面</text>
+    <text x="835" y="438" fill="#5b6873">Radiating surface</text>
+
+    <path d="M452 405 L680 520 L820 520" fill="none" stroke="#253746" stroke-width="2"/>
+    <text x="835" y="526" font-weight="700">中心拱顶与连接区</text>
+    <text x="835" y="553" fill="#5b6873">Center dome / joint</text>
+
+    <path d="M283 240 L235 208" fill="none" stroke="#253746" stroke-width="2"/>
+    <text x="82" y="166" font-weight="700">径向截面族</text>
+    <text x="82" y="192" fill="#5b6873">Radial sections</text>
+
+    <path d="M285 490 L235 522" fill="none" stroke="#253746" stroke-width="2"/>
+    <text x="82" y="555" font-weight="700">加强纹与局部特征</text>
+    <text x="82" y="581" fill="#5b6873">Ribs / local features</text>
+  </g>
+
+  <g transform="translate(735 600)" font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="0" y="0" width="365" height="48" rx="5" fill="#eef2f4" stroke="#c7d0d9"/>
+    <circle cx="25" cy="24" r="8" fill="#c84630"/>
+    <text x="44" y="29" font-size="15" fill="#344450">受控取样位置</text>
+    <line x1="168" y1="24" x2="203" y2="24" stroke="#1e70a8" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="215" y="29" font-size="15" fill="#344450">截面方向</text>
+  </g>
+  <text x="80" y="666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#687681">示意图，不代表实测偏差或任何特定产品尺寸 / Conceptual illustration, not measured data</text>
+</svg>
