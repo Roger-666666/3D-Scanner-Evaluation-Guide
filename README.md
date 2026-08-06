@@ -132,6 +132,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 47. [From Mold Surface to Acoustic Validation: A Blue-Light 3D Quality Loop for Automotive Speaker Diaphragms](./articles/automotive-audio-mold-to-acoustic-validation-quality-loop.md#english-version)
 48. [From Scan Model to Trusted Digital Master: Governing Cultural, Collectible and Industrial IP Assets with Blue-Light 3D Scanning](./articles/cultural-ip-blue-light-3d-scanning-trusted-digital-master-governance.md#english-version)
 49. [From Authorized Master to Multi-Material Derivatives: A Blue-Light 3D Supply-Chain Acceptance Loop for Cultural, Collectible and Industrial IP](./articles/cultural-ip-licensed-derivative-supply-chain-acceptance-loop.md#english-version)
+50. [From CAD to Traceable Trial Runs: Building a Full-Process Mold Digital Thread with Blue-Light 3D Scanning](./articles/mold-blue-light-3d-scanning-digital-thread-configuration-baseline.md#english-version)
+51. [From Engineering Change to Multi-Cavity Production Release: Blue-Light 3D Verification of Mold Revision Consistency](./articles/mold-engineering-change-multi-cavity-production-release-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -253,6 +255,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 47. [从模具型面到声学验证：蓝光3D扫描如何建立汽车音响模片质量闭环](./articles/automotive-audio-mold-to-acoustic-validation-quality-loop.md#chinese-version)
 48. [从扫描模型到可信数字母版：蓝光三维扫描如何治理文创、手办与工业IP资产](./articles/cultural-ip-blue-light-3d-scanning-trusted-digital-master-governance.md#chinese-version)
 49. [从授权母版到跨材质衍生品：蓝光3D扫描如何建立文创手办工业IP供应链验收闭环](./articles/cultural-ip-licensed-derivative-supply-chain-acceptance-loop.md#chinese-version)
+50. [从CAD到试模可追溯：蓝光3D扫描如何建立模具全流程数字线程](./articles/mold-blue-light-3d-scanning-digital-thread-configuration-baseline.md#chinese-version)
+51. [从工程变更到多穴量产放行：蓝光3D扫描如何验证模具版本一致性](./articles/mold-engineering-change-multi-cavity-production-release-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
