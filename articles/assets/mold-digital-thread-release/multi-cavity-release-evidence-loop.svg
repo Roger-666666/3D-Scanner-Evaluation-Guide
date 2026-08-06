@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">多穴模具量产放行证据闭环</title>
+  <desc id="desc">展示批准设计基线、不同型腔或镶件、对应试模件、统一检测模板、穴位特征与过程记录之间的放行闭环。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">多穴放行：既看共同趋势，也保留穴位身份</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Evidence loop for cavity-specific verification and controlled production release</text>
+
+  <defs>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#566773" stroke-width="3" marker-end="url(#arrow3)">
+    <path d="M260 220 L370 220"/>
+    <path d="M550 220 L675 220"/>
+    <path d="M765 270 L765 400"/>
+    <path d="M675 455 L550 455"/>
+    <path d="M370 455 L260 455"/>
+    <path d="M170 400 L170 270"/>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <g transform="translate(80 165)">
+      <rect width="180" height="105" rx="6" fill="#d9edf3" stroke="#277b9b" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#183c4b">批准设计基线</text>
+      <text x="90" y="66" text-anchor="middle" font-size="15" fill="#355866">CAD / 变更 / 基准</text>
+      <text x="90" y="88" text-anchor="middle" font-size="13" fill="#355866">BASELINE</text>
+    </g>
+    <g transform="translate(370 165)">
+      <rect width="180" height="105" rx="6" fill="#f0e6c8" stroke="#a77d27" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#5d471a">型腔与镶件族</text>
+      <text x="90" y="66" text-anchor="middle" font-size="15" fill="#735d2d">穴位 / 装配 / 维护</text>
+      <text x="90" y="88" text-anchor="middle" font-size="13" fill="#735d2d">TOOL FAMILY</text>
+    </g>
+    <g transform="translate(675 165)">
+      <rect width="180" height="105" rx="6" fill="#dceacb" stroke="#6c8a38" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#35461d">对应试模件</text>
+      <text x="90" y="66" text-anchor="middle" font-size="15" fill="#53672e">穴位 / 材料 / 状态</text>
+      <text x="90" y="88" text-anchor="middle" font-size="13" fill="#53672e">TRIAL PARTS</text>
+    </g>
+    <g transform="translate(675 400)">
+      <rect width="180" height="105" rx="6" fill="#d9edf3" stroke="#277b9b" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#183c4b">统一检测模板</text>
+      <text x="90" y="66" text-anchor="middle" font-size="15" fill="#355866">对齐 / 特征 / 例外</text>
+      <text x="90" y="88" text-anchor="middle" font-size="13" fill="#355866">RECIPE</text>
+    </g>
+    <g transform="translate(370 400)">
+      <rect width="180" height="105" rx="6" fill="#e8e0ef" stroke="#7d6090" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#493654">穴位特征分析</text>
+      <text x="90" y="66" text-anchor="middle" font-size="15" fill="#65506e">共同趋势 / 个体差异</text>
+      <text x="90" y="88" text-anchor="middle" font-size="13" fill="#65506e">SIGNATURE</text>
+    </g>
+    <g transform="translate(80 400)">
+      <rect width="180" height="105" rx="6" fill="#e7e9ec" stroke="#6f7d87" stroke-width="2"/>
+      <text x="90" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#34434d">放行或保留</text>
+      <text x="90" y="66" text-anchor="middle" font-size="15" fill="#53616b">范围 / 例外 / 复验</text>
+      <text x="90" y="88" text-anchor="middle" font-size="13" fill="#53616b">DISPOSITION</text>
+    </g>
+  </g>
+
+  <rect x="915" y="170" width="205" height="350" rx="7" fill="#f5f7f8" stroke="#c6d0d6"/>
+  <text x="1018" y="205" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#2b3d48">穴位数据卡</text>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5a64">
+    <rect x="940" y="230" width="155" height="45" rx="5" fill="#ffffff" stroke="#c4ced4"/><text x="1018" y="258" text-anchor="middle">型腔 / 镶件身份</text>
+    <rect x="940" y="290" width="155" height="45" rx="5" fill="#ffffff" stroke="#c4ced4"/><text x="1018" y="318" text-anchor="middle">试模件与工艺状态</text>
+    <rect x="940" y="350" width="155" height="45" rx="5" fill="#ffffff" stroke="#c4ced4"/><text x="1018" y="378" text-anchor="middle">覆盖与数据质量</text>
+    <rect x="940" y="410" width="155" height="45" rx="5" fill="#ffffff" stroke="#c4ced4"/><text x="1018" y="438" text-anchor="middle">关键特征与趋势</text>
+    <rect x="940" y="470" width="155" height="45" rx="5" fill="#ffffff" stroke="#c4ced4"/><text x="1018" y="498" text-anchor="middle">处置与复验状态</text>
+  </g>
+
+  <rect x="260" y="570" width="680" height="52" rx="6" fill="#f3f6f7" stroke="#c9d2d8"/>
+  <text x="600" y="601" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#44545f">同一坐标定义 + 同一CAD版本 + 同一检测模板 + 独立穴位身份</text>
+  <text x="80" y="660" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">流程示意，不代表特定模具穴数或量产规范 / Conceptual workflow, not a cavity count or production specification</text>
+</svg>
