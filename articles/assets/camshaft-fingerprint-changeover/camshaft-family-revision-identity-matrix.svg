@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">汽车凸轮轴产品族与版本身份矩阵</title>
+  <desc id="desc">展示物理凸轮轴、CAD、检测模板和报告之间的身份校验矩阵，用于防止产品族、设计版本、凸轮编号和工序状态混用。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="94" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">产品族与版本防混：每份结果先回答“测的是谁”</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Identity checks across the physical shaft, CAD, inspection recipe and report</text>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="80" y="170" width="250" height="62" fill="#314a59"/><text x="100" y="208" font-size="18" font-weight="700" fill="#ffffff">受控字段</text>
+    <rect x="330" y="170" width="190" height="62" fill="#d8ebf3"/><text x="425" y="198" text-anchor="middle" font-size="17" font-weight="700" fill="#24526b">物理凸轮轴</text><text x="425" y="218" text-anchor="middle" font-size="13" fill="#48616e">PHYSICAL PART</text>
+    <rect x="520" y="170" width="190" height="62" fill="#e5ddf0"/><text x="615" y="198" text-anchor="middle" font-size="17" font-weight="700" fill="#5d4675">批准CAD</text><text x="615" y="218" text-anchor="middle" font-size="13" fill="#65566f">APPROVED CAD</text>
+    <rect x="710" y="170" width="190" height="62" fill="#f4e7c5"/><text x="805" y="198" text-anchor="middle" font-size="17" font-weight="700" fill="#765712">检测模板</text><text x="805" y="218" text-anchor="middle" font-size="13" fill="#756538">RECIPE</text>
+    <rect x="900" y="170" width="220" height="62" fill="#dfeccd"/><text x="1010" y="198" text-anchor="middle" font-size="17" font-weight="700" fill="#45661f">报告与处置</text><text x="1010" y="218" text-anchor="middle" font-size="13" fill="#5e6e49">REPORT</text>
+
+    <g font-size="16" fill="#344650">
+      <rect x="80" y="232" width="1040" height="62" fill="#fafbfb" stroke="#d1d8dd"/><text x="100" y="270" font-weight="700">产品族与零件身份</text><text x="425" y="270" text-anchor="middle">铭牌 / 追溯码</text><text x="615" y="270" text-anchor="middle">产品族定义</text><text x="805" y="270" text-anchor="middle">适用对象</text><text x="1010" y="270" text-anchor="middle">身份一致</text>
+      <rect x="80" y="294" width="1040" height="62" fill="#f3f6f7" stroke="#d1d8dd"/><text x="100" y="332" font-weight="700">设计与工程变更</text><text x="425" y="332" text-anchor="middle">制造版本</text><text x="615" y="332" text-anchor="middle">批准版本</text><text x="805" y="332" text-anchor="middle">版本绑定</text><text x="1010" y="332" text-anchor="middle">版本一致</text>
+      <rect x="80" y="356" width="1040" height="62" fill="#fafbfb" stroke="#d1d8dd"/><text x="100" y="394" font-weight="700">凸轮编号与方向</text><text x="425" y="394" text-anchor="middle">端部与旋向</text><text x="615" y="394" text-anchor="middle">特征映射</text><text x="805" y="394" text-anchor="middle">编号规则</text><text x="1010" y="394" text-anchor="middle">映射一致</text>
+      <rect x="80" y="418" width="1040" height="62" fill="#f3f6f7" stroke="#d1d8dd"/><text x="100" y="456" font-weight="700">基准与角度零位</text><text x="425" y="456" text-anchor="middle">可用基准</text><text x="615" y="456" text-anchor="middle">功能定义</text><text x="805" y="456" text-anchor="middle">对齐规则</text><text x="1010" y="456" text-anchor="middle">基准一致</text>
+      <rect x="80" y="480" width="1040" height="62" fill="#fafbfb" stroke="#d1d8dd"/><text x="100" y="518" font-weight="700">工序与表面状态</text><text x="425" y="518" text-anchor="middle">当前状态</text><text x="615" y="518" text-anchor="middle">比较目的</text><text x="805" y="518" text-anchor="middle">处理规则</text><text x="1010" y="518" text-anchor="middle">适用范围</text>
+    </g>
+
+    <rect x="80" y="570" width="310" height="52" rx="6" fill="#dfeccd"/><circle cx="108" cy="596" r="10" fill="#6ca37b"/><text x="130" y="602" font-size="15" fill="#3e5428">全部一致：进入几何评价</text>
+    <rect x="410" y="570" width="310" height="52" rx="6" fill="#f4e7c5"/><circle cx="438" cy="596" r="10" fill="#d9a63f"/><text x="460" y="602" font-size="15" fill="#694e14">存在疑点：暂停并复核</text>
+    <rect x="740" y="570" width="380" height="52" rx="6" fill="#f0ded7"/><circle cx="768" cy="596" r="10" fill="#d77c58"/><text x="790" y="602" font-size="15" fill="#6f3928">身份不符：结果不得用于放行</text>
+  </g>
+  <text x="80" y="656" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">治理示意，不代表特定企业编码或审批流程 / Governance example, not a named company's coding or approval process</text>
+</svg>
