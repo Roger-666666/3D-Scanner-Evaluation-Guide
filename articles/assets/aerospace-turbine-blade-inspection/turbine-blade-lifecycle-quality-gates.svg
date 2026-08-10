@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">航空涡轮叶片全生命周期三维质量门</title>
+  <desc id="desc">展示从设计基线、精密铸造、热处理与矫形、机加工、表面状态、终检到维修评估的三维几何证据流，并强调无损检测、材料和寿命证据需独立提供。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="94" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">叶片质量门：让每次几何比较对应正确工序状态</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">A traceable geometry-evidence flow from approved design through manufacturing and maintenance</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <g>
+      <rect x="75" y="190" width="145" height="105" rx="7" fill="#e5ddf0" stroke="#8a72a0" stroke-width="2"/><text x="147" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#5d4675">设计基线</text><text x="147" y="250" text-anchor="middle" font-size="13" fill="#65566f">CAD / 基准 / 特征</text><text x="147" y="273" text-anchor="middle" font-size="12" fill="#65566f">DESIGN</text>
+      <path d="M220 242 H250" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="255" y="190" width="145" height="105" rx="7" fill="#f4e7c5" stroke="#b2882c" stroke-width="2"/><text x="327" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#765712">精密铸造</text><text x="327" y="250" text-anchor="middle" font-size="13" fill="#756538">形态 / 余量 / 边界</text><text x="327" y="273" text-anchor="middle" font-size="12" fill="#756538">CASTING</text>
+      <path d="M400 242 H430" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="435" y="190" width="145" height="105" rx="7" fill="#f0ded7" stroke="#bc795f" stroke-width="2"/><text x="507" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#783e2a">热处理/矫形</text><text x="507" y="250" text-anchor="middle" font-size="13" fill="#70493b">前后差分 / 保留区</text><text x="507" y="273" text-anchor="middle" font-size="12" fill="#70493b">FORMING</text>
+      <path d="M580 242 H610" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="615" y="190" width="145" height="105" rx="7" fill="#d8ebf3" stroke="#5c91ad" stroke-width="2"/><text x="687" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#24526b">机加工</text><text x="687" y="250" text-anchor="middle" font-size="13" fill="#4c6876">叶根 / 平台 / 接口</text><text x="687" y="273" text-anchor="middle" font-size="12" fill="#4c6876">MACHINING</text>
+      <path d="M760 242 H790" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="795" y="190" width="145" height="105" rx="7" fill="#dfeccd" stroke="#78984d" stroke-width="2"/><text x="867" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#45661f">表面状态</text><text x="867" y="250" text-anchor="middle" font-size="13" fill="#5e6e49">涂层前后 / 覆盖</text><text x="867" y="273" text-anchor="middle" font-size="12" fill="#5e6e49">SURFACE</text>
+      <path d="M940 242 H970" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+      <rect x="975" y="190" width="145" height="105" rx="7" fill="#e7ebed" stroke="#89979f" stroke-width="2"/><text x="1047" y="225" text-anchor="middle" font-size="17" font-weight="700" fill="#495962">终检/维修</text><text x="1047" y="250" text-anchor="middle" font-size="13" fill="#697780">放行 / 磨损复核</text><text x="1047" y="273" text-anchor="middle" font-size="12" fill="#697780">RELEASE / MRO</text>
+    </g>
+
+    <text x="80" y="345" font-size="20" font-weight="700" fill="#283a46">每个质量门保留的几何证据</text>
+    <rect x="80" y="370" width="1040" height="130" rx="8" fill="#f7f8f8" stroke="#c7d0d6"/>
+    <g font-size="15" fill="#344650">
+      <circle cx="120" cy="405" r="9" fill="#7ea9c6"/><text x="142" y="411">对象身份、工序状态与批准CAD</text>
+      <circle cx="120" cy="450" r="9" fill="#6ca37b"/><text x="142" y="456">原始数据、覆盖地图与表面准备</text>
+      <circle cx="455" cy="405" r="9" fill="#d9a63f"/><text x="477" y="411">基准、对齐、截面与边缘规则</text>
+      <circle cx="455" cy="450" r="9" fill="#a18aba"/><text x="477" y="456">预期变化、沿用区与不可评价区</text>
+      <circle cx="805" cy="405" r="9" fill="#d77c58"/><text x="827" y="411">调整、返修或放行的工程处置</text>
+      <circle cx="805" cy="450" r="9" fill="#89979f"/><text x="827" y="456">复扫、参考方法与审批状态</text>
+    </g>
+
+    <path d="M1047 295 V545 H147 V315" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="595" y="536" text-anchor="middle" font-size="16" font-weight="700" fill="#3f505b">维修或异常结果返回批准基线，形成可追溯复核闭环</text>
+
+    <rect x="155" y="575" width="890" height="52" rx="6" fill="#eceff1" stroke="#c9d2d8"/>
+    <text x="600" y="598" text-anchor="middle" font-size="15" font-weight="700" fill="#485b67">三维扫描提供可见表面几何证据</text>
+    <text x="600" y="619" text-anchor="middle" font-size="14" fill="#697780">内部孔道、裂纹、材料、涂层性能与剩余寿命由独立方法评价</text>
+  </g>
+  <text x="80" y="660" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">流程示意，不代表特定航空质量体系、工艺参数或适航放行规则 / Conceptual workflow, not an aviation quality system, process setting or airworthiness rule</text>
+</svg>
