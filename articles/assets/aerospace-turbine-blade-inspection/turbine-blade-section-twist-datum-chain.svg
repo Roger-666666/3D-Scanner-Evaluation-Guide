@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">航空涡轮叶片截面族、扭转与基准链</title>
+  <desc id="desc">展示叶根、平台、叶身堆叠轴和多个受控翼型截面之间的基准传递，以及整体对齐、功能基准对齐和局部截面分析的不同用途。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="94" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">叶片截面族与扭转：基准链决定数据含义</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Datum transfer from root and platform to stacking axis, controlled sections and edge profiles</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+
+  <text x="270" y="177" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">受控翼型截面族</text>
+  <rect x="80" y="200" width="380" height="360" rx="8" fill="#f7f8f8" stroke="#a8b7c0" stroke-width="2"/>
+  <line x1="270" y1="235" x2="270" y2="525" stroke="#82939d" stroke-width="2" stroke-dasharray="7 7"/>
+  <g fill="#d8ebf3" stroke="#3d6378" stroke-width="3">
+    <path d="M170 265 C215 232 330 235 370 272 C330 284 220 295 170 265 Z"/>
+    <path d="M165 350 C220 316 333 326 375 365 C324 372 215 378 165 350 Z" transform="rotate(7 270 350)"/>
+    <path d="M160 445 C220 407 335 423 380 462 C320 467 208 472 160 445 Z" transform="rotate(14 270 445)"/>
+  </g>
+  <g stroke="#d77c58" stroke-width="4" fill="none">
+    <line x1="170" y1="265" x2="370" y2="272"/><line x1="167" y1="337" x2="374" y2="363"/><line x1="166" y1="420" x2="376" y2="470"/>
+  </g>
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#4f626e">
+    <text x="105" y="270">叶尖侧截面</text><text x="105" y="355">中部截面</text><text x="105" y="450">平台侧截面</text>
+    <text x="270" y="545" text-anchor="middle">截面位置、方向、弦线和边缘规则均受控</text>
+  </g>
+
+  <path d="M480 380 H535" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="680" y="177" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">功能基准传递</text>
+  <rect x="540" y="200" width="280" height="360" rx="8" fill="#ffffff" stroke="#a8b7c0" stroke-width="2"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="575" y="230" width="210" height="50" rx="5" fill="#dfeccd"/><text x="680" y="261" text-anchor="middle" font-size="16" font-weight="700" fill="#45661f">叶根装配基准</text>
+    <path d="M680 281 V315" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="575" y="320" width="210" height="50" rx="5" fill="#f4e7c5"/><text x="680" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#765712">平台与径向高度</text>
+    <path d="M680 371 V405" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="575" y="410" width="210" height="50" rx="5" fill="#d8ebf3"/><text x="680" y="441" text-anchor="middle" font-size="16" font-weight="700" fill="#24526b">堆叠轴与截面位置</text>
+    <path d="M680 461 V495" stroke="#566773" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="575" y="500" width="210" height="40" rx="5" fill="#e5ddf0"/><text x="680" y="526" text-anchor="middle" font-size="16" font-weight="700" fill="#5d4675">弦长、扭转与型线</text>
+  </g>
+
+  <path d="M840 380 H895" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="1010" y="177" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">对齐用途分离</text>
+  <rect x="900" y="200" width="220" height="360" rx="8" fill="#f7f8f8" stroke="#a8b7c0" stroke-width="2"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="925" y="235" width="170" height="76" rx="5" fill="#d8ebf3"/><text x="1010" y="264" text-anchor="middle" font-size="16" font-weight="700" fill="#24526b">整体最佳拟合</text><text x="1010" y="288" text-anchor="middle" font-size="13" fill="#4c6876">观察全局形态</text>
+    <rect x="925" y="338" width="170" height="76" rx="5" fill="#dfeccd"/><text x="1010" y="367" text-anchor="middle" font-size="16" font-weight="700" fill="#45661f">功能基准对齐</text><text x="1010" y="391" text-anchor="middle" font-size="13" fill="#5e6e49">判断装配关系</text>
+    <rect x="925" y="441" width="170" height="76" rx="5" fill="#e5ddf0"/><text x="1010" y="470" text-anchor="middle" font-size="16" font-weight="700" fill="#5d4675">局部截面对齐</text><text x="1010" y="494" text-anchor="middle" font-size="13" fill="#65566f">研究型线本身</text>
+  </g>
+
+  <rect x="155" y="600" width="890" height="42" rx="6" fill="#f1f4f5" stroke="#c9d2d8"/>
+  <text x="600" y="626" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#485b67">同一叶片身份 + 同一CAD版本 + 同一基准链 + 同一截面规则 + 同一处理模板</text>
+  <text x="80" y="666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">关系示意，不代表实际弦长、扭转角、公差或产品设计 / Conceptual relations, not actual chord, twist, tolerance or product design</text>
+</svg>
