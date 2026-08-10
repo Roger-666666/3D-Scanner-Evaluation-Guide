@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">汽车凸轮轴磨削偏差分层处置闭环</title>
+  <desc id="desc">展示从偏差模式识别、证据复核、工艺假设到受控调整和复扫放行的闭环，强调色谱不能直接证明根因。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="94" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">磨削异常处置：从偏差模式到受控复核</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Route geometric evidence through independent checks before compensation or release</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <text x="205" y="178" text-anchor="middle" font-size="21" font-weight="700" fill="#283a46">偏差模式分类</text>
+    <rect x="80" y="200" width="250" height="330" rx="8" fill="#f7f8f8" stroke="#9eb1bc" stroke-width="2"/>
+    <rect x="105" y="230" width="200" height="45" rx="5" fill="#d8ebf3"/><text x="205" y="258" text-anchor="middle" font-size="16" fill="#24526b">多凸轮共同变化</text>
+    <rect x="105" y="289" width="200" height="45" rx="5" fill="#e5ddf0"/><text x="205" y="317" text-anchor="middle" font-size="16" fill="#5d4675">开启/关闭侧不对称</text>
+    <rect x="105" y="348" width="200" height="45" rx="5" fill="#f4e7c5"/><text x="205" y="376" text-anchor="middle" font-size="16" fill="#765712">沿轴向渐变</text>
+    <rect x="105" y="407" width="200" height="45" rx="5" fill="#f0ded7"/><text x="205" y="435" text-anchor="middle" font-size="16" fill="#783e2a">单一凸轮局部异常</text>
+    <rect x="105" y="466" width="200" height="45" rx="5" fill="#e7ebed"/><text x="205" y="494" text-anchor="middle" font-size="16" fill="#4b5961">边缘或不可评价区域</text>
+
+    <path d="M350 365 H425" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="387" y="344" text-anchor="middle" font-size="14" font-weight="700" fill="#445762">复核</text>
+
+    <text x="565" y="178" text-anchor="middle" font-size="21" font-weight="700" fill="#283a46">独立证据检查</text>
+    <rect x="430" y="200" width="270" height="330" rx="8" fill="#ffffff" stroke="#9eb1bc" stroke-width="2"/>
+    <g font-size="16" fill="#344650">
+      <circle cx="468" cy="252" r="11" fill="#6ca37b"/><text x="492" y="258">重复采集与重装夹</text>
+      <circle cx="468" cy="311" r="11" fill="#7ea9c6"/><text x="492" y="317">基准、支撑与零位</text>
+      <circle cx="468" cy="370" r="11" fill="#d9a63f"/><text x="492" y="376">砂轮、修整与程序状态</text>
+      <circle cx="468" cy="429" r="11" fill="#a18aba"/><text x="492" y="435">热处理与上游记录</text>
+      <circle cx="468" cy="488" r="11" fill="#89979f"/><text x="492" y="494">专用量仪或功能结果</text>
+    </g>
+
+    <path d="M720 365 H795" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="757" y="344" text-anchor="middle" font-size="14" font-weight="700" fill="#445762">处置</text>
+
+    <text x="960" y="178" text-anchor="middle" font-size="21" font-weight="700" fill="#283a46">受控决策</text>
+    <rect x="800" y="200" width="320" height="330" rx="8" fill="#f7f8f8" stroke="#9eb1bc" stroke-width="2"/>
+    <rect x="830" y="230" width="260" height="52" rx="5" fill="#f0ded7"/><text x="960" y="262" text-anchor="middle" font-size="16" font-weight="700" fill="#783e2a">暂停：证据或身份不足</text>
+    <rect x="830" y="299" width="260" height="52" rx="5" fill="#f4e7c5"/><text x="960" y="331" text-anchor="middle" font-size="16" font-weight="700" fill="#765712">受控调整：一次一项</text>
+    <rect x="830" y="368" width="260" height="52" rx="5" fill="#d8ebf3"/><text x="960" y="400" text-anchor="middle" font-size="16" font-weight="700" fill="#24526b">复扫：同模板差分比较</text>
+    <rect x="830" y="437" width="260" height="52" rx="5" fill="#dfeccd"/><text x="960" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#45661f">放行或转入进一步调查</text>
+  </g>
+
+  <path d="M960 530 V590 H205 V550" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="585" y="578" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#3f505b">复扫后重新分类，不用单张色谱直接下根因结论</text>
+  <rect x="165" y="610" width="870" height="34" rx="5" fill="#eef2f3"/>
+  <text x="600" y="633" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#697780">偏差图 = 几何证据；根因 = 多源证据支持的工程判断 / A deviation map is geometric evidence, not proof of cause</text>
+  <text x="80" y="660" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">流程示意，不代表特定工艺参数、补偿量或放行标准 / Conceptual workflow, not process settings, compensation values or release criteria</text>
+</svg>
