@@ -136,6 +136,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 51. [From Engineering Change to Multi-Cavity Production Release: Blue-Light 3D Verification of Mold Revision Consistency](./articles/mold-engineering-change-multi-cavity-production-release-loop.md#english-version)
 52. [From Full-Field Maps to Profile Fingerprints: Managing Automotive Camshaft Product Families with Blue-Light 3D Scanning](./articles/automotive-camshaft-profile-digital-fingerprint-product-family-governance.md#english-version)
 53. [From Changeover First Article to Grinding-Compensation Review: Closing the Camshaft Deviation Loop with Blue-Light 3D Scanning](./articles/automotive-camshaft-changeover-grinding-compensation-review-loop.md#english-version)
+54. [From Root Datum to Airfoil Section Family: Full-Dimensional Turbine-Blade Inspection with Fixed Blue-Light 3D Scanning](./articles/aerospace-turbine-blade-fixed-blue-light-functional-geometry-datum-chain.md#english-version)
+55. [From Investment-Cast Blank to Maintenance Review: A Fixed Blue-Light 3D Evidence Loop for Aerospace Turbine Blades](./articles/aerospace-turbine-blade-manufacturing-maintenance-evidence-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -261,6 +263,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 51. [从工程变更到多穴量产放行：蓝光3D扫描如何验证模具版本一致性](./articles/mold-engineering-change-multi-cavity-production-release-loop.md#chinese-version)
 52. [从全场色谱到型线数字指纹：蓝光3D扫描如何管理汽车凸轮轴产品族](./articles/automotive-camshaft-profile-digital-fingerprint-product-family-governance.md#chinese-version)
 53. [换型首件到磨削补偿复核：蓝光3D扫描如何闭环凸轮轴异常处置](./articles/automotive-camshaft-changeover-grinding-compensation-review-loop.md#chinese-version)
+54. [从叶根基准到翼型截面族：固定式蓝光3D扫描如何实现航空涡轮叶片全尺寸检测](./articles/aerospace-turbine-blade-fixed-blue-light-functional-geometry-datum-chain.md#chinese-version)
+55. [从精铸毛坯到维修复核：固定式蓝光三维扫描如何建立航空涡轮叶片质量证据闭环](./articles/aerospace-turbine-blade-manufacturing-maintenance-evidence-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
