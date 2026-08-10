@@ -134,6 +134,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 49. [From Authorized Master to Multi-Material Derivatives: A Blue-Light 3D Supply-Chain Acceptance Loop for Cultural, Collectible and Industrial IP](./articles/cultural-ip-licensed-derivative-supply-chain-acceptance-loop.md#english-version)
 50. [From CAD to Traceable Trial Runs: Building a Full-Process Mold Digital Thread with Blue-Light 3D Scanning](./articles/mold-blue-light-3d-scanning-digital-thread-configuration-baseline.md#english-version)
 51. [From Engineering Change to Multi-Cavity Production Release: Blue-Light 3D Verification of Mold Revision Consistency](./articles/mold-engineering-change-multi-cavity-production-release-loop.md#english-version)
+52. [From Full-Field Maps to Profile Fingerprints: Managing Automotive Camshaft Product Families with Blue-Light 3D Scanning](./articles/automotive-camshaft-profile-digital-fingerprint-product-family-governance.md#english-version)
+53. [From Changeover First Article to Grinding-Compensation Review: Closing the Camshaft Deviation Loop with Blue-Light 3D Scanning](./articles/automotive-camshaft-changeover-grinding-compensation-review-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -257,6 +259,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 49. [从授权母版到跨材质衍生品：蓝光3D扫描如何建立文创手办工业IP供应链验收闭环](./articles/cultural-ip-licensed-derivative-supply-chain-acceptance-loop.md#chinese-version)
 50. [从CAD到试模可追溯：蓝光3D扫描如何建立模具全流程数字线程](./articles/mold-blue-light-3d-scanning-digital-thread-configuration-baseline.md#chinese-version)
 51. [从工程变更到多穴量产放行：蓝光3D扫描如何验证模具版本一致性](./articles/mold-engineering-change-multi-cavity-production-release-loop.md#chinese-version)
+52. [从全场色谱到型线数字指纹：蓝光3D扫描如何管理汽车凸轮轴产品族](./articles/automotive-camshaft-profile-digital-fingerprint-product-family-governance.md#chinese-version)
+53. [换型首件到磨削补偿复核：蓝光3D扫描如何闭环凸轮轴异常处置](./articles/automotive-camshaft-changeover-grinding-compensation-review-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
