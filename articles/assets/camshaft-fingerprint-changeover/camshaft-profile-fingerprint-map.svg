@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">汽车凸轮轴型线数字指纹结构</title>
+  <desc id="desc">展示从受控截面、功能分区和轴系关系形成凸轮轴几何数字指纹，并用于版本与工艺模式比较。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="94" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">凸轮轴型线数字指纹：把全场几何变成可比较语义</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">A controlled geometry signature for lobe identity, profile zones, phase and datum relationships</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+  </defs>
+
+  <text x="230" y="175" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">受控几何输入</text>
+  <rect x="80" y="198" width="300" height="330" rx="8" fill="#eef4f6" stroke="#9eb1bc" stroke-width="2"/>
+  <line x1="115" y1="365" x2="345" y2="365" stroke="#506572" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#7ea9c6" stroke="#35566a" stroke-width="2">
+    <path d="M145 365 C145 314 165 285 190 285 C216 285 235 314 235 365 C235 416 216 445 190 445 C165 445 145 416 145 365 Z"/>
+    <path d="M245 365 C245 325 262 302 285 302 C310 302 326 325 326 365 C326 405 310 428 285 428 C262 428 245 405 245 365 Z"/>
+  </g>
+  <circle cx="128" cy="365" r="20" fill="#d9e5ea" stroke="#506572" stroke-width="3"/>
+  <circle cx="342" cy="365" r="20" fill="#d9e5ea" stroke="#506572" stroke-width="3"/>
+  <path d="M190 285 A80 80 0 0 1 235 365" fill="none" stroke="#d77c58" stroke-width="7"/>
+  <path d="M235 365 A80 80 0 0 1 190 445" fill="none" stroke="#d9a63f" stroke-width="7"/>
+  <path d="M190 445 A80 80 0 0 1 145 365" fill="none" stroke="#6ca37b" stroke-width="7"/>
+  <text x="230" y="235" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#334b59">同一基准轴系与角度零位</text>
+  <text x="230" y="474" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#51636e">开启侧 · 鼻部 · 关闭侧 · 基圆</text>
+  <text x="230" y="502" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#667680">截面位置、方向、覆盖状态均受控</text>
+
+  <path d="M400 365 H470" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="435" y="344" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#445762">提取</text>
+
+  <text x="625" y="175" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">数字指纹层</text>
+  <rect x="475" y="198" width="300" height="330" rx="8" fill="#ffffff" stroke="#9eb1bc" stroke-width="2"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="505" y="230" width="240" height="46" rx="5" fill="#d8ebf3"/><text x="625" y="259" text-anchor="middle" font-size="16" font-weight="700" fill="#24526b">对象身份与设计版本</text>
+    <rect x="505" y="289" width="240" height="46" rx="5" fill="#e5ddf0"/><text x="625" y="318" text-anchor="middle" font-size="16" font-weight="700" fill="#5d4675">凸轮编号与型线分区</text>
+    <rect x="505" y="348" width="240" height="46" rx="5" fill="#f4e7c5"/><text x="625" y="377" text-anchor="middle" font-size="16" font-weight="700" fill="#765712">相位关系与端部方向</text>
+    <rect x="505" y="407" width="240" height="46" rx="5" fill="#dfeccd"/><text x="625" y="436" text-anchor="middle" font-size="16" font-weight="700" fill="#45661f">轴颈基准与轴向位置</text>
+    <rect x="505" y="466" width="240" height="46" rx="5" fill="#eceff1"/><text x="625" y="495" text-anchor="middle" font-size="16" font-weight="700" fill="#495962">覆盖、例外与模板版本</text>
+  </g>
+
+  <path d="M795 365 H865" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="830" y="344" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#445762">比较</text>
+
+  <text x="1010" y="175" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">工程输出</text>
+  <rect x="870" y="198" width="280" height="330" rx="8" fill="#f7f8f8" stroke="#9eb1bc" stroke-width="2"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <circle cx="912" cy="252" r="13" fill="#6ca37b"/><text x="942" y="258" font-size="16" fill="#344650">同版本一致性</text>
+    <circle cx="912" cy="311" r="13" fill="#7ea9c6"/><text x="942" y="317" font-size="16" fill="#344650">产品族差异边界</text>
+    <circle cx="912" cy="370" r="13" fill="#d9a63f"/><text x="942" y="376" font-size="16" fill="#344650">工序模式变化</text>
+    <circle cx="912" cy="429" r="13" fill="#d77c58"/><text x="942" y="435" font-size="16" fill="#344650">版本或对象疑点</text>
+    <circle cx="912" cy="488" r="13" fill="#a3adb3"/><text x="942" y="494" font-size="16" fill="#344650">证据不足待复核</text>
+  </g>
+
+  <rect x="150" y="565" width="900" height="58" rx="6" fill="#f1f4f5" stroke="#c9d2d8"/>
+  <text x="600" y="590" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#3f505b">同一对象身份 + 同一功能基准 + 同一截面规则 + 同一处理模板</text>
+  <text x="600" y="613" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#697780">Same identity + same functional datum + same section rule + same processing recipe</text>
+  <text x="80" y="656" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">方法示意，不代表实测型线、公差或产品判定 / Conceptual method, not measured profiles, tolerances or acceptance results</text>
+</svg>
