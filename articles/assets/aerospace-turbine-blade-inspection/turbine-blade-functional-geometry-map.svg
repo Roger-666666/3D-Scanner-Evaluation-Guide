@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">航空涡轮叶片功能几何分区图</title>
+  <desc id="desc">展示叶身吸力面和压力面、前缘、后缘、叶尖、平台、叶根及可见冷却孔入口等检测对象，并区分可测表面、边缘复核区和不可直接评价的内部结构。</desc>
+  <rect width="1200" height="720" fill="#f4f6f7"/>
+  <rect x="40" y="40" width="1120" height="640" rx="8" fill="#ffffff" stroke="#c8d1d8" stroke-width="2"/>
+  <text x="80" y="94" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#172631">涡轮叶片功能几何：先分区，再定义检测语义</text>
+  <text x="80" y="128" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#586671">Functional zones for airfoil, edges, platform, root and visible cooling-hole entrances</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#566773"/>
+    </marker>
+    <linearGradient id="bladeFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ea9c6"/>
+      <stop offset="1" stop-color="#a9c7d9"/>
+    </linearGradient>
+  </defs>
+
+  <text x="345" y="174" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">叶片可见表面模型</text>
+  <rect x="80" y="195" width="530" height="390" rx="8" fill="#f6f8f9" stroke="#a8b7c0" stroke-width="2"/>
+  <path d="M315 465 L290 425 C278 365 286 300 322 240 C345 205 388 202 410 230 C432 260 425 315 405 370 C390 412 376 445 370 465 Z" fill="url(#bladeFill)" stroke="#385767" stroke-width="3"/>
+  <path d="M322 240 C300 306 302 380 315 465" fill="none" stroke="#d77c58" stroke-width="7"/>
+  <path d="M410 230 C426 302 406 390 370 465" fill="none" stroke="#d9a63f" stroke-width="7"/>
+  <path d="M322 240 Q365 205 410 230" fill="none" stroke="#6ca37b" stroke-width="7"/>
+  <rect x="268" y="463" width="148" height="42" rx="4" fill="#c9d5da" stroke="#506572" stroke-width="3"/>
+  <path d="M292 505 H393 L410 535 H275 Z" fill="#8da0aa" stroke="#506572" stroke-width="3"/>
+  <path d="M285 535 H400 L380 566 H305 Z" fill="#728790" stroke="#506572" stroke-width="3"/>
+  <g fill="#ffffff" stroke="#486979" stroke-width="2">
+    <circle cx="345" cy="292" r="6"/><circle cx="356" cy="328" r="6"/><circle cx="362" cy="366" r="6"/>
+  </g>
+
+  <g font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#344650" stroke="#566773" stroke-width="2">
+    <path d="M316 270 L205 240" fill="none"/><text x="195" y="235" text-anchor="end" stroke="none">前缘 / Leading edge</text>
+    <path d="M410 286 L505 245" fill="none"/><text x="515" y="240" stroke="none">后缘 / Trailing edge</text>
+    <path d="M340 215 L250 185" fill="none"/><text x="240" y="180" text-anchor="end" stroke="none">叶尖 / Tip</text>
+    <path d="M335 355 L195 355" fill="none"/><text x="185" y="350" text-anchor="end" stroke="none">压力面</text><text x="185" y="370" text-anchor="end" stroke="none" font-size="13">Pressure side</text>
+    <path d="M397 360 L505 360" fill="none"/><text x="515" y="355" stroke="none">吸力面</text><text x="515" y="375" stroke="none" font-size="13">Suction side</text>
+    <path d="M345 328 L205 300" fill="none"/><text x="195" y="295" text-anchor="end" stroke="none">可见孔入口</text><text x="195" y="315" text-anchor="end" stroke="none" font-size="13">Visible hole entrance</text>
+    <path d="M275 482 L180 485" fill="none"/><text x="170" y="490" text-anchor="end" stroke="none">平台 / Platform</text>
+    <path d="M300 548 L190 545" fill="none"/><text x="180" y="550" text-anchor="end" stroke="none">叶根 / Root</text>
+  </g>
+
+  <path d="M630 390 H690" fill="none" stroke="#566773" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="660" y="370" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" fill="#445762">分层评价</text>
+
+  <text x="920" y="174" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#283a46">检测输出与边界</text>
+  <rect x="700" y="195" width="420" height="390" rx="8" fill="#ffffff" stroke="#a8b7c0" stroke-width="2"/>
+  <g font-family="Arial, Microsoft YaHei, sans-serif">
+    <rect x="730" y="225" width="360" height="56" rx="5" fill="#d8ebf3"/><text x="910" y="251" text-anchor="middle" font-size="16" font-weight="700" fill="#24526b">叶身全场偏差与截面族</text><text x="910" y="271" text-anchor="middle" font-size="13" fill="#4c6876">Airfoil map and controlled sections</text>
+    <rect x="730" y="296" width="360" height="56" rx="5" fill="#f4e7c5"/><text x="910" y="322" text-anchor="middle" font-size="16" font-weight="700" fill="#765712">前后缘轮廓与边缘可评性</text><text x="910" y="342" text-anchor="middle" font-size="13" fill="#756538">Edge profile and evaluability</text>
+    <rect x="730" y="367" width="360" height="56" rx="5" fill="#dfeccd"/><text x="910" y="393" text-anchor="middle" font-size="16" font-weight="700" fill="#45661f">平台、叶根与装配基准关系</text><text x="910" y="413" text-anchor="middle" font-size="13" fill="#5e6e49">Platform, root and datum relation</text>
+    <rect x="730" y="438" width="360" height="56" rx="5" fill="#e5ddf0"/><text x="910" y="464" text-anchor="middle" font-size="16" font-weight="700" fill="#5d4675">可见孔口位置与局部表面</text><text x="910" y="484" text-anchor="middle" font-size="13" fill="#65566f">Visible openings and local surface</text>
+    <rect x="730" y="509" width="360" height="56" rx="5" fill="#eceff1"/><text x="910" y="535" text-anchor="middle" font-size="16" font-weight="700" fill="#495962">内部孔道、材料与寿命需独立方法</text><text x="910" y="555" text-anchor="middle" font-size="13" fill="#697780">Internal, material and life evidence is separate</text>
+  </g>
+
+  <g transform="translate(150 610)" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#44545f">
+    <rect width="900" height="38" rx="6" fill="#f1f4f5" stroke="#c9d2d8"/>
+    <circle cx="25" cy="19" r="9" fill="#7ea9c6"/><text x="45" y="24">可见面</text>
+    <circle cx="190" cy="19" r="9" fill="#d9a63f"/><text x="210" y="24">边缘复核区</text>
+    <circle cx="390" cy="19" r="9" fill="#6ca37b"/><text x="410" y="24">基准/接口</text>
+    <circle cx="575" cy="19" r="9" fill="#a3adb3"/><text x="595" y="24">不可直接评价</text>
+  </g>
+  <text x="80" y="666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" fill="#6c7982">功能分区示意，不代表具体叶片设计、实测偏差或放行结论 / Conceptual zones, not a blade design, measured deviation or release result</text>
+</svg>
