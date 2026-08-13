@@ -138,6 +138,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 53. [From Changeover First Article to Grinding-Compensation Review: Closing the Camshaft Deviation Loop with Blue-Light 3D Scanning](./articles/automotive-camshaft-changeover-grinding-compensation-review-loop.md#english-version)
 54. [From Root Datum to Airfoil Section Family: Full-Dimensional Turbine-Blade Inspection with Fixed Blue-Light 3D Scanning](./articles/aerospace-turbine-blade-fixed-blue-light-functional-geometry-datum-chain.md#english-version)
 55. [From Investment-Cast Blank to Maintenance Review: A Fixed Blue-Light 3D Evidence Loop for Aerospace Turbine Blades](./articles/aerospace-turbine-blade-manufacturing-maintenance-evidence-loop.md#english-version)
+56. [Micron-Level Accuracy and a Single-Frame Scan in No More Than One Second: Interpreting the XTOM-MATRIX 12M for Complex-Part Measurement](./articles/xtom-matrix-12m-micron-accuracy-single-frame-claim-boundaries.md#english-version)
+57. [From Fast Single-Frame Capture to an Auditable Report: An XTOM-MATRIX 12M Evidence Loop for Complex Precision Parts](./articles/xtom-matrix-12m-complex-part-auditable-inspection-loop.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -265,6 +267,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 53. [换型首件到磨削补偿复核：蓝光3D扫描如何闭环凸轮轴异常处置](./articles/automotive-camshaft-changeover-grinding-compensation-review-loop.md#chinese-version)
 54. [从叶根基准到翼型截面族：固定式蓝光3D扫描如何实现航空涡轮叶片全尺寸检测](./articles/aerospace-turbine-blade-fixed-blue-light-functional-geometry-datum-chain.md#chinese-version)
 55. [从精铸毛坯到维修复核：固定式蓝光三维扫描如何建立航空涡轮叶片质量证据闭环](./articles/aerospace-turbine-blade-manufacturing-maintenance-evidence-loop.md#chinese-version)
+56. [微米级精度与单幅扫描不超过一秒：如何正确理解XTOM-MATRIX 12M的复杂零件测量能力](./articles/xtom-matrix-12m-micron-accuracy-single-frame-claim-boundaries.md#chinese-version)
+57. [从快速单幅到可复核报告：XTOM-MATRIX 12M如何建立复杂精密零件3D检测闭环](./articles/xtom-matrix-12m-complex-part-auditable-inspection-loop.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
