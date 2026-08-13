@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Complex feature view strategy</title>
+  <desc id="desc">Conceptual map connecting complex part features to visibility risks, acquisition strategies and evidence states.</desc>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#52677a"/></marker>
+    <style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#142c3f}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#53687a}.k{font-size:20px;font-weight:700}.b{font-size:16px}.e{font-size:14px;fill:#456174}.line{stroke:#52677a;stroke-width:3;fill:none;marker-end:url(#arrow2)}</style>
+  </defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/>
+  <rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">复杂零件视角规划：先识别遮挡，再选择采集策略</text>
+  <text x="78" y="130" class="t s">Feature visibility, acquisition strategy and evidence-state planning for complex parts</text>
+
+  <text x="92" y="178" class="t k">功能特征</text><text x="425" y="178" class="t k">可见性风险</text><text x="752" y="178" class="t k">策略组合</text><text x="1010" y="178" class="t k">证据状态</text>
+  <rect x="78" y="204" width="190" height="74" rx="6" fill="#d8edf7" stroke="#4f8daf"/>
+  <text x="173" y="235" text-anchor="middle" class="t b">自由曲面 / 过渡面</text><text x="173" y="259" text-anchor="middle" class="t e">Freeform surface</text>
+  <rect x="78" y="296" width="190" height="74" rx="6" fill="#f6e8bc" stroke="#b58a25"/>
+  <text x="173" y="327" text-anchor="middle" class="t b">深槽 / 孔口 / 凹腔</text><text x="173" y="351" text-anchor="middle" class="t e">Groove, opening, cavity</text>
+  <rect x="78" y="388" width="190" height="74" rx="6" fill="#e6ddea" stroke="#8b70a7"/>
+  <text x="173" y="419" text-anchor="middle" class="t b">薄边 / 圆角 / 台阶</text><text x="173" y="443" text-anchor="middle" class="t e">Edge, radius, step</text>
+  <rect x="78" y="480" width="190" height="74" rx="6" fill="#dceacb" stroke="#6d9147"/>
+  <text x="173" y="511" text-anchor="middle" class="t b">装配面 / 基准特征</text><text x="173" y="535" text-anchor="middle" class="t e">Interface and datum</text>
+
+  <path d="M268 241 H342" class="line"/><path d="M268 333 H342" class="line"/><path d="M268 425 H342" class="line"/><path d="M268 517 H342" class="line"/>
+  <rect x="348" y="204" width="238" height="350" rx="6" fill="#f8fafb" stroke="#aebdc7"/>
+  <text x="467" y="246" text-anchor="middle" class="t b">表面角度变化</text><text x="467" y="276" text-anchor="middle" class="t e">Surface orientation change</text>
+  <text x="467" y="326" text-anchor="middle" class="t b">自遮挡与视线受限</text><text x="467" y="356" text-anchor="middle" class="t e">Self-occlusion</text>
+  <text x="467" y="406" text-anchor="middle" class="t b">反光、暗色与边缘敏感</text><text x="467" y="436" text-anchor="middle" class="t e">Optical and edge sensitivity</text>
+  <text x="467" y="486" text-anchor="middle" class="t b">基准可访问性不足</text><text x="467" y="516" text-anchor="middle" class="t e">Datum accessibility</text>
+
+  <path d="M586 379 H660" class="line"/>
+  <rect x="666" y="204" width="250" height="350" rx="6" fill="#eef4f7" stroke="#7594a9"/>
+  <text x="791" y="246" text-anchor="middle" class="t b">幅面与细节优先级选择</text><text x="791" y="274" text-anchor="middle" class="t e">Field/detail priority</text>
+  <text x="791" y="324" text-anchor="middle" class="t b">双目、单目或混合模式</text><text x="791" y="352" text-anchor="middle" class="t e">Binocular, monocular or hybrid</text>
+  <text x="791" y="402" text-anchor="middle" class="t b">受控多视角与翻面</text><text x="791" y="430" text-anchor="middle" class="t e">Controlled multi-view capture</text>
+  <text x="791" y="480" text-anchor="middle" class="t b">覆盖审计与必要补扫</text><text x="791" y="508" text-anchor="middle" class="t e">Coverage audit and rescan</text>
+
+  <path d="M916 379 H968" class="line"/>
+  <rect x="974" y="204" width="148" height="104" rx="6" fill="#dceacb" stroke="#6d9147"/>
+  <text x="1048" y="244" text-anchor="middle" class="t b">可评价</text><text x="1048" y="270" text-anchor="middle" class="t e">Evaluable</text>
+  <rect x="974" y="326" width="148" height="104" rx="6" fill="#f6e8bc" stroke="#b58a25"/>
+  <text x="1048" y="366" text-anchor="middle" class="t b">需补充证据</text><text x="1048" y="392" text-anchor="middle" class="t e">More evidence</text>
+  <rect x="974" y="448" width="148" height="106" rx="6" fill="#e7ecef" stroke="#82939d"/>
+  <text x="1048" y="488" text-anchor="middle" class="t b">不可评价</text><text x="1048" y="514" text-anchor="middle" class="t e">Not evaluable</text>
+
+  <rect x="152" y="582" width="896" height="34" rx="6" fill="#edf1f3" stroke="#c6d0d7"/>
+  <text x="600" y="605" text-anchor="middle" class="t e">概念图不表示“一个视角覆盖全部特征”，实际策略须依据零件和验证结果确定 / Actual view plans depend on the part and validation evidence</text>
+</svg>
