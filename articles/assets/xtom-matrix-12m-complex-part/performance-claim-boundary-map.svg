@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">XTOM-MATRIX 12M performance claim boundary map</title>
+  <desc id="desc">Conceptual diagram separating single-frame acquisition, complete-part measurement, accuracy conditions and final quality decisions.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#506579"/></marker>
+    <style>
+      .t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#142c3f}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#53687a}.k{font-size:20px;font-weight:700}.b{font-size:16px}.e{font-size:14px;fill:#456174}.n{font-size:13px;fill:#647787}.box{stroke-width:2}.line{stroke:#506579;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/>
+  <rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">参数不是结论：先分清单幅、整件、条件与任务</text>
+  <text x="78" y="130" class="t s">Claim boundaries for single-frame capture, complete-part measurement, accuracy conditions and inspection decisions</text>
+
+  <rect x="78" y="178" width="232" height="145" rx="6" fill="#d8edf7" stroke="#4f8daf" class="box"/>
+  <text x="194" y="218" text-anchor="middle" class="t k">官方规格层</text>
+  <text x="194" y="252" text-anchor="middle" class="t b">微米级精度表述</text>
+  <text x="194" y="279" text-anchor="middle" class="t b">单幅扫描 ≤ 1 秒</text>
+  <text x="194" y="304" text-anchor="middle" class="t e">Official product specifications</text>
+
+  <path d="M310 250 H365" class="line"/>
+  <rect x="370" y="178" width="232" height="145" rx="6" fill="#f6e8bc" stroke="#b58a25" class="box"/>
+  <text x="486" y="218" text-anchor="middle" class="t k">配置与条件层</text>
+  <text x="486" y="252" text-anchor="middle" class="t b">测量幅面与点距</text>
+  <text x="486" y="279" text-anchor="middle" class="t b">校准、表面与环境</text>
+  <text x="486" y="304" text-anchor="middle" class="t e">Configuration and conditions</text>
+
+  <path d="M602 250 H657" class="line"/>
+  <rect x="662" y="178" width="232" height="145" rx="6" fill="#dceacb" stroke="#6d9147" class="box"/>
+  <text x="778" y="218" text-anchor="middle" class="t k">整件任务层</text>
+  <text x="778" y="252" text-anchor="middle" class="t b">视角数、遮挡与拼接</text>
+  <text x="778" y="279" text-anchor="middle" class="t b">对齐、分析与报告</text>
+  <text x="778" y="304" text-anchor="middle" class="t e">Complete-part workflow</text>
+
+  <path d="M894 250 H949" class="line"/>
+  <rect x="954" y="178" width="168" height="145" rx="6" fill="#e8e4f1" stroke="#8b70a7" class="box"/>
+  <text x="1038" y="218" text-anchor="middle" class="t k">质量决策层</text>
+  <text x="1038" y="252" text-anchor="middle" class="t b">合格 / 调查</text>
+  <text x="1038" y="279" text-anchor="middle" class="t b">返工 / 放行</text>
+  <text x="1038" y="304" text-anchor="middle" class="t e">Quality decision</text>
+
+  <text x="78" y="374" class="t k">三条不能省略的解释边界</text>
+  <rect x="78" y="402" width="322" height="130" rx="6" fill="#f8fafb" stroke="#aebdc7"/>
+  <circle cx="112" cy="436" r="10" fill="#4f8daf"/>
+  <text x="138" y="442" class="t b">单幅时间 ≠ 整件检测周期</text>
+  <text x="112" y="474" class="t e">多视角、翻面、拼接和分析仍需计入</text>
+  <text x="112" y="500" class="t e">One frame is not a complete inspection</text>
+
+  <rect x="439" y="402" width="322" height="130" rx="6" fill="#f8fafb" stroke="#aebdc7"/>
+  <circle cx="473" cy="436" r="10" fill="#b58a25"/>
+  <text x="499" y="442" class="t b">设备规格 ≠ 项目测量能力</text>
+  <text x="473" y="474" class="t e">零件、工装、环境和流程需要验证</text>
+  <text x="473" y="500" class="t e">Specification is not project capability</text>
+
+  <rect x="800" y="402" width="322" height="130" rx="6" fill="#f8fafb" stroke="#aebdc7"/>
+  <circle cx="834" cy="436" r="10" fill="#6d9147"/>
+  <text x="860" y="442" class="t b">可见表面 ≠ 全部质量属性</text>
+  <text x="834" y="474" class="t e">内部、材料和性能需独立方法评价</text>
+  <text x="834" y="500" class="t e">Visible geometry is not all quality evidence</text>
+
+  <rect x="150" y="566" width="900" height="42" rx="6" fill="#edf1f3" stroke="#c6d0d7"/>
+  <text x="600" y="593" text-anchor="middle" class="t b">概念说明：不代表具体项目节拍、验收精度或放行规则 / Conceptual guide, not a project cycle time, acceptance accuracy or release rule</text>
+</svg>
