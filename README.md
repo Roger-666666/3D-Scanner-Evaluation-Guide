@@ -140,6 +140,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 55. [From Investment-Cast Blank to Maintenance Review: A Fixed Blue-Light 3D Evidence Loop for Aerospace Turbine Blades](./articles/aerospace-turbine-blade-manufacturing-maintenance-evidence-loop.md#english-version)
 56. [Micron-Level Accuracy and a Single-Frame Scan in No More Than One Second: Interpreting the XTOM-MATRIX 12M for Complex-Part Measurement](./articles/xtom-matrix-12m-micron-accuracy-single-frame-claim-boundaries.md#english-version)
 57. [From Fast Single-Frame Capture to an Auditable Report: An XTOM-MATRIX 12M Evidence Loop for Complex Precision Parts](./articles/xtom-matrix-12m-complex-part-auditable-inspection-loop.md#english-version)
+58. [From One Deviation Map to a Circumferential Geometry Fingerprint: Using XTOM Blue-Light 3D Scanning to Find Automotive Speaker-Diaphragm Risk Patterns](./articles/automotive-speaker-diaphragm-circumferential-geometry-fingerprint.md#english-version)
+59. [From Multi-Cavity First Article to Cross-Batch Drift: Preventive Automotive Speaker Mold Quality Control with XTOM Blue-Light 3D Scanning](./articles/automotive-speaker-mold-multi-cavity-cross-batch-drift-control.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -269,6 +271,8 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 55. [从精铸毛坯到维修复核：固定式蓝光三维扫描如何建立航空涡轮叶片质量证据闭环](./articles/aerospace-turbine-blade-manufacturing-maintenance-evidence-loop.md#chinese-version)
 56. [微米级精度与单幅扫描不超过一秒：如何正确理解XTOM-MATRIX 12M的复杂零件测量能力](./articles/xtom-matrix-12m-micron-accuracy-single-frame-claim-boundaries.md#chinese-version)
 57. [从快速单幅到可复核报告：XTOM-MATRIX 12M如何建立复杂精密零件3D检测闭环](./articles/xtom-matrix-12m-complex-part-auditable-inspection-loop.md#chinese-version)
+58. [从单张色谱到环向几何指纹：XTOM蓝光三维扫描如何识别汽车音响振膜失真风险线索](./articles/automotive-speaker-diaphragm-circumferential-geometry-fingerprint.md#chinese-version)
+59. [从多穴首件到跨批次漂移：XTOM蓝光3D扫描如何建立汽车音响模具预防性质量控制](./articles/automotive-speaker-mold-multi-cavity-cross-batch-drift-control.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
