@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Automotive speaker diaphragm radial and sector geometry fingerprint</title>
+  <desc id="desc">Conceptual diagram of radial sections, concentric zones, symmetry pairs and functional geometry features of a speaker diaphragm.</desc>
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536879"/></marker>
+    <style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#142c3f}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#526779}.k{font-size:19px;font-weight:700}.b{font-size:15px}.e{font-size:13px;fill:#486173}.line{stroke:#536879;stroke-width:2.5;fill:none;marker-end:url(#a1)}</style>
+  </defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/>
+  <rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">汽车音响振膜几何指纹：从单张色谱转向径向截面与环向对称</text>
+  <text x="78" y="130" class="t s">Radial sections, concentric zones and circumferential symmetry for a traceable diaphragm geometry fingerprint</text>
+
+  <text x="112" y="180" class="t k">受控分区与截面</text>
+  <circle cx="332" cy="360" r="174" fill="#e7f2f7" stroke="#3f758f" stroke-width="3"/>
+  <circle cx="332" cy="360" r="126" fill="#f6e8bc" stroke="#b58a25" stroke-width="2"/>
+  <circle cx="332" cy="360" r="76" fill="#dceacb" stroke="#6d9147" stroke-width="2"/>
+  <circle cx="332" cy="360" r="27" fill="#e7dfee" stroke="#8b70a7" stroke-width="2"/>
+  <g stroke="#6c8190" stroke-width="1.5">
+    <path d="M332 186V534"/><path d="M158 360H506"/>
+    <path d="M209 237L455 483"/><path d="M455 237L209 483"/>
+    <path d="M181 273L483 447"/><path d="M181 447L483 273"/>
+  </g>
+  <circle cx="332" cy="360" r="9" fill="#c86f52"/>
+  <path d="M332 360 L452 292" stroke="#c86f52" stroke-width="5" fill="none"/>
+  <path d="M332 360 L212 428" stroke="#c86f52" stroke-width="5" fill="none" opacity=".55"/>
+  <text x="117" y="560" class="t e">示意：每条径向截面都有固定角度身份，成对截面用于检查环向对称</text>
+  <text x="117" y="584" class="t e">Concept: each radial section has a controlled angular identity and an opposite-pair relation</text>
+
+  <path d="M526 360H586" class="line"/>
+  <text x="594" y="180" class="t k">数字指纹字段</text>
+  <rect x="588" y="204" width="526" height="76" rx="6" fill="#d8edf7" stroke="#4f8daf"/>
+  <text x="615" y="235" class="t b">中心穹顶与参考中心</text><text x="895" y="235" class="t e">Center dome and reference center</text>
+  <text x="615" y="261" class="t e">峰位、中心偏置、局部曲率与相对高度趋势</text>
+  <rect x="588" y="298" width="526" height="76" rx="6" fill="#f6e8bc" stroke="#b58a25"/>
+  <text x="615" y="329" class="t b">过渡区与波纹截面族</text><text x="895" y="329" class="t e">Transition and corrugation sections</text>
+  <text x="615" y="355" class="t e">径向型线、峰谷顺序、节距趋势与截面间连续性</text>
+  <rect x="588" y="392" width="526" height="76" rx="6" fill="#dceacb" stroke="#6d9147"/>
+  <text x="615" y="423" class="t b">环向扇区与对称截面对</text><text x="895" y="423" class="t e">Sectors and opposite-section pairs</text>
+  <text x="615" y="449" class="t e">同半径环带、相对扇区、周期性与局部偏移模式</text>
+  <rect x="588" y="486" width="526" height="76" rx="6" fill="#e7dfee" stroke="#8b70a7"/>
+  <text x="615" y="517" class="t b">边缘悬边与装配边界</text><text x="895" y="517" class="t e">Surround and assembly boundary</text>
+  <text x="615" y="543" class="t e">边界轮廓、平面关系、接口连续性与不可评价区</text>
+
+  <rect x="122" y="606" width="956" height="26" rx="5" fill="#edf1f3" stroke="#c6d0d7"/>
+  <text x="600" y="624" text-anchor="middle" class="t e">概念分区，不代表具体产品设计、实测偏差或声学结论 / Conceptual zones, not a product design, measured deviation or acoustic conclusion</text>
+</svg>
