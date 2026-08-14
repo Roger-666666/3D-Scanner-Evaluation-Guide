@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Geometry and acoustic evidence boundary</title>
+  <desc id="desc">Conceptual evidence chain separating measured geometry, process hypotheses, independent acoustic evidence and quality decisions.</desc>
+  <defs>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536879"/></marker>
+    <style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#142c3f}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#526779}.k{font-size:19px;font-weight:700}.b{font-size:15px}.e{font-size:13px;fill:#486173}.line{stroke:#536879;stroke-width:3;fill:none;marker-end:url(#a2)}</style>
+  </defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/>
+  <rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">从几何异常到音色失真：中间必须经过独立证据</text>
+  <text x="78" y="130" class="t s">A geometry pattern can guide investigation, but it cannot prove an acoustic root cause by itself</text>
+
+  <rect x="72" y="190" width="228" height="182" rx="6" fill="#d8edf7" stroke="#4f8daf" stroke-width="2"/>
+  <text x="186" y="229" text-anchor="middle" class="t k">三维几何证据</text>
+  <text x="186" y="260" text-anchor="middle" class="t b">全场型面偏差</text><text x="186" y="288" text-anchor="middle" class="t b">径向截面与环向模式</text>
+  <text x="186" y="316" text-anchor="middle" class="t b">模具、成型片与接口关系</text><text x="186" y="347" text-anchor="middle" class="t e">Measured geometry evidence</text>
+  <path d="M300 281H352" class="line"/>
+  <rect x="358" y="190" width="228" height="182" rx="6" fill="#f6e8bc" stroke="#b58a25" stroke-width="2"/>
+  <text x="472" y="229" text-anchor="middle" class="t k">候选机制</text>
+  <text x="472" y="260" text-anchor="middle" class="t b">模具局部磨损</text><text x="472" y="288" text-anchor="middle" class="t b">成形或回弹漂移</text>
+  <text x="472" y="316" text-anchor="middle" class="t b">装配偏置或材料差异</text><text x="472" y="347" text-anchor="middle" class="t e">Candidate mechanisms</text>
+  <path d="M586 281H638" class="line"/>
+  <rect x="644" y="190" width="254" height="182" rx="6" fill="#dceacb" stroke="#6d9147" stroke-width="2"/>
+  <text x="771" y="229" text-anchor="middle" class="t k">独立验证证据</text>
+  <text x="771" y="260" text-anchor="middle" class="t b">材料与工艺记录</text><text x="771" y="288" text-anchor="middle" class="t b">装配状态与电驱动检查</text>
+  <text x="771" y="316" text-anchor="middle" class="t b">声学响应与主观评价</text><text x="771" y="347" text-anchor="middle" class="t e">Independent validation evidence</text>
+  <path d="M898 281H950" class="line"/>
+  <rect x="956" y="190" width="172" height="182" rx="6" fill="#e7dfee" stroke="#8b70a7" stroke-width="2"/>
+  <text x="1042" y="229" text-anchor="middle" class="t k">质量决策</text>
+  <text x="1042" y="270" text-anchor="middle" class="t b">继续调查</text><text x="1042" y="300" text-anchor="middle" class="t b">维护 / 调整</text>
+  <text x="1042" y="330" text-anchor="middle" class="t b">验证后放行</text><text x="1042" y="352" text-anchor="middle" class="t e">Disposition</text>
+
+  <rect x="72" y="416" width="1056" height="132" rx="6" fill="#f8fafb" stroke="#becad2"/>
+  <text x="102" y="451" class="t k">四类禁止跨越的推断</text>
+  <circle cx="112" cy="483" r="8" fill="#c86f52"/><text x="132" y="489" class="t b">看到型面色谱异常，不等于已经证明音色失真的根因</text>
+  <circle cx="515" cy="483" r="8" fill="#b58a25"/><text x="535" y="489" class="t b">模具型面合格，不等于成型片、装配和声学必然一致</text>
+  <circle cx="112" cy="521" r="8" fill="#6d9147"/><text x="132" y="527" class="t b">单面扫描结果，不等于完整厚度或内部材料分布</text>
+  <circle cx="515" cy="521" r="8" fill="#8b70a7"/><text x="535" y="527" class="t b">相关性线索，不等于可直接用于修模或放行的因果证据</text>
+
+  <rect x="118" y="584" width="964" height="34" rx="5" fill="#edf1f3" stroke="#c6d0d7"/>
+  <text x="600" y="607" text-anchor="middle" class="t e">蓝光扫描负责可见表面几何；材料、内部结构与声学性能由相应方法评价 / Blue-light scanning evaluates visible geometry; other attributes need suitable methods</text>
+</svg>
