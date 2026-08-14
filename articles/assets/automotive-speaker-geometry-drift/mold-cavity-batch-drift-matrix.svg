@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Speaker mold cavity and batch drift matrix</title>
+  <desc id="desc">Conceptual matrix for separating common-mode, cavity-local, batch-related and measurement-state changes in speaker mold and diaphragm geometry.</desc>
+  <defs>
+    <marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#536879"/></marker>
+    <style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#142c3f}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#526779}.k{font-size:19px;font-weight:700}.b{font-size:15px}.e{font-size:13px;fill:#486173}.cell{stroke:#b8c5ce;stroke-width:1.5}.line{stroke:#536879;stroke-width:3;fill:none;marker-end:url(#a3)}</style>
+  </defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/>
+  <rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">多穴、多批次几何漂移矩阵：先分类模式，再追查原因</text>
+  <text x="78" y="130" class="t s">A conceptual cavity-by-batch matrix for classifying geometric drift before process intervention</text>
+
+  <text x="88" y="178" class="t k">受控对象矩阵</text>
+  <rect x="84" y="204" width="92" height="54" fill="#edf1f3" class="cell"/><text x="130" y="237" text-anchor="middle" class="t b">对象</text>
+  <rect x="176" y="204" width="108" height="54" fill="#edf1f3" class="cell"/><text x="230" y="228" text-anchor="middle" class="t b">基线</text><text x="230" y="247" text-anchor="middle" class="t e">Baseline</text>
+  <rect x="284" y="204" width="108" height="54" fill="#edf1f3" class="cell"/><text x="338" y="228" text-anchor="middle" class="t b">当前批次</text><text x="338" y="247" text-anchor="middle" class="t e">Current</text>
+  <rect x="392" y="204" width="108" height="54" fill="#edf1f3" class="cell"/><text x="446" y="228" text-anchor="middle" class="t b">维护后</text><text x="446" y="247" text-anchor="middle" class="t e">After service</text>
+
+  <g class="t b">
+    <rect x="84" y="258" width="92" height="62" fill="#f8fafb" class="cell"/><text x="130" y="294" text-anchor="middle">型穴 A</text>
+    <rect x="84" y="320" width="92" height="62" fill="#f8fafb" class="cell"/><text x="130" y="356" text-anchor="middle">型穴 B</text>
+    <rect x="84" y="382" width="92" height="62" fill="#f8fafb" class="cell"/><text x="130" y="418" text-anchor="middle">型穴 C</text>
+    <rect x="84" y="444" width="92" height="62" fill="#f8fafb" class="cell"/><text x="130" y="480" text-anchor="middle">型穴 D</text>
+  </g>
+  <g class="cell">
+    <rect x="176" y="258" width="108" height="62" fill="#dceacb"/><rect x="284" y="258" width="108" height="62" fill="#f6e8bc"/><rect x="392" y="258" width="108" height="62" fill="#dceacb"/>
+    <rect x="176" y="320" width="108" height="62" fill="#dceacb"/><rect x="284" y="320" width="108" height="62" fill="#f6e8bc"/><rect x="392" y="320" width="108" height="62" fill="#dceacb"/>
+    <rect x="176" y="382" width="108" height="62" fill="#dceacb"/><rect x="284" y="382" width="108" height="62" fill="#e7dfee"/><rect x="392" y="382" width="108" height="62" fill="#e7dfee"/>
+    <rect x="176" y="444" width="108" height="62" fill="#dceacb"/><rect x="284" y="444" width="108" height="62" fill="#d8edf7"/><rect x="392" y="444" width="108" height="62" fill="#d8edf7"/>
+  </g>
+  <g class="t e">
+    <text x="230" y="294" text-anchor="middle">参考状态</text><text x="338" y="294" text-anchor="middle">共同变化</text><text x="446" y="294" text-anchor="middle">恢复趋势</text>
+    <text x="230" y="356" text-anchor="middle">参考状态</text><text x="338" y="356" text-anchor="middle">共同变化</text><text x="446" y="356" text-anchor="middle">恢复趋势</text>
+    <text x="230" y="418" text-anchor="middle">参考状态</text><text x="338" y="418" text-anchor="middle">局部持续</text><text x="446" y="418" text-anchor="middle">仍需复核</text>
+    <text x="230" y="480" text-anchor="middle">参考状态</text><text x="338" y="480" text-anchor="middle">数据疑点</text><text x="446" y="480" text-anchor="middle">复扫确认</text>
+  </g>
+
+  <path d="M520 356H580" class="line"/>
+  <text x="600" y="178" class="t k">模式分类与调查入口</text>
+  <rect x="590" y="204" width="522" height="72" rx="6" fill="#f6e8bc" stroke="#b58a25"/>
+  <text x="615" y="234" class="t b">共同模式 / Common mode</text><text x="615" y="258" class="t e">多个型穴同向变化：先查共享工艺、材料、装夹、模板与测量条件</text>
+  <rect x="590" y="292" width="522" height="72" rx="6" fill="#e7dfee" stroke="#8b70a7"/>
+  <text x="615" y="322" class="t b">型穴局部模式 / Cavity-local mode</text><text x="615" y="346" class="t e">单一型穴持续变化：复核镶件、局部磨损、排气、边界与维护记录</text>
+  <rect x="590" y="380" width="522" height="72" rx="6" fill="#dceacb" stroke="#6d9147"/>
+  <text x="615" y="410" class="t b">批次或状态模式 / Batch or state mode</text><text x="615" y="434" class="t e">跨型穴同步出现或维护后改变：关联材料、成形状态与时间线</text>
+  <rect x="590" y="468" width="522" height="72" rx="6" fill="#d8edf7" stroke="#4f8daf"/>
+  <text x="615" y="498" class="t b">数据质量模式 / Data-quality mode</text><text x="615" y="522" class="t e">边缘、反光、覆盖或对齐不稳定：先复扫，不直接触发修模</text>
+
+  <rect x="120" y="582" width="960" height="38" rx="5" fill="#edf1f3" stroke="#c6d0d7"/>
+  <text x="600" y="607" text-anchor="middle" class="t e">颜色仅代表概念状态，不表示公差、实测结果或过程能力 / Colors denote conceptual states, not tolerances, measurements or process capability</text>
+</svg>
