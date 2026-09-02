@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Sheet-metal springback section family</title><desc id="desc">Conceptual comparison of nominal and measured section families for classifying rigid shift, opening, twist and local springback.</desc>
+  <defs><style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#173044}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#577080}.k{font-size:18px;font-weight:700}.b{font-size:14px}.e{font-size:13px;fill:#506979}.grid{stroke:#d8e0e5;stroke-width:1}.nom{stroke:#516a7b;stroke-width:5;fill:none}.m1{stroke:#2e8b72;stroke-width:4;fill:none}.m2{stroke:#d05f4f;stroke-width:4;fill:none}.cut{stroke:#b58a25;stroke-width:2;stroke-dasharray:8 6}</style></defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/><rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">回弹不是一个数：用固定截面族识别空间模式</text><text x="78" y="130" class="t s">Controlled section families separate global pose, opening, twist and local forming change</text>
+  <g transform="translate(85 185)"><rect width="650" height="340" rx="6" fill="#fbfcfd" stroke="#c3cfd7"/>
+    <g class="grid"><path d="M0 68H650M0 136H650M0 204H650M0 272H650"/><path d="M130 0V340M260 0V340M390 0V340M520 0V340"/></g>
+    <path d="M75 265Q185 110 325 165Q470 220 575 80" class="nom"/><path d="M75 250Q185 95 325 151Q470 204 575 66" class="m1"/><path d="M75 275Q185 128 325 181Q470 239 575 103" class="m2"/>
+    <g class="cut"><path d="M145 52V300"/><path d="M265 52V300"/><path d="M385 52V300"/><path d="M505 52V300"/></g><g class="t e"><text x="145" y="326" text-anchor="middle">S1</text><text x="265" y="326" text-anchor="middle">S2</text><text x="385" y="326" text-anchor="middle">S3</text><text x="505" y="326" text-anchor="middle">S4</text></g>
+    <text x="22" y="28" class="t b">截面轮廓趋势 / Section-profile trend</text></g>
+  <g class="t"><rect x="780" y="185" width="315" height="64" rx="6" fill="#edf1f3" stroke="#899ba7"/><text x="802" y="214" class="k">整体位姿 / Rigid pose</text><text x="802" y="236" class="e">优先复核基准与装夹</text>
+  <rect x="780" y="265" width="315" height="64" rx="6" fill="#dceacb" stroke="#6d9147"/><text x="802" y="294" class="k">整体张口 / Global opening</text><text x="802" y="316" class="e">关注回弹与成形补偿</text>
+  <rect x="780" y="345" width="315" height="64" rx="6" fill="#f6e8bc" stroke="#b58a25"/><text x="802" y="374" class="k">扭转模式 / Twist</text><text x="802" y="396" class="e">比较相邻截面方向变化</text>
+  <rect x="780" y="425" width="315" height="64" rx="6" fill="#f2d8d6" stroke="#b85a50"/><text x="802" y="454" class="k">局部折线 / Local kink</text><text x="802" y="476" class="e">检查局部成形、圆角与边界</text></g>
+  <g class="t e"><line x1="160" y1="556" x2="215" y2="556" class="nom"/><text x="225" y="561">CAD / 基线</text><line x1="365" y1="556" x2="420" y2="556" class="m1"/><text x="430" y="561">样件 A</text><line x1="550" y1="556" x2="605" y2="556" class="m2"/><text x="615" y="561">样件 B</text></g>
+  <text x="600" y="612" text-anchor="middle" class="t e">示意曲线不代表公差或实测数据 / Conceptual curves only; no tolerance or measured values implied</text>
+</svg>
+
