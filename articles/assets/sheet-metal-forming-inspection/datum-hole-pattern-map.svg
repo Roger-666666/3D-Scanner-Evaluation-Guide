@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Sheet-metal functional datum and hole-pattern map</title>
+  <desc id="desc">Conceptual map linking datum plane, clocking feature, hole pattern, formed surface and assembly interface.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#526878"/></marker><style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#163044}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#587080}.k{font-size:18px;font-weight:700}.b{font-size:15px}.e{font-size:13px;fill:#4f6878}.ln{stroke:#526878;stroke-width:3;fill:none;marker-end:url(#a)}.d{stroke:#275f82;stroke-width:3;fill:none}.p{stroke:#b6c5ce;stroke-width:2}</style></defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/><rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">钣金件功能基准链：先锁定“如何装”，再判断“哪里偏”</text><text x="78" y="130" class="t s">Functional datum chain for sheet-metal dimensions, surfaces and hole patterns</text>
+  <g transform="translate(80 185)"><path d="M35 260V90Q35 62 63 62H265V132H355V322H160V260Z" fill="#dbeaf2" class="p"/><path d="M35 260H160V322" class="d"/><path d="M265 62V132H355" class="d"/>
+    <circle cx="103" cy="202" r="24" fill="#fff" stroke="#287f6b" stroke-width="5"/><circle cx="236" cy="223" r="20" fill="#fff" stroke="#287f6b" stroke-width="5"/><circle cx="307" cy="182" r="15" fill="#fff" stroke="#c58a2a" stroke-width="5"/>
+    <line x1="52" y1="337" x2="330" y2="337" stroke="#d34f4f" stroke-width="4"/><text x="190" y="374" text-anchor="middle" class="t b">基准面 A / Datum A</text>
+    <line x1="15" y1="78" x2="15" y2="300" stroke="#8b70a7" stroke-width="4"/><text x="6" y="205" transform="rotate(-90 6 205)" text-anchor="middle" class="t b">定位边 B / Clocking edge B</text>
+    <text x="180" y="35" text-anchor="middle" class="t k">概念钣金支架</text><text x="180" y="407" text-anchor="middle" class="t e">形状仅作解释，不代表具体零件或实测结果</text></g>
+  <path d="M475 354H545" class="ln"/><g class="t"><rect x="570" y="180" width="500" height="70" rx="6" fill="#f6e8bc" stroke="#b58a25"/><text x="594" y="210" class="k">1. 功能坐标 / Functional coordinate</text><text x="594" y="234" class="e">基准面、定位边、方向特征与夹持状态共同定义</text>
+  <rect x="570" y="266" width="500" height="70" rx="6" fill="#dceacb" stroke="#6d9147"/><text x="594" y="296" class="k">2. 孔群关系 / Hole-pattern relationship</text><text x="594" y="320" class="e">孔径、孔距、孔轴与基准的空间关系分开评价</text>
+  <rect x="570" y="352" width="500" height="70" rx="6" fill="#d8edf7" stroke="#4f8daf"/><text x="594" y="382" class="k">3. 曲面与折弯 / Surface and bend</text><text x="594" y="406" class="e">面轮廓、折弯角、圆角与回弹模式保留区域语义</text>
+  <rect x="570" y="438" width="500" height="70" rx="6" fill="#e7dfee" stroke="#8b70a7"/><text x="594" y="468" class="k">4. 装配接口 / Assembly interface</text><text x="594" y="492" class="e">把孔群、接触面、边界与间隙映射到同一证据链</text></g>
+  <rect x="120" y="580" width="960" height="38" rx="5" fill="#edf1f3" stroke="#c6d0d7"/><text x="600" y="605" text-anchor="middle" class="t e">先定义功能基准与状态，再使用CAD比对或尺寸判定 / Define functional datums and state before CAD comparison</text>
+</svg>
+
