@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Trim edge flange and radius zone map</title><desc id="desc">Conceptual zone map for inspecting trim edges, flange angle, bend radius, hole boundary and surface transition on a sheet-metal part.</desc>
+  <defs><style>.t{font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;fill:#173044}.h{font-size:30px;font-weight:700}.s{font-size:16px;fill:#577080}.k{font-size:18px;font-weight:700}.b{font-size:14px}.e{font-size:13px;fill:#506979}.p{stroke:#486878;stroke-width:3}.dash{stroke:#7f91a0;stroke-width:2;stroke-dasharray:8 6;fill:none}</style></defs>
+  <rect width="1200" height="680" fill="#f3f6f8"/><rect x="38" y="38" width="1124" height="604" rx="8" fill="#fff" stroke="#bdcbd5" stroke-width="2"/>
+  <text x="78" y="96" class="t h">钣金边界几何质量模型：边、角、孔与曲面必须分区评价</text><text x="78" y="130" class="t s">A functional zone model for trim lines, flanges, radii, holes and surface transitions</text>
+  <g transform="translate(70 170)"><path d="M70 300L120 90H445L520 205L430 360H145Z" fill="#d8edf7" class="p"/><path d="M120 90L165 135H405L445 90" fill="#f6e8bc" class="p"/><path d="M70 300L145 360H430L520 205" fill="#e7dfee" class="p"/><path d="M165 135Q150 218 145 360" fill="none" stroke="#c58a2a" stroke-width="12" opacity=".7"/><circle cx="290" cy="235" r="42" fill="#fff" stroke="#2e8b72" stroke-width="9"/><path d="M120 90H445L520 205L430 360H145L70 300Z" fill="none" stroke="#d1504f" stroke-width="7"/>
+    <text x="305" y="55" text-anchor="middle" class="t k">概念冲压件 / Concept part</text><text x="300" y="404" text-anchor="middle" class="t e">颜色对应功能分区，不表示公差状态</text></g>
+  <g class="t"><rect x="680" y="170" width="410" height="70" rx="6" fill="#f2d8d6" stroke="#b85a50"/><text x="704" y="200" class="k">切边线 / Trim edge</text><text x="704" y="224" class="e">轮廓位置、连续性、边缘可评价性</text>
+  <rect x="680" y="256" width="410" height="70" rx="6" fill="#f6e8bc" stroke="#b58a25"/><text x="704" y="286" class="k">圆角过渡 / Bend radius</text><text x="704" y="310" class="e">截面半径、切线连续与局部折线</text>
+  <rect x="680" y="342" width="410" height="70" rx="6" fill="#e7dfee" stroke="#8b70a7"/><text x="704" y="372" class="k">翻边姿态 / Flange pose</text><text x="704" y="396" class="e">角度、高度、相邻边与装配方向</text>
+  <rect x="680" y="428" width="410" height="70" rx="6" fill="#dceacb" stroke="#6d9147"/><text x="704" y="458" class="k">孔边界 / Hole boundary</text><text x="704" y="482" class="e">孔径、中心、轴向与翻孔局部形态</text></g>
+  <rect x="115" y="565" width="970" height="42" rx="5" fill="#edf1f3" stroke="#c6d0d7"/><text x="600" y="592" text-anchor="middle" class="t e">边缘补洞、平滑与外推必须声明；不可评价区域不能自动判合格 / Filling and smoothing must be disclosed</text>
+</svg>
+
