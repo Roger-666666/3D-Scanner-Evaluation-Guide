@@ -143,6 +143,12 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 58. [From One Deviation Map to a Circumferential Geometry Fingerprint: Using XTOM Blue-Light 3D Scanning to Find Automotive Speaker-Diaphragm Risk Patterns](./articles/automotive-speaker-diaphragm-circumferential-geometry-fingerprint.md#english-version)
 59. [From Multi-Cavity First Article to Cross-Batch Drift: Preventive Automotive Speaker Mold Quality Control with XTOM Blue-Light 3D Scanning](./articles/automotive-speaker-mold-multi-cavity-cross-batch-drift-control.md#english-version)
 
+60. [From Panel Surface to Hole-Pattern Datum Chain: Controlling Sheet-Metal Dimensions, Form and Hole Location with Blue-Light 3D Scanning](./articles/sheet-metal-forming-functional-datum-hole-pattern-inspection.md#english-version)
+61. [From Springback Maps to Section Families: Closing the Sheet-Metal Forming Compensation Loop with Blue-Light 3D Scanning](./articles/sheet-metal-springback-section-family-compensation-review-loop.md#english-version)
+62. [Why Trim Edges, Flanges and Radii Drift: A Blue-Light 3D Boundary-Geometry Model for Sheet-Metal Parts](./articles/sheet-metal-trim-edge-flange-radius-boundary-quality-control.md#english-version)
+63. [Why a Free-State Sheet-Metal Part May Still Fail Assembly: Verifying Clamped State, Gap and Interference with Blue-Light 3D Scanning](./articles/sheet-metal-free-clamped-state-virtual-assembly-gap-interference-loop.md#english-version)
+64. [From First Article to Die Maintenance: Governing Batch Geometry Drift in Sheet-Metal Stamping with Blue-Light 3D Scanning](./articles/sheet-metal-stamping-batch-tooling-drift-maintenance-governance.md#english-version)
+
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
 ---
@@ -273,6 +279,12 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 57. [从快速单幅到可复核报告：XTOM-MATRIX 12M如何建立复杂精密零件3D检测闭环](./articles/xtom-matrix-12m-complex-part-auditable-inspection-loop.md#chinese-version)
 58. [从单张色谱到环向几何指纹：XTOM蓝光三维扫描如何识别汽车音响振膜失真风险线索](./articles/automotive-speaker-diaphragm-circumferential-geometry-fingerprint.md#chinese-version)
 59. [从多穴首件到跨批次漂移：XTOM蓝光3D扫描如何建立汽车音响模具预防性质量控制](./articles/automotive-speaker-mold-multi-cavity-cross-batch-drift-control.md#chinese-version)
+
+60. [从板面到孔群基准链：蓝光3D扫描如何控制钣金成形件尺寸、曲面与孔位偏差](./articles/sheet-metal-forming-functional-datum-hole-pattern-inspection.md#chinese-version)
+61. [从回弹色谱到截面族：蓝光三维扫描如何闭环钣金成形工艺补偿](./articles/sheet-metal-springback-section-family-compensation-review-loop.md#chinese-version)
+62. [切边、翻边与圆角为何难控：蓝光3D扫描如何建立钣金边界几何质量模型](./articles/sheet-metal-trim-edge-flange-radius-boundary-quality-control.md#chinese-version)
+63. [自由态合格却装不上？蓝光3D扫描如何验证钣金夹持态、间隙与干涉](./articles/sheet-metal-free-clamped-state-virtual-assembly-gap-interference-loop.md#chinese-version)
+64. [从首件到模具维护：蓝光3D扫描如何治理钣金冲压批次几何漂移](./articles/sheet-metal-stamping-batch-tooling-drift-maintenance-governance.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
