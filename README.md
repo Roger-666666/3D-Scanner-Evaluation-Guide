@@ -148,6 +148,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 62. [Why Trim Edges, Flanges and Radii Drift: A Blue-Light 3D Boundary-Geometry Model for Sheet-Metal Parts](./articles/sheet-metal-trim-edge-flange-radius-boundary-quality-control.md#english-version)
 63. [Why a Free-State Sheet-Metal Part May Still Fail Assembly: Verifying Clamped State, Gap and Interference with Blue-Light 3D Scanning](./articles/sheet-metal-free-clamped-state-virtual-assembly-gap-interference-loop.md#english-version)
 64. [From First Article to Die Maintenance: Governing Batch Geometry Drift in Sheet-Metal Stamping with Blue-Light 3D Scanning](./articles/sheet-metal-stamping-batch-tooling-drift-maintenance-governance.md#english-version)
+65. [From Deviation Map to Correction Gate: How XTOM Full-Field 3D Inspection Prevents Misguided Automotive Mold Repair](./articles/automotive-mold-xtom-full-field-correction-evidence-gate.md#english-version)
+66. [A Nonconforming Part Does Not Automatically Mean a Bad Mold: A Three-Layer Attribution Loop for Automotive Tooling, Trial Parts and Process](./articles/automotive-mold-trial-part-process-three-layer-attribution-loop.md#english-version)
+67. [Why the Same Mold Produces Different Correction Conclusions: Alignment Sensitivity and Deviation-Pattern Invariants](./articles/automotive-mold-alignment-sensitivity-deviation-pattern-invariants.md#english-version)
+68. [From Anomaly Region to Minimum Correction Scope: Target, Protection and Verification Zones for Automotive Molds](./articles/automotive-mold-minimum-correction-target-protection-verification-loop.md#english-version)
+69. [How to Avoid a Worse Result After Mold Repair: Counterfactual Verification, Rollback Baselines and Knowledge Governance](./articles/automotive-mold-post-correction-counterfactual-rollback-governance.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -285,6 +290,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 62. [切边、翻边与圆角为何难控：蓝光3D扫描如何建立钣金边界几何质量模型](./articles/sheet-metal-trim-edge-flange-radius-boundary-quality-control.md#chinese-version)
 63. [自由态合格却装不上？蓝光3D扫描如何验证钣金夹持态、间隙与干涉](./articles/sheet-metal-free-clamped-state-virtual-assembly-gap-interference-loop.md#chinese-version)
 64. [从首件到模具维护：蓝光3D扫描如何治理钣金冲压批次几何漂移](./articles/sheet-metal-stamping-batch-tooling-drift-maintenance-governance.md#chinese-version)
+65. [从偏差色谱到修模决策门：XTOM全域3D检测如何阻断汽车模具误修](./articles/automotive-mold-xtom-full-field-correction-evidence-gate.md#chinese-version)
+66. [塑件超差不等于模具错：汽车模具、试模件与工艺三层归因闭环](./articles/automotive-mold-trial-part-process-three-layer-attribution-loop.md#chinese-version)
+67. [同一模具为何得出不同修模结论：对齐敏感性与偏差模式不变量](./articles/automotive-mold-alignment-sensitivity-deviation-pattern-invariants.md#chinese-version)
+68. [从异常区域到最小修模范围：汽车模具目标区、保护区与复验区闭环](./articles/automotive-mold-minimum-correction-target-protection-verification-loop.md#chinese-version)
+69. [修完更差如何避免：汽车模具反事实复验、回滚基线与知识库治理](./articles/automotive-mold-post-correction-counterfactual-rollback-governance.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
