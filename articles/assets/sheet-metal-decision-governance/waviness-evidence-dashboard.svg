@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/>
+  <rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">局部面形证据板：四种视角共同描述视觉风险线索</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">Geometry can flag surface-risk patterns, but it does not replace painted-part appearance evaluation</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="72" y="160" width="500" height="190" rx="6" fill="#f8fafb" stroke="#b9c8d3"/><text x="98" y="194" font-size="18" font-weight="700" fill="#17344a">局部偏差场 / Local deviation field</text>
+    <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#3f91bd"/><stop offset="0.5" stop-color="#e7f1d5"/><stop offset="1" stop-color="#cf6459"/></linearGradient></defs>
+    <rect x="105" y="222" width="430" height="86" rx="43" fill="url(#g)"/><ellipse cx="318" cy="265" rx="75" ry="35" fill="#f7e8b9" opacity="0.85"/>
+    <rect x="628" y="160" width="500" height="190" rx="6" fill="#f8fafb" stroke="#b9c8d3"/><text x="654" y="194" font-size="18" font-weight="700" fill="#17344a">固定截面族 / Fixed section family</text>
+    <path d="M660 282 C735 218,805 318,880 255 S1030 220,1090 278" fill="none" stroke="#2f7fa6" stroke-width="5"/><path d="M660 296 C735 232,805 332,880 269 S1030 234,1090 292" fill="none" stroke="#79a653" stroke-width="4"/><path d="M660 310 C735 246,805 346,880 283 S1030 248,1090 306" fill="none" stroke="#c28a1b" stroke-width="3"/>
+    <rect x="72" y="388" width="320" height="170" rx="6" fill="#d8edf7" stroke="#4c96b8"/><text x="232" y="426" text-anchor="middle" font-size="18" font-weight="700" fill="#17344a">曲率变化</text><text x="232" y="455" text-anchor="middle" font-size="14" fill="#36566b">Curvature change</text><path d="M115 505 Q170 430 225 505 T350 505" fill="none" stroke="#2f7fa6" stroke-width="5"/>
+    <rect x="440" y="388" width="320" height="170" rx="6" fill="#e4f0d6" stroke="#79a653"/><text x="600" y="426" text-anchor="middle" font-size="18" font-weight="700" fill="#17344a">邻域连续性</text><text x="600" y="455" text-anchor="middle" font-size="14" fill="#36566b">Neighborhood continuity</text><g fill="#79a653"><circle cx="505" cy="505" r="9"/><circle cx="550" cy="487" r="9"/><circle cx="600" cy="500" r="9"/><circle cx="650" cy="482" r="9"/><circle cx="700" cy="503" r="9"/></g>
+    <rect x="808" y="388" width="320" height="170" rx="6" fill="#f7e8b9" stroke="#c28a1b"/><text x="968" y="426" text-anchor="middle" font-size="18" font-weight="700" fill="#17344a">工艺与外观对照</text><text x="968" y="455" text-anchor="middle" font-size="14" fill="#36566b">Process &amp; appearance review</text><rect x="870" y="485" width="82" height="34" rx="4" fill="#fff" stroke="#c28a1b"/><rect x="984" y="485" width="82" height="34" rx="4" fill="#fff" stroke="#c28a1b"/><line x1="952" y1="502" x2="984" y2="502" stroke="#c28a1b" stroke-width="3"/>
+    <rect x="72" y="596" width="1056" height="30" rx="4" fill="#edf1f3"/><text x="600" y="616" text-anchor="middle" font-size="12" fill="#607483">图示为概念数据，不代表公差、波长或外观等级 / Conceptual data only; no tolerance or appearance grade implied</text>
+  </g>
+</svg>
+
