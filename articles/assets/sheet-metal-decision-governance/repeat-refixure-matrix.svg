@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/>
+  <rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">复扫与重装夹矩阵：偏差是否跟着零件走</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">Repeat acquisition and refixturing reveal whether a pattern belongs to the part or the setup</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="96" y="168" width="250" height="62" fill="#d8edf7" stroke="#4c96b8"/><text x="221" y="205" text-anchor="middle" font-size="18" font-weight="700" fill="#17344a">观察 / Observation</text>
+    <rect x="346" y="168" width="340" height="62" fill="#d8edf7" stroke="#4c96b8"/><text x="516" y="205" text-anchor="middle" font-size="18" font-weight="700" fill="#17344a">模式行为 / Pattern behavior</text>
+    <rect x="686" y="168" width="418" height="62" fill="#d8edf7" stroke="#4c96b8"/><text x="895" y="205" text-anchor="middle" font-size="18" font-weight="700" fill="#17344a">优先动作 / Priority action</text>
+    <g font-size="16" fill="#29485d">
+      <rect x="96" y="230" width="250" height="76" fill="#f8fafb" stroke="#c6d2da"/><text x="221" y="261" text-anchor="middle" font-weight="700">原位复扫</text><text x="221" y="285" text-anchor="middle" font-size="13">Same setup, repeat scan</text>
+      <rect x="346" y="230" width="340" height="76" fill="#e4f0d6" stroke="#c6d2da"/><text x="516" y="273" text-anchor="middle">同一区域保持</text>
+      <rect x="686" y="230" width="418" height="76" fill="#e4f0d6" stroke="#c6d2da"/><text x="895" y="273" text-anchor="middle">进入重装夹验证</text>
+      <rect x="96" y="306" width="250" height="76" fill="#f8fafb" stroke="#c6d2da"/><text x="221" y="337" text-anchor="middle" font-weight="700">重装夹复扫</text><text x="221" y="361" text-anchor="middle" font-size="13">Remove and refixture</text>
+      <rect x="346" y="306" width="340" height="76" fill="#e4f0d6" stroke="#c6d2da"/><text x="516" y="349" text-anchor="middle">随零件坐标保持</text>
+      <rect x="686" y="306" width="418" height="76" fill="#e4f0d6" stroke="#c6d2da"/><text x="895" y="349" text-anchor="middle">零件几何调查优先</text>
+      <rect x="96" y="382" width="250" height="76" fill="#f8fafb" stroke="#c6d2da"/><text x="221" y="413" text-anchor="middle" font-weight="700">翻面或换支撑</text><text x="221" y="437" text-anchor="middle" font-size="13">Change orientation/support</text>
+      <rect x="346" y="382" width="340" height="76" fill="#f7e8b9" stroke="#c6d2da"/><text x="516" y="425" text-anchor="middle">幅度或方向变化</text>
+      <rect x="686" y="382" width="418" height="76" fill="#f7e8b9" stroke="#c6d2da"/><text x="895" y="425" text-anchor="middle">支撑与自重影响调查</text>
+      <rect x="96" y="458" width="250" height="76" fill="#f8fafb" stroke="#c6d2da"/><text x="221" y="489" text-anchor="middle" font-weight="700">改变扫描视角</text><text x="221" y="513" text-anchor="middle" font-size="13">Change acquisition views</text>
+      <rect x="346" y="458" width="340" height="76" fill="#f3d9d6" stroke="#c6d2da"/><text x="516" y="501" text-anchor="middle">异常随视角移动</text>
+      <rect x="686" y="458" width="418" height="76" fill="#f3d9d6" stroke="#c6d2da"/><text x="895" y="501" text-anchor="middle">覆盖、反光与拼接复核</text>
+    </g>
+    <rect x="96" y="572" width="1008" height="42" rx="4" fill="#edf1f3"/><text x="600" y="598" text-anchor="middle" font-size="14" fill="#607483">只有稳定模式才进入尺寸判定；矩阵颜色仅表达调查路径 / Stable patterns advance; colors do not encode tolerance</text>
+  </g>
+</svg>
+
