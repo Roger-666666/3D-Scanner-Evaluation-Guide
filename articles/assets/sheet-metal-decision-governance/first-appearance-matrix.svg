@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/>
+  <rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">异常首发矩阵：继承、放大还是本工序新生</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">First-appearance logic routes investigation without claiming automatic causality</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g fill="#d8edf7" stroke="#4c96b8"><rect x="92" y="170" width="260" height="62"/><rect x="352" y="170" width="180" height="62"/><rect x="532" y="170" width="180" height="62"/><rect x="712" y="170" width="180" height="62"/><rect x="892" y="170" width="216" height="62"/></g>
+    <g text-anchor="middle" font-size="16" font-weight="700" fill="#17344a"><text x="222" y="207">模式 / Pattern</text><text x="442" y="207">上工序</text><text x="622" y="207">本工序</text><text x="802" y="207">下工序</text><text x="1000" y="207">调查入口</text></g>
+    <g font-size="15" text-anchor="middle" fill="#29485d">
+      <g stroke="#c6d2da"><rect x="92" y="232" width="260" height="76" fill="#f8fafb"/><rect x="352" y="232" width="180" height="76" fill="#e4f0d6"/><rect x="532" y="232" width="180" height="76" fill="#e4f0d6"/><rect x="712" y="232" width="180" height="76" fill="#e4f0d6"/><rect x="892" y="232" width="216" height="76" fill="#e4f0d6"/></g><text x="222" y="277">持续存在</text><text x="442" y="277">出现</text><text x="622" y="277">保持</text><text x="802" y="277">保持</text><text x="1000" y="277">继承路径</text>
+      <g stroke="#c6d2da"><rect x="92" y="308" width="260" height="76" fill="#f8fafb"/><rect x="352" y="308" width="180" height="76" fill="#edf1f3"/><rect x="532" y="308" width="180" height="76" fill="#f7e8b9"/><rect x="712" y="308" width="180" height="76" fill="#f7e8b9"/><rect x="892" y="308" width="216" height="76" fill="#f7e8b9"/></g><text x="222" y="353">首次稳定出现</text><text x="442" y="353">未见</text><text x="622" y="353">出现</text><text x="802" y="353">保持</text><text x="1000" y="353">本工序优先</text>
+      <g stroke="#c6d2da"><rect x="92" y="384" width="260" height="76" fill="#f8fafb"/><rect x="352" y="384" width="180" height="76" fill="#d8edf7"/><rect x="532" y="384" width="180" height="76" fill="#f3d9d6"/><rect x="712" y="384" width="180" height="76" fill="#f3d9d6"/><rect x="892" y="384" width="216" height="76" fill="#f3d9d6"/></g><text x="222" y="429">幅度突增</text><text x="442" y="429">弱</text><text x="622" y="429">增强</text><text x="802" y="429">保持</text><text x="1000" y="429">放大机制</text>
+      <g stroke="#c6d2da"><rect x="92" y="460" width="260" height="76" fill="#f8fafb"/><rect x="352" y="460" width="180" height="76" fill="#d8edf7"/><rect x="532" y="460" width="180" height="76" fill="#eadff1"/><rect x="712" y="460" width="180" height="76" fill="#edf1f3"/><rect x="892" y="460" width="216" height="76" fill="#eadff1"/></g><text x="222" y="505">方向改变</text><text x="442" y="505">模式A</text><text x="622" y="505">模式B</text><text x="802" y="505">待验证</text><text x="1000" y="505">状态与基准</text>
+    </g>
+    <rect x="92" y="575" width="1016" height="38" rx="4" fill="#edf1f3"/><text x="600" y="599" text-anchor="middle" font-size="13" fill="#607483">矩阵用于排序调查，不把时间先后自动解释为因果 / Timing prioritizes investigation; it does not prove cause</text>
+  </g>
+</svg>
+
