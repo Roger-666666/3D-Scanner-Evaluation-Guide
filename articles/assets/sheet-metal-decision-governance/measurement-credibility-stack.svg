@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/>
+  <rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="83" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">薄壁钣金测量可信度：先证明“看见的变化”不是测量制造的</text>
+  <text x="66" y="113" font-family="Arial,sans-serif" font-size="15" fill="#607483">Measurement credibility separates part change from acquisition, support and evaluation effects</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="80" y="165" width="1040" height="66" rx="6" fill="#d8edf7" stroke="#4c96b8"/>
+    <text x="110" y="193" font-size="19" font-weight="700" fill="#17344a">采集层 / Acquisition</text><text x="350" y="193" font-size="16" fill="#36566b">表面状态、遮挡、视角、标记与拼接</text>
+    <text x="110" y="216" font-size="14" fill="#607483">重复扫描时应保持规则一致，并标记不可评价区域</text>
+    <rect x="110" y="250" width="980" height="66" rx="6" fill="#e4f0d6" stroke="#79a653"/>
+    <text x="140" y="278" font-size="19" font-weight="700" fill="#17344a">支撑层 / Support</text><text x="380" y="278" font-size="16" fill="#36566b">自由态、定位态、夹持态与翻面姿态</text>
+    <text x="140" y="301" font-size="14" fill="#607483">薄壁件的支撑路径必须作为测量条件保存</text>
+    <rect x="140" y="335" width="920" height="66" rx="6" fill="#f7e8b9" stroke="#c28a1b"/>
+    <text x="170" y="363" font-size="19" font-weight="700" fill="#17344a">对齐层 / Alignment</text><text x="420" y="363" font-size="16" fill="#36566b">功能基准、RPS逻辑与诊断对齐</text>
+    <text x="170" y="386" font-size="14" fill="#607483">不能通过“最绿的拟合”替代设计定位逻辑</text>
+    <rect x="170" y="420" width="860" height="66" rx="6" fill="#eadff1" stroke="#9270a8"/>
+    <text x="200" y="448" font-size="19" font-weight="700" fill="#17344a">评价层 / Evaluation</text><text x="440" y="448" font-size="16" fill="#36566b">孔、截面、曲面、边界与缺失覆盖</text>
+    <text x="200" y="471" font-size="14" fill="#607483">结果需要保留模板、色标、区域和版本</text>
+    <rect x="200" y="505" width="800" height="66" rx="6" fill="#f3d9d6" stroke="#c75b50"/>
+    <text x="230" y="533" font-size="19" font-weight="700" fill="#17344a">决策层 / Decision</text><text x="450" y="533" font-size="16" fill="#36566b">复测、参考方法、隔离或工程处置</text>
+    <text x="230" y="556" font-size="14" fill="#607483">扫描异常不是自动放行或调模指令</text>
+    <rect x="80" y="598" width="1040" height="30" rx="4" fill="#edf1f3"/>
+    <text x="600" y="619" text-anchor="middle" font-size="13" fill="#607483">概念框架，不代表通用测量不确定度或验收阈值 / Conceptual framework, not a universal uncertainty budget</text>
+  </g>
+</svg>
+
