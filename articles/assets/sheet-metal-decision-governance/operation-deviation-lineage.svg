@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/>
+  <rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">跨工序偏差谱系：寻找异常第一次稳定出现的位置</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">A multi-operation lineage separates inherited deviation from newly introduced process effects</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5a7385"/></marker></defs>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g text-anchor="middle" fill="#17344a">
+      <rect x="65" y="180" width="185" height="100" rx="6" fill="#d8edf7" stroke="#4c96b8"/><text x="157" y="218" font-size="19" font-weight="700">落料状态</text><text x="157" y="246" font-size="14">Blank state</text>
+      <rect x="284" y="180" width="185" height="100" rx="6" fill="#e4f0d6" stroke="#79a653"/><text x="376" y="218" font-size="19" font-weight="700">拉深状态</text><text x="376" y="246" font-size="14">Drawn state</text>
+      <rect x="503" y="180" width="185" height="100" rx="6" fill="#f7e8b9" stroke="#c28a1b"/><text x="595" y="218" font-size="19" font-weight="700">整形状态</text><text x="595" y="246" font-size="14">Restrike state</text>
+      <rect x="722" y="180" width="185" height="100" rx="6" fill="#eadff1" stroke="#9270a8"/><text x="814" y="218" font-size="19" font-weight="700">切边冲孔</text><text x="814" y="246" font-size="14">Trim &amp; pierce</text>
+      <rect x="941" y="180" width="185" height="100" rx="6" fill="#f3d9d6" stroke="#c75b50"/><text x="1033" y="218" font-size="19" font-weight="700">翻边与终态</text><text x="1033" y="246" font-size="14">Flange &amp; final</text>
+    </g>
+    <line x1="250" y1="230" x2="278" y2="230" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/><line x1="469" y1="230" x2="497" y2="230" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/><line x1="688" y1="230" x2="716" y2="230" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/><line x1="907" y1="230" x2="935" y2="230" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/>
+    <path d="M110 390 C260 340, 330 430, 460 375 S700 350, 790 420 S980 370,1090 405" fill="none" stroke="#2f7fa6" stroke-width="7"/>
+    <circle cx="157" cy="375" r="11" fill="#2f7fa6"/><circle cx="376" cy="390" r="11" fill="#2f7fa6"/><circle cx="595" cy="366" r="11" fill="#c28a1b"/><circle cx="814" cy="421" r="11" fill="#9270a8"/><circle cx="1033" cy="391" r="11" fill="#c75b50"/>
+    <g text-anchor="middle" font-size="14" fill="#29485d"><text x="157" y="465">建立身份</text><text x="376" y="465">观察主曲面</text><text x="595" y="465">检查模式变化</text><text x="814" y="465">连接孔与边界</text><text x="1033" y="465">验证最终接口</text></g>
+    <rect x="92" y="520" width="1016" height="74" rx="5" fill="#edf1f3"/>
+    <text x="600" y="551" text-anchor="middle" font-size="16" font-weight="700" fill="#29485d">谱系记录：零件身份 + 工序状态 + 模具工位 + 定位方式 + 扫描模板 + 不可评价区</text>
+    <text x="600" y="578" text-anchor="middle" font-size="13" fill="#607483">曲线仅表达偏差模式沿工序的演化，不代表真实测量值 / Conceptual evolution, not measured values</text>
+  </g>
+</svg>
+
