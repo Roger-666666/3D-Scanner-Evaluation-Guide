@@ -153,6 +153,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 67. [Why the Same Mold Produces Different Correction Conclusions: Alignment Sensitivity and Deviation-Pattern Invariants](./articles/automotive-mold-alignment-sensitivity-deviation-pattern-invariants.md#english-version)
 68. [From Anomaly Region to Minimum Correction Scope: Target, Protection and Verification Zones for Automotive Molds](./articles/automotive-mold-minimum-correction-target-protection-verification-loop.md#english-version)
 69. [How to Avoid a Worse Result After Mold Repair: Counterfactual Verification, Rollback Baselines and Knowledge Governance](./articles/automotive-mold-post-correction-counterfactual-rollback-governance.md#english-version)
+70. [Is the Thin-Walled Sheet-Metal Part Changing, or Is the Measurement Changing? A Credibility Framework for Blue-Light 3D Scanning](./articles/sheet-metal-blue-light-3d-measurement-credibility-rescan-refixture.md#english-version)
+71. [Part Deviation or Checking-Fixture Drift? Digital Verification of Sheet-Metal Gauges, Locators and Datum Transfer](./articles/sheet-metal-checking-fixture-locator-datum-transfer-verification.md#english-version)
+72. [Is End-of-Line Detection Too Late? Building a Multi-Operation Deviation Lineage for Sheet-Metal Forming](./articles/sheet-metal-multi-operation-deviation-lineage-blue-light-3d-scanning.md#english-version)
+73. [Which Component Drives a Gap-and-Flushness Issue? Multi-Part Sheet-Metal Assembly Contribution Analysis](./articles/sheet-metal-multi-part-assembly-gap-flushness-contribution-analysis.md#english-version)
+74. [Why Can a Dimensionally Acceptable Panel Still Show Visual Waviness? Layered Inspection of Local Sheet-Metal Surface Form](./articles/sheet-metal-local-surface-waviness-cosmetic-risk-layered-inspection.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -295,6 +300,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 67. [同一模具为何得出不同修模结论：对齐敏感性与偏差模式不变量](./articles/automotive-mold-alignment-sensitivity-deviation-pattern-invariants.md#chinese-version)
 68. [从异常区域到最小修模范围：汽车模具目标区、保护区与复验区闭环](./articles/automotive-mold-minimum-correction-target-protection-verification-loop.md#chinese-version)
 69. [修完更差如何避免：汽车模具反事实复验、回滚基线与知识库治理](./articles/automotive-mold-post-correction-counterfactual-rollback-governance.md#chinese-version)
+70. [薄壁钣金到底在变，还是测量在变？蓝光3D扫描测量可信度验证框架](./articles/sheet-metal-blue-light-3d-measurement-credibility-rescan-refixture.md#chinese-version)
+71. [零件超差还是检具漂移？钣金检具、定位元件与基准转移数字化复核](./articles/sheet-metal-checking-fixture-locator-datum-transfer-verification.md#chinese-version)
+72. [终检发现偏差太晚？蓝光3D扫描如何建立钣金多工序偏差谱系](./articles/sheet-metal-multi-operation-deviation-lineage-blue-light-3d-scanning.md#chinese-version)
+73. [总成间隙面差异常由谁贡献？多零件钣金装配误差贡献分析](./articles/sheet-metal-multi-part-assembly-gap-flushness-contribution-analysis.md#chinese-version)
+74. [大曲面尺寸合格为何仍有视觉波纹？钣金局部面形与外观风险分层检测](./articles/sheet-metal-local-surface-waviness-cosmetic-risk-layered-inspection.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
