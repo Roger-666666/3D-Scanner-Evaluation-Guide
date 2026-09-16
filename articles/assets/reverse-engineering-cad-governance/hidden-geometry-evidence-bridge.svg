@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b8c8d2" stroke-width="2"/>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif"><text x="65" y="82" font-size="30" font-weight="700" fill="#15364b">隐藏结构补证桥：推断可以存在，但不能伪装成测量</text><text x="65" y="112" font-size="15" fill="#607583">Evidence bridging keeps observed surfaces, hypotheses and verified geometry separate</text>
+  <g transform="translate(80 190)" text-anchor="middle"><rect width="250" height="190" rx="8" fill="#dff0e5" stroke="#4b8b69" stroke-width="3"/><text x="125" y="48" font-size="20" font-weight="700" fill="#1e5540">已观测外表面</text><text x="125" y="86" font-size="15" fill="#36596c">点云与网格</text><text x="125" y="116" font-size="15" fill="#36596c">开口与可见边界</text><text x="125" y="146" font-size="15" fill="#36596c">可追溯原始数据</text>
+  <rect x="395" width="330" height="190" rx="8" fill="#f7e8b9" stroke="#d08a2e" stroke-width="3"/><text x="560" y="42" font-size="20" font-weight="700" fill="#7b5521">补充证据</text><text x="560" y="80" font-size="15" fill="#36596c">配合件与装配关系</text><text x="560" y="110" font-size="15" fill="#36596c">历史图纸与工艺记录</text><text x="560" y="140" font-size="15" fill="#36596c">拆解、剖切或其他检测方法</text>
+  <rect x="790" width="250" height="190" rx="8" fill="#efe7f4" stroke="#6f5a91" stroke-width="3"/><text x="915" y="48" font-size="20" font-weight="700" fill="#51406e">候选隐藏结构</text><text x="915" y="86" font-size="15" fill="#36596c">假设版本</text><text x="915" y="116" font-size="15" fill="#36596c">证据强度</text><text x="915" y="146" font-size="15" fill="#36596c">待验证状态</text>
+  <path d="M330 95 H390 M725 95 H785" stroke="#2f6f8f" stroke-width="5"/><path d="M380 83 L395 95 380 107 M775 83 L790 95 775 107" fill="none" stroke="#2f6f8f" stroke-width="5"/></g>
+  <g transform="translate(150 450)" font-size="15"><rect width="900" height="90" rx="8" fill="#f3d9d6"/><text x="450" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#7c3a35">发布门槛：来源可追溯 + 假设显式化 + 独立验证</text><text x="450" y="65" text-anchor="middle" fill="#6c4b48">缺少证据时，模型应保留开放边界或“未知”标记，而不是自动补齐</text></g>
+  <text x="600" y="620" text-anchor="middle" font-size="13" fill="#607583">流程示意，不代表扫描可直接获得内部结构 / Conceptual workflow only</text></g>
+</svg>
+
