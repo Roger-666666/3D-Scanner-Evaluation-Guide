@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b7c7d1" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">密封接口证据栈：壳体几何只是防护性能的一层</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">Sealing performance requires geometry, mating, material-process and functional-test evidence</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g transform="translate(145 165)"><rect width="910" height="85" rx="6" fill="#e0f0f7" stroke="#4b97b9" stroke-width="2"/><text x="40" y="37" font-size="20" font-weight="700" fill="#15364b">壳体几何层</text><text x="40" y="64" font-size="14" fill="#36596c">台阶连续性、结合面、局部截面、整体翘曲</text><text x="865" y="50" text-anchor="end" font-size="13" fill="#607583">Geometry</text></g>
+    <g transform="translate(185 270)"><rect width="830" height="85" rx="6" fill="#edf4e4" stroke="#7aa553" stroke-width="2"/><text x="40" y="37" font-size="20" font-weight="700" fill="#15364b">配合关系层</text><text x="40" y="64" font-size="14" fill="#36596c">后盖、显示屏、按键与紧固界面的相对关系</text><text x="785" y="50" text-anchor="end" font-size="13" fill="#607583">Mating</text></g>
+    <g transform="translate(225 375)"><rect width="750" height="85" rx="6" fill="#fbf1d9" stroke="#c28b21" stroke-width="2"/><text x="40" y="37" font-size="20" font-weight="700" fill="#15364b">材料与过程层</text><text x="40" y="64" font-size="14" fill="#36596c">密封材料、压缩状态、装配与固化过程</text><text x="705" y="50" text-anchor="end" font-size="13" fill="#607583">Material &amp; process</text></g>
+    <g transform="translate(265 480)"><rect width="670" height="85" rx="6" fill="#efe7f4" stroke="#9471aa" stroke-width="2"/><text x="40" y="37" font-size="20" font-weight="700" fill="#15364b">功能验证层</text><text x="40" y="64" font-size="14" fill="#36596c">密封、耐久与整机试验</text><text x="625" y="50" text-anchor="end" font-size="13" fill="#607583">Functional validation</text></g>
+    <text x="600" y="620" text-anchor="middle" font-size="13" fill="#607583">蓝光三维扫描支持表面几何证据，不单独颁发防护性能结论 / Geometry evidence does not replace sealing qualification</text>
+  </g>
+</svg>
