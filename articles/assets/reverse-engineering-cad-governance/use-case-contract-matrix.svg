@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b8c8d2" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">用途契约矩阵：先定义要做什么，再决定建到哪一层</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">Reverse-engineering scope should follow downstream use, editability and verification needs</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g transform="translate(250 155)" font-size="15" fill="#15364b" text-anchor="middle"><text x="105" y="0">数字存档</text><text x="315" y="0">几何比对</text><text x="525" y="0">设计改型</text><text x="735" y="0">再制造</text></g>
+    <g transform="translate(75 205)" font-size="15" fill="#15364b"><text x="0" y="55">网格模型</text><text x="0" y="155">曲面模型</text><text x="0" y="255">参数化实体</text><text x="0" y="355">工程图规范</text></g>
+    <g transform="translate(250 175)">
+      <g stroke="#fff" stroke-width="4"><rect x="0" y="0" width="210" height="100" fill="#dff0e5"/><rect x="210" y="0" width="210" height="100" fill="#dff0e5"/><rect x="420" y="0" width="210" height="100" fill="#f7e8b9"/><rect x="630" y="0" width="210" height="100" fill="#f3d9d6"/>
+      <rect x="0" y="100" width="210" height="100" fill="#f7e8b9"/><rect x="210" y="100" width="210" height="100" fill="#dff0e5"/><rect x="420" y="100" width="210" height="100" fill="#f7e8b9"/><rect x="630" y="100" width="210" height="100" fill="#f7e8b9"/>
+      <rect x="0" y="200" width="210" height="100" fill="#efe7f4"/><rect x="210" y="200" width="210" height="100" fill="#f7e8b9"/><rect x="420" y="200" width="210" height="100" fill="#dff0e5"/><rect x="630" y="200" width="210" height="100" fill="#dff0e5"/>
+      <rect x="0" y="300" width="210" height="100" fill="#efe7f4"/><rect x="210" y="300" width="210" height="100" fill="#efe7f4"/><rect x="420" y="300" width="210" height="100" fill="#f7e8b9"/><rect x="630" y="300" width="210" height="100" fill="#dff0e5"/></g>
+    <g transform="translate(250 175)" font-size="14" text-anchor="middle" fill="#36596c"><text x="105" y="58">适合</text><text x="315" y="58">适合</text><text x="525" y="58">受限</text><text x="735" y="58">不足</text><text x="105" y="158">受限</text><text x="315" y="158">适合</text><text x="525" y="158">受限</text><text x="735" y="158">受限</text><text x="105" y="258">可选</text><text x="315" y="258">受限</text><text x="525" y="258">适合</text><text x="735" y="258">适合</text><text x="105" y="358">补充</text><text x="315" y="358">补充</text><text x="525" y="358">受限</text><text x="735" y="358">适合</text></g>
+    <text x="600" y="620" text-anchor="middle" font-size="13" fill="#607583">矩阵为范围规划示意，最终交付应依据项目用途与批准规范 / Conceptual scope matrix only</text>
+  </g></g>
+</svg>
+
