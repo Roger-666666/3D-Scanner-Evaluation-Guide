@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">型芯型腔闭合界面图：单件合格不代表组合关系正确</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">Core-cavity verification must preserve shutoff, parting, locating and insert relationships</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <path d="M130 210 L500 170 L550 285 L420 330 L170 315 Z" fill="#d8edf7" stroke="#4c96b8" stroke-width="4"/><text x="315" y="245" text-anchor="middle" font-size="22" font-weight="700" fill="#17344a">型腔 / Cavity</text>
+    <path d="M130 470 L500 510 L550 395 L420 350 L170 365 Z" fill="#e4f0d6" stroke="#79a653" stroke-width="4"/><text x="315" y="445" text-anchor="middle" font-size="22" font-weight="700" fill="#17344a">型芯 / Core</text>
+    <path d="M170 315 L420 330 L550 285" fill="none" stroke="#c75b50" stroke-width="8"/><path d="M170 365 L420 350 L550 395" fill="none" stroke="#9270a8" stroke-width="8"/>
+    <g fill="#17344a"><text x="760" y="188" font-size="20" font-weight="700">分型界面 / Parting</text><text x="760" y="278" font-size="20" font-weight="700">止口封胶 / Shutoff</text><text x="760" y="368" font-size="20" font-weight="700">定位配合 / Locating</text><text x="760" y="458" font-size="20" font-weight="700">镶件与滑块 / Insert &amp; slide</text></g>
+    <g font-size="14" fill="#36566b"><text x="760" y="216">连续性、错阶与闭合关系</text><text x="760" y="306">局部间隙、干涉与边界状态</text><text x="760" y="396">销、面、导向与自由度</text><text x="760" y="486">装配姿态及邻近工作面</text></g>
+    <g><rect x="700" y="167" width="38" height="38" fill="#f3d9d6" stroke="#c75b50"/><rect x="700" y="257" width="38" height="38" fill="#f7e8b9" stroke="#c28a1b"/><rect x="700" y="347" width="38" height="38" fill="#d8edf7" stroke="#4c96b8"/><rect x="700" y="437" width="38" height="38" fill="#eadff1" stroke="#9270a8"/></g>
+    <rect x="90" y="585" width="1020" height="34" rx="4" fill="#edf1f3"/><text x="600" y="607" text-anchor="middle" font-size="13" fill="#607483">界面图描述检查对象，不表示真实间隙或受力 / The map names interfaces; it does not show measured clearance or force</text>
+  </g>
+</svg>
