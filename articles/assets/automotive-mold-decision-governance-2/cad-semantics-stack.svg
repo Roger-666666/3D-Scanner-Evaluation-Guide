@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">参考模型语义栈：同一位置可能对应四种“名义面”</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">Product, working, compensated and machining-state surfaces answer different inspection questions</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="160" y="165" width="880" height="82" rx="6" fill="#d8edf7" stroke="#4c96b8"/><text x="200" y="198" font-size="20" font-weight="700" fill="#17344a">产品设计面 / Product surface</text><text x="200" y="225" font-size="14" fill="#36566b">描述最终零件功能与外观，不等于模具直接加工面</text>
+    <rect x="190" y="266" width="820" height="82" rx="6" fill="#e4f0d6" stroke="#79a653"/><text x="230" y="299" font-size="20" font-weight="700" fill="#17344a">模具工作面 / Mold working surface</text><text x="230" y="326" font-size="14" fill="#36566b">包含正反关系、型芯型腔语义与工艺结构</text>
+    <rect x="220" y="367" width="760" height="82" rx="6" fill="#f7e8b9" stroke="#c28a1b"/><text x="260" y="400" font-size="20" font-weight="700" fill="#17344a">补偿面 / Compensated surface</text><text x="260" y="427" font-size="14" fill="#36566b">承载经过批准的收缩、回弹或工艺补偿逻辑</text>
+    <rect x="250" y="468" width="700" height="82" rx="6" fill="#eadff1" stroke="#9270a8"/><text x="290" y="501" font-size="20" font-weight="700" fill="#17344a">加工与修模状态 / Machining state</text><text x="290" y="528" font-size="14" fill="#36566b">区分余量、精加工、抛光、修正和当前实体版本</text>
+    <rect x="96" y="590" width="1008" height="32" rx="4" fill="#edf1f3"/><text x="600" y="611" text-anchor="middle" font-size="13" fill="#607483">扫描结果必须绑定参考模型版本与语义 / Every comparison must name the reference model and its meaning</text>
+  </g>
+</svg>
