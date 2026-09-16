@@ -158,6 +158,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 72. [Is End-of-Line Detection Too Late? Building a Multi-Operation Deviation Lineage for Sheet-Metal Forming](./articles/sheet-metal-multi-operation-deviation-lineage-blue-light-3d-scanning.md#english-version)
 73. [Which Component Drives a Gap-and-Flushness Issue? Multi-Part Sheet-Metal Assembly Contribution Analysis](./articles/sheet-metal-multi-part-assembly-gap-flushness-contribution-analysis.md#english-version)
 74. [Why Can a Dimensionally Acceptable Panel Still Show Visual Waviness? Layered Inspection of Local Sheet-Metal Surface Form](./articles/sheet-metal-local-surface-waviness-cosmetic-risk-layered-inspection.md#english-version)
+75. [Not Every Red Region Can Guide Mold Repair: Observability and Blind-Zone Evidence in Full-Field Automotive Mold Inspection](./articles/automotive-mold-full-field-observability-blind-zone-evidence-ledger.md#english-version)
+76. [Comparing a Mold Scan with the Wrong CAD Can Be Worse Than Not Scanning: Semantic Review of Product, Working and Compensation Surfaces](./articles/automotive-mold-cad-semantic-reference-model-review.md#english-version)
+77. [Why Can Individually Acceptable Core and Cavity Halves Still Fail When Closed? Verification of Closure Interfaces and Mating Relationships](./articles/automotive-mold-core-cavity-closure-interface-mating-verification.md#english-version)
+78. [Why Can a Cold Mold Scan Pass While Trial Molding Still Fails? Mold-State Contracts and Condition Comparability](./articles/automotive-mold-cold-scan-trial-condition-state-contract.md#english-version)
+79. [Which Anomaly Should Be Corrected First? Interaction Mapping and Staged Verification for Automotive Mold Repair](./articles/automotive-mold-multi-anomaly-correction-interaction-staged-verification.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -305,6 +310,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 72. [终检发现偏差太晚？蓝光3D扫描如何建立钣金多工序偏差谱系](./articles/sheet-metal-multi-operation-deviation-lineage-blue-light-3d-scanning.md#chinese-version)
 73. [总成间隙面差异常由谁贡献？多零件钣金装配误差贡献分析](./articles/sheet-metal-multi-part-assembly-gap-flushness-contribution-analysis.md#chinese-version)
 74. [大曲面尺寸合格为何仍有视觉波纹？钣金局部面形与外观风险分层检测](./articles/sheet-metal-local-surface-waviness-cosmetic-risk-layered-inspection.md#chinese-version)
+75. [不是所有红区都能指导修模：汽车模具全域3D检测的可观测性与盲区证据账本](./articles/automotive-mold-full-field-observability-blind-zone-evidence-ledger.md#chinese-version)
+76. [模具扫描对错CAD比不扫描更危险：产品面、工作面与补偿面语义审查](./articles/automotive-mold-cad-semantic-reference-model-review.md#chinese-version)
+77. [型芯型腔单件都合格，为何合模仍异常？闭合界面与配合关系验证](./articles/automotive-mold-core-cavity-closure-interface-mating-verification.md#chinese-version)
+78. [冷态扫描合格，试模为何仍失控？汽车模具状态合同与工况可比性](./articles/automotive-mold-cold-scan-trial-condition-state-contract.md#chinese-version)
+79. [多个异常先修哪里？汽车模具修正相互作用图与分阶段验证](./articles/automotive-mold-multi-anomaly-correction-interaction-staged-verification.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
