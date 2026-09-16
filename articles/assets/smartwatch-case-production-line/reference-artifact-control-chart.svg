@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b7c7d1" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">参考件健康轨迹：在判零件之前先判断测量系统</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">A reference artifact trend separates abrupt setup events from gradual system drift</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <line x1="120" y1="505" x2="1100" y2="505" stroke="#36596c" stroke-width="3"/><line x1="120" y1="170" x2="120" y2="505" stroke="#36596c" stroke-width="3"/>
+    <rect x="120" y="260" width="980" height="150" fill="#e4f1e8"/><line x1="120" y1="335" x2="1100" y2="335" stroke="#7aa553" stroke-width="3" stroke-dasharray="8 7"/>
+    <polyline points="140,338 225,332 310,340 395,334 480,342 565,330 650,338 735,308 820,290 905,270 990,245 1075,225" fill="none" stroke="#4b97b9" stroke-width="6"/>
+    <g fill="#4b97b9"><circle cx="140" cy="338" r="7"/><circle cx="225" cy="332" r="7"/><circle cx="310" cy="340" r="7"/><circle cx="395" cy="334" r="7"/><circle cx="480" cy="342" r="7"/><circle cx="565" cy="330" r="7"/><circle cx="650" cy="338" r="7"/><circle cx="735" cy="308" r="7"/><circle cx="820" cy="290" r="7"/><circle cx="905" cy="270" r="7"/><circle cx="990" cy="245" r="7"/><circle cx="1075" cy="225" r="7"/></g>
+    <path d="M725 205 V290" stroke="#c75e53" stroke-width="3"/><text x="725" y="185" text-anchor="middle" font-size="16" font-weight="700" fill="#783c37">趋势开始变化</text><text x="725" y="225" text-anchor="middle" font-size="13" fill="#607583">Investigate setup or system</text>
+    <text x="110" y="155" text-anchor="end" font-size="14" fill="#36596c">健康指标</text><text x="1100" y="535" text-anchor="end" font-size="14" fill="#36596c">时间 / 批次</text>
+    <rect x="90" y="570" width="1020" height="48" rx="4" fill="#e9eef1"/><text x="600" y="599" text-anchor="middle" font-size="13" fill="#607583">曲线为概念示意，不表示真实测量值或控制限 / Conceptual trend only; no measured value or control limit is implied</text>
+  </g>
+</svg>
