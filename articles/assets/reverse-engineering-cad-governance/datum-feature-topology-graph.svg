@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b8c8d2" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">基准与特征拓扑图：逆向CAD先重建关系，再填写尺寸</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">A feature graph preserves functional relationships among planes, axes, holes, slots and interfaces</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g stroke="#607583" stroke-width="4" fill="none"><path d="M250 250 L500 210 L760 250 L960 380 L650 500 L360 470 Z"/><path d="M500 210 L650 500 M760 250 L360 470 M250 250 L960 380" stroke-dasharray="8 7"/></g>
+    <g><circle cx="250" cy="250" r="70" fill="#e0f0f7" stroke="#4b97b9" stroke-width="4"/><text x="250" y="243" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">基准面 A</text><text x="250" y="270" text-anchor="middle" font-size="13" fill="#607583">Datum plane</text>
+    <circle cx="500" cy="210" r="70" fill="#edf4e4" stroke="#7aa553" stroke-width="4"/><text x="500" y="203" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">孔轴 B</text><text x="500" y="230" text-anchor="middle" font-size="13" fill="#607583">Hole axis</text>
+    <circle cx="760" cy="250" r="70" fill="#fbf1d9" stroke="#c28b21" stroke-width="4"/><text x="760" y="243" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">槽中心 C</text><text x="760" y="270" text-anchor="middle" font-size="13" fill="#607583">Slot center</text>
+    <circle cx="960" cy="380" r="70" fill="#efe7f4" stroke="#9471aa" stroke-width="4"/><text x="960" y="373" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">配合面</text><text x="960" y="400" text-anchor="middle" font-size="13" fill="#607583">Mating face</text>
+    <circle cx="650" cy="500" r="70" fill="#dff0e5" stroke="#4d8d65" stroke-width="4"/><text x="650" y="493" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">圆角链</text><text x="650" y="520" text-anchor="middle" font-size="13" fill="#607583">Fillet chain</text>
+    <circle cx="360" cy="470" r="70" fill="#f3d9d6" stroke="#c75e53" stroke-width="4"/><text x="360" y="463" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">未知特征</text><text x="360" y="490" text-anchor="middle" font-size="13" fill="#607583">Unknown intent</text></g>
+    <rect x="90" y="575" width="1020" height="44" rx="4" fill="#e9eef1"/><text x="600" y="602" text-anchor="middle" font-size="13" fill="#607583">实线表示已确认关系，虚线表示待验证假设 / Solid links are confirmed; dashed links remain hypotheses</text>
+  </g>
+</svg>
+
