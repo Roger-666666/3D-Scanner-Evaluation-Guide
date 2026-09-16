@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b8c8d2" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">特征重建决策图：拟合、恢复还是保留实物状态</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">Feature reconstruction depends on function, repeatability, manufacturing logic and evidence</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#607583"/></marker></defs>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="430" y="145" width="340" height="65" rx="6" fill="#e0f0f7" stroke="#4b97b9" stroke-width="3"/><text x="600" y="184" text-anchor="middle" font-size="20" font-weight="700" fill="#15364b">该表面或特征承担什么功能？</text>
+    <rect x="430" y="260" width="340" height="65" rx="6" fill="#fbf1d9" stroke="#c28b21" stroke-width="3"/><text x="600" y="299" text-anchor="middle" font-size="19" font-weight="700" fill="#15364b">异常是否重复且符合制造逻辑？</text>
+    <path d="M600 212 V252" stroke="#607583" stroke-width="4" marker-end="url(#a)"/>
+    <g><rect x="75" y="405" width="300" height="115" rx="6" fill="#edf4e4" stroke="#7aa553" stroke-width="3"/><text x="225" y="445" text-anchor="middle" font-size="20" font-weight="700" fill="#315c45">标准特征拟合</text><text x="225" y="478" text-anchor="middle" font-size="14" fill="#36596c">平面、轴、孔、圆角与约束</text>
+    <rect x="450" y="405" width="300" height="115" rx="6" fill="#efe7f4" stroke="#9471aa" stroke-width="3"/><text x="600" y="445" text-anchor="middle" font-size="20" font-weight="700" fill="#5f4770">自由曲面重建</text><text x="600" y="478" text-anchor="middle" font-size="14" fill="#36596c">分区拟合并保留连续性</text>
+    <rect x="825" y="405" width="300" height="115" rx="6" fill="#f3d9d6" stroke="#c75e53" stroke-width="3"/><text x="975" y="445" text-anchor="middle" font-size="20" font-weight="700" fill="#783c37">保留或待判</text><text x="975" y="478" text-anchor="middle" font-size="14" fill="#36596c">磨损、损伤或意图不明</text></g>
+    <path d="M515 328 C430 355 315 360 225 397 M600 328 V397 M685 328 C770 355 885 360 975 397" fill="none" stroke="#607583" stroke-width="4" marker-end="url(#a)"/>
+    <text x="600" y="605" text-anchor="middle" font-size="13" fill="#607583">决策必须保留证据来源与假设，不从单张网格自动推断设计意图 / Preserve evidence and assumptions</text>
+  </g>
+</svg>
+
