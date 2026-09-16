@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">修正相互作用图：局部动作可能改变全局证据</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">Correction interaction graph for shared datums, adjacent boundaries, inserts and process response</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#607483"/></marker></defs>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <path d="M275 255 C430 150 530 150 615 255 M635 255 C760 150 860 170 925 255 M925 330 C870 455 760 465 635 390 M615 390 C485 475 350 460 275 330 M315 292 C460 265 760 265 885 292" fill="none" stroke="#607483" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+    <g transform="translate(120 220)"><circle cx="105" cy="105" r="100" fill="#d8edf7" stroke="#4c96b8" stroke-width="5"/><text x="105" y="95" text-anchor="middle" font-size="25" font-weight="700" fill="#17344a">异常 A</text><text x="105" y="126" text-anchor="middle" font-size="15" fill="#36566b">基准附近偏差</text></g>
+    <g transform="translate(500 220)"><circle cx="105" cy="105" r="100" fill="#f7e8b9" stroke="#c28a1b" stroke-width="5"/><text x="105" y="95" text-anchor="middle" font-size="25" font-weight="700" fill="#17344a">异常 B</text><text x="105" y="126" text-anchor="middle" font-size="15" fill="#36566b">边界与孔位</text></g>
+    <g transform="translate(880 220)"><circle cx="105" cy="105" r="100" fill="#eadff1" stroke="#9270a8" stroke-width="5"/><text x="105" y="95" text-anchor="middle" font-size="25" font-weight="700" fill="#17344a">异常 C</text><text x="105" y="126" text-anchor="middle" font-size="15" fill="#36566b">镶件与曲面</text></g>
+    <g font-size="14" fill="#36566b"><rect x="115" y="485" width="210" height="45" rx="4" fill="#edf1f3"/><text x="220" y="512" text-anchor="middle">共享基准 / Shared datum</text><rect x="365" y="485" width="210" height="45" rx="4" fill="#edf1f3"/><text x="470" y="512" text-anchor="middle">邻接边界 / Boundary</text><rect x="615" y="485" width="210" height="45" rx="4" fill="#edf1f3"/><text x="720" y="512" text-anchor="middle">镶件姿态 / Insert</text><rect x="865" y="485" width="210" height="45" rx="4" fill="#edf1f3"/><text x="970" y="512" text-anchor="middle">过程响应 / Process</text></g>
+    <rect x="90" y="565" width="1020" height="54" rx="4" fill="#f3d9d6"/><text x="600" y="588" text-anchor="middle" font-size="14" fill="#783b36">箭头表示待验证的影响路径，不代表已经证明的因果关系。</text><text x="600" y="608" text-anchor="middle" font-size="13" fill="#783b36">Arrows are hypotheses to test, not proven causal links or correction instructions.</text>
+  </g>
+</svg>
