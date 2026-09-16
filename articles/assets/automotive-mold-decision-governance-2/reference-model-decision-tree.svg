@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">参考模型选择树：先声明问题，再选择CAD</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">Reference selection follows the engineering question, never the most favorable color map</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5a7385"/></marker></defs>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif" text-anchor="middle">
+    <rect x="420" y="150" width="360" height="72" rx="6" fill="#d8edf7" stroke="#4c96b8"/><text x="600" y="180" font-size="19" font-weight="700" fill="#17344a">要回答什么工程问题？</text><text x="600" y="204" font-size="13" fill="#36566b">What is the inspection question?</text>
+    <line x1="600" y1="222" x2="600" y2="270" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="420" y="278" width="360" height="72" rx="6" fill="#e4f0d6" stroke="#79a653"/><text x="600" y="308" font-size="19" font-weight="700" fill="#17344a">对象与状态是否匹配？</text><text x="600" y="332" font-size="13" fill="#36566b">Object and state match?</text>
+    <line x1="420" y1="314" x2="255" y2="400" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/><line x1="520" y1="350" x2="465" y2="400" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/><line x1="680" y1="350" x2="735" y2="400" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/><line x1="780" y1="314" x2="945" y2="400" stroke="#5a7385" stroke-width="4" marker-end="url(#a)"/>
+    <g fill="#17344a"><rect x="90" y="410" width="260" height="110" rx="6" fill="#d8edf7" stroke="#4c96b8"/><text x="220" y="449" font-size="18" font-weight="700">产品功能验证</text><text x="220" y="478" font-size="14">产品CAD与装配基准</text><rect x="370" y="410" width="220" height="110" rx="6" fill="#e4f0d6" stroke="#79a653"/><text x="480" y="449" font-size="18" font-weight="700">模具加工验证</text><text x="480" y="478" font-size="14">工作面与加工状态</text><rect x="610" y="410" width="220" height="110" rx="6" fill="#f7e8b9" stroke="#c28a1b"/><text x="720" y="449" font-size="18" font-weight="700">补偿验证</text><text x="720" y="478" font-size="14">批准的补偿面版本</text><rect x="850" y="410" width="260" height="110" rx="6" fill="#eadff1" stroke="#9270a8"/><text x="980" y="449" font-size="18" font-weight="700">修模前后复核</text><text x="980" y="478" font-size="14">同一基线与变更模型</text></g>
+    <rect x="90" y="572" width="1020" height="38" rx="4" fill="#edf1f3"/><text x="600" y="596" font-size="13" fill="#607483">对象、状态或版本不匹配时，停止生成修模结论 / Stop correction conclusions when object, state or revision does not match</text>
+  </g>
+</svg>
