@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b7c7d1" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">智能手表壳体功能基准链：四类接口不能共用自由拟合</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">A functional datum chain preserves display, button, strap and back-cover relationships</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="360" y="180" width="480" height="330" rx="75" fill="#e9f1f5" stroke="#36596c" stroke-width="5"/><rect x="425" y="235" width="350" height="220" rx="45" fill="#fff" stroke="#4b97b9" stroke-width="4"/><circle cx="600" cy="345" r="55" fill="#edf4e4" stroke="#7aa553" stroke-width="4"/>
+    <path d="M600 225 V160" stroke="#4b97b9" stroke-width="5"/><path d="M850 345 H930" stroke="#c28b21" stroke-width="5"/><path d="M350 345 H270" stroke="#9471aa" stroke-width="5"/><path d="M600 520 V580" stroke="#7aa553" stroke-width="5"/>
+    <g font-size="18" font-weight="700" fill="#15364b"><text x="600" y="145" text-anchor="middle">显示屏贴合基准</text><text x="955" y="351">按键与开孔基准</text><text x="245" y="351" text-anchor="end">表带接口基准</text><text x="600" y="612" text-anchor="middle">后盖与密封基准</text></g>
+    <g font-size="13" fill="#607583"><text x="600" y="104" text-anchor="middle">Display bonding</text><text x="955" y="374">Button &amp; aperture</text><text x="245" y="374" text-anchor="end">Strap interface</text><text x="600" y="633" text-anchor="middle">Back cover &amp; sealing</text></g>
+    <g><circle cx="600" cy="180" r="12" fill="#4b97b9"/><circle cx="840" cy="345" r="12" fill="#c28b21"/><circle cx="360" cy="345" r="12" fill="#9471aa"/><circle cx="600" cy="510" r="12" fill="#7aa553"/></g>
+    <rect x="90" y="550" width="320" height="50" rx="4" fill="#e9eef1"/><text x="250" y="580" text-anchor="middle" font-size="14" fill="#36596c">中心图仅为接口关系示意</text>
+  </g>
+</svg>
