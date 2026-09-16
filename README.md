@@ -168,6 +168,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 82. [Why Can a Cosmetically Conforming Smartwatch Case Still Assemble Poorly? Three Quality Gates for Cosmetic, Assembly and Sealing Zones](./articles/smartwatch-case-cosmetic-assembly-sealing-three-zone-quality-gates.md#english-version)
 83. [Does Production-Line Drift Come from the Part or the Fixture? Reference-Artifact and Repositioning Diagnostics for Smartwatch Cases](./articles/smartwatch-case-production-fixture-part-drift-diagnosis.md#english-version)
 84. [How Can a Mixed-Model Line Avoid the Wrong Inspection Recipe? Versioned Quality Routing for Smartwatch Cases](./articles/smartwatch-case-mixed-line-inspection-recipe-exception-routing.md#english-version)
+85. [A Scan Mesh Is Not Parametric CAD: Defining Deliverable Levels for Industrial Reverse Engineering](./articles/reverse-engineering-mesh-surface-parametric-cad-deliverable-contract.md#english-version)
+86. [Should Reverse Engineering Copy the Part or Recover Design Intent? Separating As-Built Geometry from the Target Model](./articles/reverse-modeling-as-built-design-intent-separation.md#english-version)
+87. [Rebuild Relationships Before Dimensions: Datum, Feature Topology and Constraint Reconstruction for Reverse CAD](./articles/reverse-cad-datum-feature-topology-constraint-reconstruction.md#english-version)
+88. [What Cannot Be Seen Should Not Be Invented: Visibility Ledgers and Evidence Bridging for Hidden Geometry](./articles/reverse-scanning-hidden-geometry-visibility-ledger-evidence-bridging.md#english-version)
+89. [How Can a Reconstructed CAD Model Be Trusted? Independent Verification and Digital-Master Governance](./articles/reverse-cad-independent-verification-digital-master-governance.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -325,6 +330,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 82. [外观曲面合格为何仍装不稳？智能手表壳体外观、装配与密封三区质量门](./articles/smartwatch-case-cosmetic-assembly-sealing-three-zone-quality-gates.md#chinese-version)
 83. [产线色谱漂移来自零件还是夹具？智能手表壳体参考件与重装夹诊断](./articles/smartwatch-case-production-fixture-part-drift-diagnosis.md#chinese-version)
 84. [多型号混线如何避免用错检测配方？智能手表壳体版本化质量路由](./articles/smartwatch-case-mixed-line-inspection-recipe-exception-routing.md#chinese-version)
+85. [扫描网格不是参数化CAD：工业逆向工程交付层级如何定义](./articles/reverse-engineering-mesh-surface-parametric-cad-deliverable-contract.md#chinese-version)
+86. [逆向建模应复制实物还是恢复设计意图？实物状态与目标模型分离](./articles/reverse-modeling-as-built-design-intent-separation.md#chinese-version)
+87. [先重建关系，再填写尺寸：逆向CAD的基准、特征拓扑与约束重建](./articles/reverse-cad-datum-feature-topology-constraint-reconstruction.md#chinese-version)
+88. [看不见的结构不能靠猜：逆向扫描隐藏面可见性账本与补证](./articles/reverse-scanning-hidden-geometry-visibility-ledger-evidence-bridging.md#chinese-version)
+89. [逆向CAD如何证明可信？独立验证与数字主模型治理](./articles/reverse-cad-independent-verification-digital-master-governance.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
