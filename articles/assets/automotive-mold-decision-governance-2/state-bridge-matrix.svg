@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f7"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b9c8d3" stroke-width="2"/>
+  <text x="66" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#17344a">状态桥接矩阵：哪些结果可直接比较，哪些需要补证</text>
+  <text x="66" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607483">State-bridge matrix for direct comparison, conditional comparison and evidence-required transitions</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g transform="translate(260 155)" font-size="15" text-anchor="middle" fill="#17344a"><text x="90" y="0">冷态清洁</text><text x="270" y="0">装配定位</text><text x="450" y="0">合模夹紧</text><text x="630" y="0">试模工况</text></g>
+    <g transform="translate(75 190)" font-size="15" fill="#17344a"><text x="0" y="48">冷态清洁</text><text x="0" y="138">装配定位</text><text x="0" y="228">合模夹紧</text><text x="0" y="318">试模工况</text></g>
+    <g transform="translate(260 190)">
+      <g fill="#dff0e5" stroke="#7aa98a"><rect x="0" y="0" width="180" height="80"/><rect x="180" y="90" width="180" height="80"/><rect x="360" y="180" width="180" height="80"/><rect x="540" y="270" width="180" height="80"/></g>
+      <g fill="#f7e8b9" stroke="#c28a1b"><rect x="180" y="0" width="180" height="80"/><rect x="0" y="90" width="180" height="80"/><rect x="360" y="90" width="180" height="80"/><rect x="180" y="180" width="180" height="80"/></g>
+      <g fill="#f3d9d6" stroke="#c75b50"><rect x="360" y="0" width="180" height="80"/><rect x="540" y="0" width="180" height="80"/><rect x="540" y="90" width="180" height="80"/><rect x="0" y="180" width="180" height="80"/><rect x="540" y="180" width="180" height="80"/><rect x="0" y="270" width="180" height="80"/><rect x="180" y="270" width="180" height="80"/><rect x="360" y="270" width="180" height="80"/></g>
+      <g font-size="15" font-weight="700" text-anchor="middle"><g fill="#315c45"><text x="90" y="47">可直接比较</text><text x="270" y="137">可直接比较</text><text x="450" y="227">可直接比较</text><text x="630" y="317">可直接比较</text></g><g fill="#735416"><text x="270" y="47">条件比较</text><text x="90" y="137">条件比较</text><text x="450" y="137">条件比较</text><text x="270" y="227">条件比较</text></g><g fill="#783b36"><text x="450" y="47">需要桥接</text><text x="630" y="47">需要桥接</text><text x="630" y="137">需要桥接</text><text x="90" y="227">需要桥接</text><text x="630" y="227">需要桥接</text><text x="90" y="317">需要桥接</text><text x="270" y="317">需要桥接</text><text x="450" y="317">需要桥接</text></g></g>
+    </g>
+    <g transform="translate(285 570)" font-family="Arial,'Microsoft YaHei',sans-serif"><rect width="18" height="18" fill="#dff0e5" stroke="#7aa98a"/><text x="28" y="15" font-size="13" fill="#607483">同状态与同模板</text><rect x="250" width="18" height="18" fill="#f7e8b9" stroke="#c28a1b"/><text x="278" y="15" font-size="13" fill="#607483">需确认装配与对齐条件</text><rect x="555" width="18" height="18" fill="#f3d9d6" stroke="#c75b50"/><text x="583" y="15" font-size="13" fill="#607483">需过程、温度或载荷证据</text></g>
+    <text x="600" y="620" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" fill="#607483">矩阵为方法示意，项目判定应依据已批准规范 / Conceptual matrix; project decisions require approved specifications</text>
+  </g>
+</svg>
