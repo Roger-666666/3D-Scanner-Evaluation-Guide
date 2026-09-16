@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#edf3f6"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#b7c7d1" stroke-width="2"/>
+  <text x="65" y="82" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="30" font-weight="700" fill="#15364b">产线异常路由：超差不等于立即判废</text>
+  <text x="65" y="112" font-family="Arial,sans-serif" font-size="15" fill="#607583">Exception routing checks identity, data quality and repeatability before disposition</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#607583"/></marker></defs>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="430" y="145" width="340" height="65" rx="6" fill="#f3d9d6" stroke="#c75e53" stroke-width="3"/><text x="600" y="185" text-anchor="middle" font-size="21" font-weight="700" fill="#783c37">自动检测出现异常信号</text>
+    <rect x="430" y="260" width="340" height="65" rx="6" fill="#e0f0f7" stroke="#4b97b9" stroke-width="3"/><text x="600" y="300" text-anchor="middle" font-size="19" font-weight="700" fill="#15364b">身份、配方与覆盖是否有效？</text>
+    <path d="M600 212 V250" stroke="#607583" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="90" y="390" width="280" height="110" rx="6" fill="#fbf1d9" stroke="#c28b21" stroke-width="3"/><text x="230" y="430" text-anchor="middle" font-size="19" font-weight="700" fill="#735416">数据无效或不完整</text><text x="230" y="462" text-anchor="middle" font-size="14" fill="#36596c">补测、重装夹或修正配方</text>
+    <rect x="460" y="390" width="280" height="110" rx="6" fill="#efe7f4" stroke="#9471aa" stroke-width="3"/><text x="600" y="430" text-anchor="middle" font-size="19" font-weight="700" fill="#5f4770">结果不重复</text><text x="600" y="462" text-anchor="middle" font-size="14" fill="#36596c">调查夹具、环境与系统</text>
+    <rect x="830" y="390" width="280" height="110" rx="6" fill="#edf4e4" stroke="#7aa553" stroke-width="3"/><text x="970" y="430" text-anchor="middle" font-size="19" font-weight="700" fill="#315c45">异常稳定且证据充分</text><text x="970" y="462" text-anchor="middle" font-size="14" fill="#36596c">进入工程处置与追溯</text>
+    <path d="M515 328 C430 350 310 350 230 382 M600 328 V382 M685 328 C770 350 890 350 970 382" fill="none" stroke="#607583" stroke-width="4" marker-end="url(#a)"/>
+    <text x="385" y="356" font-size="13" fill="#607583">否</text><text x="615" y="360" font-size="13" fill="#607583">待复验</text><text x="805" y="356" font-size="13" fill="#607583">是</text>
+    <rect x="90" y="565" width="1020" height="54" rx="4" fill="#e9eef1"/><text x="600" y="590" text-anchor="middle" font-size="14" font-weight="700" fill="#36596c">最终放行、返工或报废应依据批准规范与工程评审，而非单张色谱。</text><text x="600" y="608" text-anchor="middle" font-size="13" fill="#607583">Conceptual routing only; final disposition follows approved specifications.</text>
+  </g>
+</svg>
