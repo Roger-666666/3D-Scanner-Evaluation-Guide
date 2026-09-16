@@ -163,6 +163,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 77. [Why Can Individually Acceptable Core and Cavity Halves Still Fail When Closed? Verification of Closure Interfaces and Mating Relationships](./articles/automotive-mold-core-cavity-closure-interface-mating-verification.md#english-version)
 78. [Why Can a Cold Mold Scan Pass While Trial Molding Still Fails? Mold-State Contracts and Condition Comparability](./articles/automotive-mold-cold-scan-trial-condition-state-contract.md#english-version)
 79. [Which Anomaly Should Be Corrected First? Interaction Mapping and Staged Verification for Automotive Mold Repair](./articles/automotive-mold-multi-anomaly-correction-interaction-staged-verification.md#english-version)
+80. [Does a Point Cloud Make Every Micro-Hole and Button Slot Measurable? Evidence Eligibility for Smartwatch Case Micro-Features](./articles/smartwatch-case-microfeature-decision-eligibility-boundary-evidence.md#english-version)
+81. [How Can Four Datum Systems Coexist? Inspection of Display, Button, Strap and Back-Cover Interfaces in Smartwatch Cases](./articles/smartwatch-case-four-interface-functional-datum-chain-inspection.md#english-version)
+82. [Why Can a Cosmetically Conforming Smartwatch Case Still Assemble Poorly? Three Quality Gates for Cosmetic, Assembly and Sealing Zones](./articles/smartwatch-case-cosmetic-assembly-sealing-three-zone-quality-gates.md#english-version)
+83. [Does Production-Line Drift Come from the Part or the Fixture? Reference-Artifact and Repositioning Diagnostics for Smartwatch Cases](./articles/smartwatch-case-production-fixture-part-drift-diagnosis.md#english-version)
+84. [How Can a Mixed-Model Line Avoid the Wrong Inspection Recipe? Versioned Quality Routing for Smartwatch Cases](./articles/smartwatch-case-mixed-line-inspection-recipe-exception-routing.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -315,6 +320,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 77. [型芯型腔单件都合格，为何合模仍异常？闭合界面与配合关系验证](./articles/automotive-mold-core-cavity-closure-interface-mating-verification.md#chinese-version)
 78. [冷态扫描合格，试模为何仍失控？汽车模具状态合同与工况可比性](./articles/automotive-mold-cold-scan-trial-condition-state-contract.md#chinese-version)
 79. [多个异常先修哪里？汽车模具修正相互作用图与分阶段验证](./articles/automotive-mold-multi-anomaly-correction-interaction-staged-verification.md#chinese-version)
+80. [微孔与按键槽有点云就能判定吗？智能手表壳体微特征证据资格](./articles/smartwatch-case-microfeature-decision-eligibility-boundary-evidence.md#chinese-version)
+81. [四套基准如何不打架？智能手表壳体显示屏、按键、表带与后盖接口检测](./articles/smartwatch-case-four-interface-functional-datum-chain-inspection.md#chinese-version)
+82. [外观曲面合格为何仍装不稳？智能手表壳体外观、装配与密封三区质量门](./articles/smartwatch-case-cosmetic-assembly-sealing-three-zone-quality-gates.md#chinese-version)
+83. [产线色谱漂移来自零件还是夹具？智能手表壳体参考件与重装夹诊断](./articles/smartwatch-case-production-fixture-part-drift-diagnosis.md#chinese-version)
+84. [多型号混线如何避免用错检测配方？智能手表壳体版本化质量路由](./articles/smartwatch-case-mixed-line-inspection-recipe-exception-routing.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
