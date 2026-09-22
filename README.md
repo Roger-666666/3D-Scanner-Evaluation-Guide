@@ -173,6 +173,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 87. [Rebuild Relationships Before Dimensions: Datum, Feature Topology and Constraint Reconstruction for Reverse CAD](./articles/reverse-cad-datum-feature-topology-constraint-reconstruction.md#english-version)
 88. [What Cannot Be Seen Should Not Be Invented: Visibility Ledgers and Evidence Bridging for Hidden Geometry](./articles/reverse-scanning-hidden-geometry-visibility-ledger-evidence-bridging.md#english-version)
 89. [How Can a Reconstructed CAD Model Be Trusted? Independent Verification and Digital-Master Governance](./articles/reverse-cad-independent-verification-digital-master-governance.md#english-version)
+90. [Does a Color-Map Anomaly Prove a Forming Defect? An Observability Framework for Complex 3D-Printed Parts](./articles/additive-manufacturing-curved-part-defect-observability-blue-light-scanning.md#english-version)
+91. [Why Do Conclusions Change After Support Removal? State Contracts and Repositioning Diagnostics for Complex 3D-Printed Parts](./articles/3d-printed-part-build-state-contract-refixing-diagnosis.md#english-version)
+92. [Why One Deviation Map Cannot Explain a Complex Surface: Joint Section, Curvature and Boundary Inspection](./articles/complex-curved-3d-printed-part-section-curvature-boundary-inspection.md#english-version)
+93. [Why Does One CAD Produce Different Deviation Patterns? Batch Geometry Fingerprints and Process-Contribution Analysis](./articles/additive-manufacturing-batch-geometry-fingerprint-process-contribution.md#english-version)
+94. [From First-Article Anomaly to Verified Reprint: Geometric Correction Loops and Additive Digital Lineage](./articles/3d-printing-geometric-defect-correction-digital-lineage.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -335,6 +340,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 87. [先重建关系，再填写尺寸：逆向CAD的基准、特征拓扑与约束重建](./articles/reverse-cad-datum-feature-topology-constraint-reconstruction.md#chinese-version)
 88. [看不见的结构不能靠猜：逆向扫描隐藏面可见性账本与补证](./articles/reverse-scanning-hidden-geometry-visibility-ledger-evidence-bridging.md#chinese-version)
 89. [逆向CAD如何证明可信？独立验证与数字主模型治理](./articles/reverse-cad-independent-verification-digital-master-governance.md#chinese-version)
+90. [色谱异常就等于成型缺陷吗？复杂曲面3D打印件可观测性分层](./articles/additive-manufacturing-curved-part-defect-observability-blue-light-scanning.md#chinese-version)
+91. [支撑拆除前后结论为何相反？复杂曲面3D打印件状态合同与重装夹诊断](./articles/3d-printed-part-build-state-contract-refixing-diagnosis.md#chinese-version)
+92. [一张色谱为何看不懂复杂曲面？3D打印件截面、曲率与边界联合检测](./articles/complex-curved-3d-printed-part-section-curvature-boundary-inspection.md#chinese-version)
+93. [同一CAD为何打印出不同偏差模式？批次几何指纹与工艺贡献分析](./articles/additive-manufacturing-batch-geometry-fingerprint-process-contribution.md#chinese-version)
+94. [从首件异常到再打印复验：3D打印几何修正闭环与数字谱系](./articles/3d-printing-geometric-defect-correction-digital-lineage.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
