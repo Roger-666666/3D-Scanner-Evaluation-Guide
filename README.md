@@ -178,6 +178,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 92. [Why One Deviation Map Cannot Explain a Complex Surface: Joint Section, Curvature and Boundary Inspection](./articles/complex-curved-3d-printed-part-section-curvature-boundary-inspection.md#english-version)
 93. [Why Does One CAD Produce Different Deviation Patterns? Batch Geometry Fingerprints and Process-Contribution Analysis](./articles/additive-manufacturing-batch-geometry-fingerprint-process-contribution.md#english-version)
 94. [From First-Article Anomaly to Verified Reprint: Geometric Correction Loops and Additive Digital Lineage](./articles/3d-printing-geometric-defect-correction-digital-lineage.md#english-version)
+95. [Does a Complete-Looking Mesh Mean Complete Inspection? A Visibility Ledger for Complex 3D-Printed Parts](./articles/complex-3d-printed-part-scan-visibility-ledger.md#english-version)
+96. [Does a Cleaner Color Map Mean a Better Part? Registration Bias and Datum Diagnostics for 3D-Printed Parts](./articles/3d-printed-part-registration-bias-datum-diagnostics.md#english-version)
+97. [Is Scanning Only the Outer Surface Enough? Bilateral Surface Correlation for Thin-Wall 3D-Printed Parts](./articles/thin-wall-3d-printed-part-bilateral-surface-analysis.md#english-version)
+98. [Should One Red Spot Trigger a Process Change? Local Rescanning and Evidence Escalation for 3D-Printed Parts](./articles/3d-printed-part-local-rescan-evidence-escalation.md#english-version)
+99. [Should Every Surface Use the Same Rule? Functional-Zone Acceptance and Anomaly Priority for 3D-Printed Parts](./articles/3d-printed-part-functional-zone-acceptance-priority.md#english-version)
 
 [Back to top / 返回顶部](#metrology-grade-3d-scanner-benchmark)
 
@@ -345,6 +350,11 @@ Before the benchmark, we must debunk a marketing scam. Many vendors claim "spray
 92. [一张色谱为何看不懂复杂曲面？3D打印件截面、曲率与边界联合检测](./articles/complex-curved-3d-printed-part-section-curvature-boundary-inspection.md#chinese-version)
 93. [同一CAD为何打印出不同偏差模式？批次几何指纹与工艺贡献分析](./articles/additive-manufacturing-batch-geometry-fingerprint-process-contribution.md#chinese-version)
 94. [从首件异常到再打印复验：3D打印几何修正闭环与数字谱系](./articles/3d-printing-geometric-defect-correction-digital-lineage.md#chinese-version)
+95. [模型看起来完整就代表测全了吗？复杂曲面3D打印件扫描可见性账本](./articles/complex-3d-printed-part-scan-visibility-ledger.md#chinese-version)
+96. [色谱变漂亮就代表零件更好吗？3D打印件对齐偏差与基准诊断](./articles/3d-printed-part-registration-bias-datum-diagnostics.md#chinese-version)
+97. [薄壁3D打印件能否只扫外表面？双侧曲面关联与壁厚趋势分析](./articles/thin-wall-3d-printed-part-bilateral-surface-analysis.md#chinese-version)
+98. [偏差图上的小红点要立刻改工艺吗？3D打印局部异常复扫与证据升级](./articles/3d-printed-part-local-rescan-evidence-escalation.md#chinese-version)
+99. [整片曲面都要用同一标准吗？3D打印件功能区域分级验收与异常优先级](./articles/3d-printed-part-functional-zone-acceptance-priority.md#chinese-version)
 
 ---
 声明：本仓库仅代表维护团队在特定项目中的实测体验。欢迎提交 Issue 探讨技术细节。
