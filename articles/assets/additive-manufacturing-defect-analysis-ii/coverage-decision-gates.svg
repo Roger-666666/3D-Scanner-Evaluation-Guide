@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#eef3f5"/><rect x="28" y="28" width="1144" height="624" rx="8" fill="#fff" stroke="#bccad2" stroke-width="2"/>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif"><text x="64" y="82" font-size="30" font-weight="700" fill="#17394d">覆盖结论的四道闸门</text><text x="64" y="112" font-size="15" fill="#607684">A region becomes inspectable only after visibility, overlap, repeatability and function gates</text>
+  <g transform="translate(70 178)"><line x1="95" y1="170" x2="955" y2="170" stroke="#a9bbc5" stroke-width="8"/>
+  <g text-anchor="middle"><circle cx="110" cy="170" r="64" fill="#dfeef5" stroke="#34799e" stroke-width="4"/><text x="110" y="158" font-size="20" font-weight="700" fill="#1d526e">可见</text><text x="110" y="187" font-size="15" fill="#446575">表面进入视场</text>
+  <circle cx="390" cy="170" r="64" fill="#e7f1e9" stroke="#4b9366" stroke-width="4"/><text x="390" y="158" font-size="20" font-weight="700" fill="#316747">重叠</text><text x="390" y="187" font-size="15" fill="#446575">多视角可拼接</text>
+  <circle cx="670" cy="170" r="64" fill="#fff0ce" stroke="#d39831" stroke-width="4"/><text x="670" y="158" font-size="20" font-weight="700" fill="#895f1f">复现</text><text x="670" y="187" font-size="15" fill="#446575">换姿态仍稳定</text>
+  <circle cx="950" cy="170" r="64" fill="#f5e3e1" stroke="#c75950" stroke-width="4"/><text x="950" y="158" font-size="20" font-weight="700" fill="#8d3e38">功能</text><text x="950" y="187" font-size="15" fill="#446575">足以支持判定</text></g>
+  <g font-size="16" fill="#526a78"><text x="40" y="300">失败：调整姿态或补充视角</text><text x="310" y="330">失败：检查拼接与局部纹理</text><text x="595" y="300">失败：标记为不稳定信号</text><text x="840" y="330">失败：换用合适的补充方法</text></g>
+  <rect x="250" y="390" width="610" height="70" rx="6" fill="#17394d"/><text x="555" y="434" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">四道闸门全部通过，才进入尺寸或缺陷判定</text></g></g>
+</svg>
